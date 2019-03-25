@@ -1,0 +1,7 @@
+reads/*
+refs/*
+bam/*
+count/*
+stats/*
+quality/*
+.DS_Store
