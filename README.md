@@ -20,18 +20,18 @@ docker build . -t carlgira/rna-analysis:latest
 
 # Run pipeline
 - Download samples (TODO)
-- Data preparation
-- Quality Control
-- Alignment
-- Counting and Differential Expression
-- Differential Expression Stats
+- Data preparation (1 hr)
+- Quality Control (2 min)
+- Alignment (10 min for each sample, 2.5 hr)
+- Counting and Differential Expression (5 min)
+- Differential Expression Stats (1 min)
 
 ## Download samples (TODO)
 Create a folder called "reads" and download all the fastq files from FTP. (not public url yet)
 
 ## Data preparation
-- Download reference genome from aedes. (5.0v)
-- Download GTF file from aedes. (5.1v)
+- Download reference genome from aedes (5.0v)
+- Download GTF file from aedes (5.1v)
 - Build Index for reference genome
 - Prepare samples for procesing
 ```
@@ -39,7 +39,7 @@ sh scripts/prepare-data.sh
 ```
 
 ## Quality Control
-- Run *fastqc* to get quality metrics for all the fastq samples.
+- Run **fastqc** to get quality metrics for all the fastq samples.
 ```
 sh scripts/quality.sh
 ```
