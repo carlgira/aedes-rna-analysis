@@ -43,21 +43,26 @@ sh scripts/prepare-data.sh
 ```
 sh scripts/quality.sh
 ```
+Results in *quality* folder.
 
 ## Alignment
-- Align each sample to the reference genome using *hisat2*
+- Align each sample to the reference genome using **hisat2**
 ```
 sh scripts/align.sh
 ```
+Results in *bam* folder.
 
 ## Counting and Differential Expression
-- Counting using *featureCounts* and differential expression of samples using *edgeR*
+- Counting using **featureCounts** and differential expression of samples using **edgeR**
 ```
 sh scripts/count.sh
 ```
+Results in *count* folder.
 
 ## Differential Expression Stats
 - Genereate stats
 ```
 sh scripts/stats.sh
 ```
+
+Results in *stats* folder.
