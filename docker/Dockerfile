@@ -37,6 +37,7 @@ RUN wget --quiet https://repo.anaconda.com/miniconda/Miniconda3-4.5.11-Linux-x86
 RUN conda config --add channels conda-forge && \
     conda config --add channels bioconda && \
     conda install -y fastqc=0.11.8 && \
+    conda install -y star=2.7.0e && \
     conda install -y hisat2=2.1.0 && \
     conda install -y samtools=1.9 && \
     conda install -y subread=1.6.4 && \
