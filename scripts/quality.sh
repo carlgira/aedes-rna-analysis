@@ -3,8 +3,6 @@
 # Load variables
 . scripts/setup.sh
 
-set -euxo pipefail
-
 mkdir -p quality
 
 # Quality Sample data
