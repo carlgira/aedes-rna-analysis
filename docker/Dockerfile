@@ -43,10 +43,14 @@ RUN conda config --add channels conda-forge && \
     conda install -y subread=1.6.4 && \
     conda install -y pandas=0.23.4
 
-
 ###############
 ## R packages #
 ###############
 
 RUN echo "source('http://bioconductor.org/biocLite.R') \n biocLite('edgeR')" | R --no-save
-#RUN echo "install.packages('ggplot2', dep = TRUE)" | R --no-save
+RUN echo "install.packages('ggplot2',  dep = TRUE)" | R --no-save
+RUN echo "install.packages('BiocManager', repos='http://cran.us.r-project.org', dep=TRUE)"
+RUN echo "BiocManager::install('Glimma', version = '3.8')" | R --no-save
+
+
+BiocManager::install("Glimma", version = "3.8")

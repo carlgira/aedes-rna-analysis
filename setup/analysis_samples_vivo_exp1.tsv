@@ -1,0 +1,5 @@
+FileName  SampleName  Set
+reads/Normal1_mappable.fq Normal1  0
+reads/Normal2_mappable.fq Normal2  0
+reads/SugarFed1_mappable.fq SugarFed1  1
+reads/SugarFed2_mappable.fq SugarFed2  1

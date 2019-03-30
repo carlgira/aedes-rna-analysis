@@ -1,0 +1,7 @@
+FastaFile BamFile  SampleName  Set
+reads/C3a1_mappable.fq  bam/C3a1_mappable.bam C3a1  0
+reads/C3a2_mappable.fq  bam/C3a2_mappable.bam C3a2  0
+reads/C3a3_mappable.fq  bam/C3a3_mappable.bam C3a3  0
+reads/Control1_mappable.fq  bam/Control1_mappable.bam Control1  1
+reads/Control2_mappable.fq  bam/Control2_mappable.bam Control2  1
+reads/Control3_mappable.fq  bam/Control3_mappable.bam Control3  1

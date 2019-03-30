@@ -1,0 +1,7 @@
+FileName  SampleName  Set
+reads/C3a1_mappable.fq C3a1  0
+reads/C3a2_mappable.fq C3a2  0
+reads/C3a3_mappable.fq C3a3  0
+reads/Control1_mappable.fq Control1  1
+reads/Control2_mappable.fq Control2  1
+reads/Control3_mappable.fq Control3  1

@@ -1,0 +1,5 @@
+FileName  SampleName  Set
+reads/Inactivated1_mappable.fq Inactivated1  0
+reads/Inactivated2_mappable.fq Inactivated2  0
+reads/Normal1_mappable.fq Normal1  1
+reads/Normal2_mappable.fq Normal2  1
