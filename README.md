@@ -46,10 +46,15 @@ drun scripts/quality.sh
 ```
 Results in *quality* folder.
 
-## Alignment
-- Align each sample to the reference genome using **hisat2**
+## Alignment and Counting
+- Align each sample to the reference genome using **hisat2** and count with **featureCounts**
 ```
-drun scripts/align.sh
+drun scripts/align-and-count.sh c3a_vs_control setup/analysis_samples_vitro_exp1.tsv
+drun scripts/align-and-count.sh c5a_vs_control setup/analysis_samples_vitro_exp2.tsv
+
+drun scripts/align-and-count.sh normal_vs_sugarfed setup/analysis_samples_vivo_exp1.tsv
+drun scripts/align-and-count.sh inactivated_vs_sugarfed setup/analysis_samples_vivo_exp2.tsv
+drun scripts/align-and-count.sh inactivated_vs_normal setup/analysis_samples_vivo_exp3.tsv
 ```
 Results in *bam* folder.
 
@@ -74,12 +79,6 @@ Results in *stats* folder.
 - Noiseq https://bioconductor.org/packages/release/bioc/vignettes/NOISeq/inst/doc/NOISeq.pdf
 - RNAseq analysis in R https://bioinformatics-core-shared-training.github.io/RNAseq-R/
 
-drun scripts/count.sh c3a_vs_control setup/analysis_samples_vitro_exp1.tsv
-drun scripts/count.sh c5a_vs_control setup/analysis_samples_vitro_exp2.tsv
-
-drun scripts/count.sh normal_vs_sugarfed setup/analysis_samples_vivo_exp1.tsv
-drun scripts/count.sh inactivated_vs_sugarfed setup/analysis_samples_vivo_exp2.tsv
-drun scripts/count.sh inactivated_vs_normal setup/analysis_samples_vivo_exp3.tsv
 
 
 picard CollectAlignmentSummaryMetrics -Xmx2G R=refs/Aedes-aegypti-LVP_AGWG_CHROMOSOMES_AaegL5.fa I=bam/Normal1_mappable.bam O=output.txt
