@@ -23,9 +23,9 @@ echo "*** Counting features with: $GTF"
 featureCounts -a $GTF -g gene_id -o $COUNT_FILE $BAM_SET0 $BAM_SET1
 
 # Remove header and other columns
-tail -n +2 $COUNT_FILE | cut -f1,7- > temp.txt
-mv temp.txt $COUNT_FILE
+#tail -n +2 $COUNT_FILE | cut -f1,7- > temp.txt
+#mv temp.txt $COUNT_FILE
 
 # Run the EdgeR method
 echo "*** Running EdgeR."
-cat $COUNT_FILE | Rscript src/r/edger.r ${SIZE_SET0}x${SIZE_SET1} $MATRIX_FILE > $EDGER_FILE
+cut -f1,7- $COUNT_FILE | Rscript src/r/edger.r ${SIZE_SET0}x${SIZE_SET1} $MATRIX_FILE > $EDGER_FILE

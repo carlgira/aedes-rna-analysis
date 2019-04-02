@@ -1,5 +1,5 @@
-FileName  SampleName  Set
-reads/Inactivated1_mappable.fq Inactivated1  0
-reads/Inactivated2_mappable.fq Inactivated2  0
-reads/SugarFed1_mappable.fq SugarFed1  1
-reads/SugarFed2_mappable.fq SugarFed2  1
+FastaFile BamFile SampleName SampleSet Set
+reads/Inactivated1_mappable.fq bam/Inactivated1_mappable.bam Inactivated1 Inactivated 0
+reads/Inactivated2_mappable.fq bam/Inactivated2_mappable.bam Inactivated2 Inactivated 0
+reads/SugarFed1_mappable.fq bam/SugarFed1_mappable.bam SugarFed1 SugarFed 1
+reads/SugarFed2_mappable.fq bam/SugarFed2_mappable.bam SugarFed2 SugarFed 1

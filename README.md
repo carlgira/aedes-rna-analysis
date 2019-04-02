@@ -65,5 +65,23 @@ Results in *count* folder.
 ```
 drun scripts/stats.sh
 ```
-
 Results in *stats* folder.
+
+# References
+
+- A comprehensive evaluation of normalization methods for Illumina high-throughput RNA sequencing data analysis https://academic.oup.com/bib/article/14/6/671/189645
+- A survey of best practices for RNA-seq data analysis https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4728800/
+- Noiseq https://bioconductor.org/packages/release/bioc/vignettes/NOISeq/inst/doc/NOISeq.pdf
+- RNAseq analysis in R https://bioinformatics-core-shared-training.github.io/RNAseq-R/
+
+drun scripts/count.sh c3a_vs_control setup/analysis_samples_vitro_exp1.tsv
+drun scripts/count.sh c5a_vs_control setup/analysis_samples_vitro_exp2.tsv
+
+drun scripts/count.sh normal_vs_sugarfed setup/analysis_samples_vivo_exp1.tsv
+drun scripts/count.sh inactivated_vs_sugarfed setup/analysis_samples_vivo_exp2.tsv
+drun scripts/count.sh inactivated_vs_normal setup/analysis_samples_vivo_exp3.tsv
+
+
+picard CollectAlignmentSummaryMetrics -Xmx2G R=refs/Aedes-aegypti-LVP_AGWG_CHROMOSOMES_AaegL5.fa I=bam/Normal1_mappable.bam O=output.txt
+
+picard CollectGcBiasMetrics -Xmx2G I=bam/Normal1_mappable.bam O=gc_bias_metrics.txt CHART=gc_bias_metrics.pdf S=summary_metrics.txt R=refs/Aedes-aegypti-LVP_AGWG_CHROMOSOMES_AaegL5.fa

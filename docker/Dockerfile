@@ -22,7 +22,7 @@ RUN apt-get update --fix-missing && \
 ## MiniConda #
 ##############
 
-RUN sudo wget --quiet https://repo.anaconda.com/miniconda/Miniconda3-4.5.11-Linux-x86_64.sh -O ~/miniconda.sh && \
+RUN wget --quiet https://repo.anaconda.com/miniconda/Miniconda3-4.5.11-Linux-x86_64.sh -O ~/miniconda.sh && \
     /bin/bash ~/miniconda.sh -b -p /opt/conda && \
     rm ~/miniconda.sh && \
     /opt/conda/bin/conda clean -tipsy && \
@@ -37,20 +37,20 @@ RUN sudo wget --quiet https://repo.anaconda.com/miniconda/Miniconda3-4.5.11-Linu
 RUN conda config --add channels conda-forge && \
     conda config --add channels bioconda && \
     conda install -y fastqc=0.11.8 && \
-    conda install -y star=2.7.0e && \
     conda install -y hisat2=2.1.0 && \
     conda install -y samtools=1.9 && \
     conda install -y subread=1.6.4 && \
     conda install -y pandas=0.23.4
 
+RUN conda install -y picard=2.19.0
+
 ###############
 ## R packages #
 ###############
 
-RUN echo "source('http://bioconductor.org/biocLite.R') \n biocLite('edgeR')" | R --no-save
-RUN echo "install.packages('ggplot2',  dep = TRUE)" | R --no-save
-RUN echo "install.packages('BiocManager', repos='http://cran.us.r-project.org', dep=TRUE)"
-RUN echo "BiocManager::install('Glimma', version = '3.8')" | R --no-save
-
-
-BiocManager::install("Glimma", version = "3.8")
+RUN echo "source('http://bioconductor.org/biocLite.R') \n biocLite('edgeR') \n biocLite('biomaRt')" | R --no-save
+#RUN echo "install.packages('ggplot2',  dep = TRUE)" | R --no-save
+#RUN echo "install.packages('BiocManager', repos='http://cran.us.r-project.org', dep=TRUE)" | R --no-save
+#RUN echo "BiocManager::install('Glimma', version = '3.8')" | R --no-save
+# BiocManager::install("NOISeq", version = "3.8")
+# BiocManager::install("Rsubread", version = "3.8")
