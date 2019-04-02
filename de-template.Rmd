@@ -1,0 +1,104 @@
+---
+title: "RNA-seq Inactivated Vs Normal"
+output: html_notebook
+---
+
+This is an [R Markdown](http://rmarkdown.rstudio.com) Notebook. When you execute code within the notebook, the results appear beneath the code. 
+
+Try executing this chunk by clicking the *Run* button within the chunk or by placing your cursor inside it and pressing *Cmd+Shift+Enter*. 
+
+
+Import libraries, load config files and vectorbase biomart for quering annotations on the aedes genome
+```{r}
+library(NOISeq)
+library(biomaRt)
+
+vectorbase_gene <- new("Mart", biomart = "vb_gene_mart_1902", vschema = "vb_mart_1902", host = "https://biomart.vectorbase.org/biomart/martservice")
+aaegGenes<-useDataset("alvpagwg_eg_gene", vectorbase_gene)
+
+sampleinfo <- read.csv("setup/analysis_samples_vivo_exp3.tsv", sep = " ")
+seqdata <- read.delim("count/inactivated_vs_normal_count.tsv", sep = "\t", stringsAsFactors = FALSE, header=TRUE, skip=1)
+
+```
+
+Build the data structure for all the NOISEQ graphs.
+```{r}
+sample_count <- seqdata[,(7:ncol(seqdata))]
+rownames(sample_count) <- seqdata[,1]
+colnames(sample_count) <- sampleinfo[,3]
+
+set0numSamples <- sum(sampleinfo[,5]==0)
+set1numSamples <- sum(sampleinfo[,5]==1)
+
+sample_biotype <- getBM(attributes = c("ensembl_gene_id", "gene_biotype"), mart = aaegGenes)
+sample_gc_content <- getBM(attributes = c("ensembl_gene_id", "percentage_gene_gc_content"), mart = aaegGenes)
+sample_length <- seqdata[,c(1,6)]
+sample_chrm_pos <- getBM(attributes = c("ensembl_gene_id", "chromosome_name", "start_position", "end_position"), mart = aaegGenes)
+sample_chrm <- sample_chrm_pos[, c(2,3,4)]
+rownames(sample_chrm) <- sample_chrm_pos[,1]
+sample_factors <- sampleinfo[,c(3,4,5)]
+
+noiseq_data <- readData(data=sample_count,length=sample_length, biotype=sample_biotype, gc=sample_gc_content, chromosome=sample_chrm, factors=sample_factors)
+
+```
+
+## Biodetection plots
+```{r}
+
+biodetection_data <- dat(noiseq_data, type = "biodetection")
+
+par(mfrow = c(1, 2))
+explo.plot(biodetection_data, samples = c(1, 3), plottype = "persample")
+
+par(mfrow = c(1, 2))
+explo.plot(biodetection_data, samples = c(1, 3), toplot = "protein_coding", plottype = "comparison")
+
+par(mfrow = c(1, 2))
+explo.plot(biodetection_data, samples = c(2, 4), plottype = "persample")
+
+par(mfrow = c(1, 2))
+explo.plot(biodetection_data, samples = c(2, 4), toplot = "protein_coding", plottype = "comparison")
+
+```
+
+## Countsbio plots
+```{r}
+
+countsbio_data = dat(noiseq_data, factor = NULL, type = "countsbio")
+
+explo.plot(countsbio_data, toplot = 1, samples = 1, plottype = "boxplot")
+
+saturation_data = dat(noiseq_data, k = 0, ndepth = 7, type = "saturation")
+explo.plot(saturation_data, toplot = 1, samples = 1:2, yleftlim = NULL, yrightlim = NULL)
+explo.plot(saturation_data, toplot = "protein_coding", samples = 1:4)
+```
+
+## Sensitivity
+```{r}
+
+explo.plot(countsbio_data, toplot = 1, samples = NULL, plottype = "barplot")
+```
+
+## Length Bio
+```{r}
+lengthbias_data = dat(noiseq_data, factor = "SampleSet", type = "lengthbias")
+explo.plot(lengthbias_data, samples = NULL, toplot = "global")
+```
+
+## Cd Data
+```{r}
+cd_data = dat(noiseq_data, type = "cd", norm = FALSE, refColumn = 1)
+explo.plot(cd_data)
+```
+
+
+## GC 
+```{r}
+gc_data = dat(noiseq_data, factor = "SampleSet", type = "GCbias")
+explo.plot(gc_data, samples = NULL, toplot = "global")
+```
+
+
+
+
+

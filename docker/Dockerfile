@@ -43,6 +43,7 @@ RUN conda config --add channels conda-forge && \
     conda install -y pandas=0.23.4
 
 RUN conda install -y picard=2.19.0
+RUN conda install -y fadapa=0.3.1
 
 ###############
 ## R packages #
