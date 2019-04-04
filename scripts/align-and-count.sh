@@ -33,6 +33,7 @@ for index in ${!FASTA_FILES[*]};
        STAR --genomeDir /work/refs --runThreadN $NCPU \
        --readFilesIn $FASTA \
        --outSAMtype BAM SortedByCoordinate \
+       --limitGenomeGenerateRAM 26000000000 \
        --outStd BAM_SortedByCoordinate > $BAM
      else
        hisat2 $REF -U $FASTA | samtools sort > $BAM

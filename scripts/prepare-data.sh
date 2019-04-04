@@ -19,20 +19,19 @@ if [ ! -f $REF ]; then
   curl -L https://www.vectorbase.org/download/aedes-aegypti-lvpagwgchromosomesaaegl5fagz -o refs/Aedes-aegypti-LVP_AGWG_CHROMOSOMES_AaegL5.fa.gz
   gunzip ${REF}.gz
 
-fi
+  echo "*** [$(date)] [prepare-data.sh] Index Genome - $ALIGNER"
+  if [ $ALIGNER = "star" ]; then
+    STAR --runThreadN $NCPU --runMode genomeGenerate  \
+    --genomeDir /work/refs \
+    --genomeFastaFiles $REF \
+    --sjdbGTFfile $GTF \
+    --sjdbOverhang 48 \
+    --limitGenomeGenerateRAM 26000000000
+  else
+    hisat2-build $REF $REF
+  fi
 
-echo "*** [$(date)] [prepare-data.sh] Index Genome - $ALIGNER"
-if [ $ALIGNER = "star" ]; then
-  STAR --runThreadN 8 --runMode genomeGenerate  \
-  --genomeDir /work/refs \
-  --genomeFastaFiles $REF \
-  --sjdbGTFfile $GTF \
-  --sjdbOverhang 48 \
-  --limitGenomeGenerateRAM 26000000000
-else
-  hisat2-build $REF $REF
 fi
-
 
 ###### TODO -> Download Sample Data
 

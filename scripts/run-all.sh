@@ -4,7 +4,7 @@
 EXP_NAMES=(c3a_vs_control c5a_vs_control normal_vs_sugarfed inactivated_vs_sugarfed inactivated_vs_normal)
 SAMPLE_FILES=(setup/analysis_samples_vitro_exp1.tsv setup/analysis_samples_vitro_exp2.tsv setup/analysis_samples_vivo_exp1.tsv setup/analysis_samples_vivo_exp2.tsv setup/analysis_samples_vivo_exp3.tsv)
 ALIGNER='star'
-NCPU=2
+NCPU=8
 
 # Prepare data
 echo "*** [$(date)] [run-all.sh] Prepare data"
@@ -20,3 +20,6 @@ for index in ${!EXP_NAMES[*]};
 done
 
 echo "*** [$(date)] [run-all.sh] Done"
+
+
+drun scripts/align-and-count.sh
