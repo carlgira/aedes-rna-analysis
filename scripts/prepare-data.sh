@@ -28,7 +28,7 @@ if [ $ALIGNER = "star" ]; then
   --genomeFastaFiles $REF \
   --sjdbGTFfile $GTF \
   --sjdbOverhang 48 \
-  --limitGenomeGenerateRAM 28000000000
+  --limitGenomeGenerateRAM 26000000000
 else
   hisat2-build $REF $REF
 fi

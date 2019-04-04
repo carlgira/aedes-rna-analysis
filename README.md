@@ -13,7 +13,7 @@ docker build . -t carlgira/rna-analysis:latest
 alias drun="docker run -it --rm -v $(pwd):/work -w /work carlgira/rna-analysis:latest /bin/bash"
 alias drun="docker run -it --rm -v $(pwd):/work -w /work carlgira/rna-analysis-u:latest /bin/bash"
 
-alias drun="docker run --memory="300000m" -it --rm -v $(pwd):/work -w /work carlgira/rna-analysis-u:latest /bin/bash"
+alias drun="docker run --memory="28000m" -it --rm -v $(pwd):/work -w /work carlgira/rna-analysis-u:latest /bin/bash"
 ```
 
 ## Tools
