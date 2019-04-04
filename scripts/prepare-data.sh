@@ -37,7 +37,7 @@ fi
 
 # Unzip Sample data
 echo "*** [$(date)] [prepare-data.sh] Unzip sample data"
-SAMPLES=($(ls reads/*.fastq.gz 2> /dev/null))
+SAMPLES=($(ls /work/reads/*.fastq.gz 2> /dev/null))
 for SAMPLE in ${SAMPLES[@]};
 do
     gunzip $SAMPLE
