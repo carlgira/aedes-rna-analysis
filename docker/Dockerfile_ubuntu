@@ -1,20 +1,19 @@
-FROM debian:stretch
+FROM ubuntu:18.04
 
-# docker build . -t carlgira/rna-analysis:latest
+# docker build . -t carlgira/rna-analysis-u:latest -f Dockerfile_ubuntu
 
 #######
 ## OS #
 #######
 
 ENV LANG=C.UTF-8 LC_ALL=C.UTF-8
-ENV PATH /opt/conda/bin:$PATH
+ENV TZ=Europe/Minsk
+ENV PATH /opt/conda/bin:/opt/STAR/source:$PATH
+RUN ln -snf /usr/share/zoneinfo/$TZ /etc/localtime && echo $TZ > /etc/timezone
 
 RUN apt-get update --fix-missing && \
-    apt-get install -y wget bzip2 ca-certificates curl git dirmngr apt-transport-https ca-certificates software-properties-common gnupg2 && \
-    apt-key adv --keyserver keys.gnupg.net --recv-key 'E19F5F87128899B192B1A2C2AD5F960A256A04AF' && \
-    add-apt-repository 'deb https://cloud.r-project.org/bin/linux/debian stretch-cran35/' && \
+    apt-get install -y wget bzip2 ca-certificates curl git r-base && \
     apt-get update && \
-    apt-get -y install r-base && \
     apt-get clean && \
     rm -rf /var/lib/apt/lists/*
 
@@ -45,14 +44,16 @@ RUN conda config --add channels conda-forge && \
 RUN conda install -y picard=2.19.0
 RUN conda install -y fadapa=0.3.1
 RUN conda install -y multiqc=1.7
+RUN conda install -y star=2.5.3a
+
 
 ###############
 ## R packages #
 ###############
 
-RUN echo "source('http://bioconductor.org/biocLite.R') \n biocLite('edgeR') \n biocLite('biomaRt')" | R --no-save
+#RUN echo "source('http://bioconductor.org/biocLite.R') \n biocLite('edgeR') \n biocLite('biomaRt')" | R --no-save
 #RUN echo "install.packages('ggplot2',  dep = TRUE)" | R --no-save
 #RUN echo "install.packages('BiocManager', repos='http://cran.us.r-project.org', dep=TRUE)" | R --no-save
 #RUN echo "BiocManager::install('Glimma', version = '3.8')" | R --no-save
-# BiocManager::install("NOISeq", version = "3.8")
-# BiocManager::install("Rsubread", version = "3.8")
+#RUN echo "BiocManager::install('NOISeq', version = '3.8')" | R --no-save
+#RUN echo "BiocManager::install('Rsubread', version = '3.8')" | R --no-save

@@ -11,6 +11,9 @@ Build DockerFile.
 cd docker
 docker build . -t carlgira/rna-analysis:latest
 alias drun="docker run -it --rm -v $(pwd):/work -w /work carlgira/rna-analysis:latest /bin/bash"
+alias drun="docker run -it --rm -v $(pwd):/work -w /work carlgira/rna-analysis-u:latest /bin/bash"
+
+alias drun="docker run --memory="300000m" -it --rm -v $(pwd):/work -w /work carlgira/rna-analysis-u:latest /bin/bash"
 ```
 
 ## Tools
@@ -18,6 +21,8 @@ alias drun="docker run -it --rm -v $(pwd):/work -w /work carlgira/rna-analysis:l
 - hisat2 2.1.0
 - samtools 1.9
 - subread 1.6.4
+- multiqc
+-
 
 # Run pipeline
 - Download samples (TODO)
@@ -78,8 +83,10 @@ Results in *stats* folder.
 - A survey of best practices for RNA-seq data analysis https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4728800/
 - Noiseq https://bioconductor.org/packages/release/bioc/vignettes/NOISeq/inst/doc/NOISeq.pdf
 - RNAseq analysis in R https://bioinformatics-core-shared-training.github.io/RNAseq-R/
+- START Aligner https://hbctraining.github.io/Intro-to-rnaseq-hpc-O2/lessons/03_alignment.html
 
 
+- Aedes Genome https://www.ncbi.nlm.nih.gov/assembly/GCF_002204515.2
 
 picard CollectAlignmentSummaryMetrics -Xmx2G R=refs/Aedes-aegypti-LVP_AGWG_CHROMOSOMES_AaegL5.fa I=bam/Normal1_mappable.bam O=output.txt
 
