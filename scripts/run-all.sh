@@ -19,7 +19,12 @@ for index in ${!EXP_NAMES[*]};
   . scripts/align-and-count.sh $EXP_NAME $SAMPLE_FILE
 done
 
+# Fastqc fasta files
+echo "*** [$(date)] [run-all.sh] Fastqc samples"
+for index in ${!EXP_NAMES[*]};
+ do
+   SAMPLE_FILE=${SAMPLE_FILES[$index]}
+  . scripts/quality.sh $SAMPLE_FILE
+done
+
 echo "*** [$(date)] [run-all.sh] Done"
-
-
-drun scripts/align-and-count.sh
