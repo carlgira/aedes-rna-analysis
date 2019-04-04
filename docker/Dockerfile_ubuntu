@@ -44,7 +44,7 @@ RUN conda config --add channels conda-forge && \
 RUN conda install -y picard=2.19.0
 RUN conda install -y fadapa=0.3.1
 RUN conda install -y multiqc=1.7
-RUN conda install -y star=2.5.3a
+RUN conda install -y star=2.7.0e
 
 
 ###############
