@@ -38,5 +38,4 @@ for index in ${!EXP_NAMES[*]};
    R -e "rmarkdown::render('de-template.Rmd',output_file='output/${EXP_NAME}.html', params=list(expName='${EXP_NAME}', cpm=${CPM}, pvalue=${PVALUE}))"
 done
 
-
 echo "*** [$(date)] [run-all.sh] Done"
