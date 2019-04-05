@@ -13,8 +13,13 @@ docker build . -t carlgira/rna-analysis:latest
 alias drun="docker run -it --rm -v $(pwd):/work -w /work carlgira/rna-analysis:latest /bin/bash"
 alias drun="docker run -it --rm -v $(pwd):/work -w /work carlgira/rna-analysis-u:latest /bin/bash"
 
-alias drun="docker run --memory="28000m" -it --rm -v $(pwd):/work -w /work carlgira/rna-analysis-u:latest /bin/bash"
+alias drun="sudo docker run --memory="28000m" -it --rm -v $(pwd):/work -w /work carlgira/rna-analysis-u:latest /bin/bash"
+
+alias drun="sudo docker run --memory="28000m" -it --rm -v $(pwd):/work -w /work carlgira/rna-analysis-u:latest /bin/bash"
+
+sudo docker run --memory="28000m" -it --rm -v $(pwd):/work -w /work carlgira/rna-analysis-u:latest /bin/bash -c "multiqc ."
 ```
+ssh carlgira@83.54.73.57
 
 ## Tools
 - fastqc 0.11.8
@@ -77,6 +82,16 @@ drun scripts/stats.sh
 ```
 Results in *stats* folder.
 
+
+# PLAN
+
+- Apply edger algorithm
+- Work with the normalization file
+- Graph information about pvalue and CPM.
+- Filter counts with pvalue AND CPM
+- Shows volcano graph and other
+- Annotate the counts to list a list of genes.
+
 # References
 
 - A comprehensive evaluation of normalization methods for Illumina high-throughput RNA sequencing data analysis https://academic.oup.com/bib/article/14/6/671/189645
@@ -91,3 +106,17 @@ Results in *stats* folder.
 picard CollectAlignmentSummaryMetrics -Xmx2G R=refs/Aedes-aegypti-LVP_AGWG_CHROMOSOMES_AaegL5.fa I=bam/Normal1_mappable.bam O=output.txt
 
 picard CollectGcBiasMetrics -Xmx2G I=bam/Normal1_mappable.bam O=gc_bias_metrics.txt CHART=gc_bias_metrics.pdf S=summary_metrics.txt R=refs/Aedes-aegypti-LVP_AGWG_CHROMOSOMES_AaegL5.fa
+
+# Quality in Alignment
+picard CollectAlignmentSummaryMetrics -Xmx2G R=refs/Aedes-aegypti-LVP_AGWG_CHROMOSOMES_AaegL5.fa I=bam/Normal1_mappable.bam O=output.txt
+
+
+sudo docker run --memory="28000m" -it --rm -v $(pwd):/work -w /work carlgira/rna-analysis-u:latest /bin/bash -c "STAR --genomeDir /work/refs --runThreadN 8 --readFilesIn /work/reads/Control1_mappable.fq --outSAMtype BAM SortedByCoordinate --outStd BAM_SortedByCoordinate > /work/bam/Control1_mappable.bam"
+
+
+
+
+R -e "rmarkdown::render('de-template.Rmd',output_file='output/inactivated_vs_normal.html', params=list(expName='inactivated_vs_normal', cpm=0.5, pvalue=0.05))"
+
+
+params = list(region = "west")
