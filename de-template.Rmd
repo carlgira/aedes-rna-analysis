@@ -1,34 +1,131 @@
 ---
-title: "RNA-seq Inactivated Vs Normal"
-output: html_notebook
+title: "RNA-seq"
+output: html_document
+params:
+  expName: ""
+  cpm: 0.5
+  pvalue: 0.05
 ---
 
-This is an [R Markdown](http://rmarkdown.rstudio.com) Notebook. When you execute code within the notebook, the results appear beneath the code. 
+# `r params$expName`
 
-Try executing this chunk by clicking the *Run* button within the chunk or by placing your cursor inside it and pressing *Cmd+Shift+Enter*. 
-
-
-Import libraries, load config files and vectorbase biomart for quering annotations on the aedes genome
-```{r}
+```{r, Load Library, results='hide'}
+library(gplots)
+library(edgeR)
 library(NOISeq)
 library(biomaRt)
 
-vectorbase_gene <- new("Mart", biomart = "vb_gene_mart_1902", vschema = "vb_mart_1902", host = "https://biomart.vectorbase.org/biomart/martservice")
-aaegGenes<-useDataset("alvpagwg_eg_gene", vectorbase_gene)
+expName = params$expName
+cpmLimit = params$cpm
+pValueLimit = params$pvalue
+```
 
-sampleinfo <- read.csv("setup/analysis_samples_vivo_exp3.tsv", sep = " ")
-seqdata <- read.delim("count/inactivated_vs_normal_count.tsv", sep = "\t", stringsAsFactors = FALSE, header=TRUE, skip=1)
+
+
+# Load ExpName and count data
+```{r, Load data}
+#expName <- "inactivated_vs_normal"
+sampleinfo <- read.csv(paste("setup/", expName, ".tsv", sep=""), sep = " ")
+seqdata <- read.delim(paste("count/", expName, "_count.tsv", sep=""), sep = "\t", stringsAsFactors = FALSE, header=TRUE, skip=1)
+
+counts <- seqdata[,(7:ncol(seqdata))]
+rownames(counts) <- seqdata[,1]
+colnames(counts) <- sampleinfo[,3]
+
+groups <- sampleinfo[,4]
+
+group0numSamples <- sum(sampleinfo[,5]==0)
+group1numSamples <- sum(sampleinfo[,5]==1)
 
 ```
 
+
+# Normalisation TMM (Edger)
+```{r, Normalisation}
+
+
+# Set up the groups based on the experimental setup.
+cond_1 = rep("cond1", group0numSamples)
+cond_2 = rep("cond2", group1numSamples)
+
+# Create the groups.
+group=c(cond_1, cond_2)
+
+dge <- DGEList(counts=counts, group=group)
+dge <- estimateCommonDisp(dge)
+dge <- estimateGLMTrendedDisp(dge)
+dge <- estimateTagwiseDisp(dge)
+
+
+# This performs a pairwise comparison.
+etx <- exactTest(dge)
+etp <- topTags(etx, n=100000, sort.by="p.value")
+
+# Generate the output.
+edgerCountsFile <- paste("count/", expName, "_count_edger.tsv", sep="")
+edgerCounts <- etp$table
+write.table(edgerCounts, file=edgerCountsFile, sep="\t", row.name=TRUE, quote=FALSE)
+
+# Get normalized counts and write to a file
+scale = dge$samples$lib.size*dge$samples$norm.factors
+nc = round(t(t(counts)/scale)*mean(scale))
+
+# Turn it into a dataframe to have proper column names.
+dt = data.frame("id"=rownames(nc),nc)
+
+# Save into the normalize data matrix.
+normCountsFile <- paste("count/", expName, "_count_norm.tsv", sep="")
+normCounts <- dt
+write.table(dt, file=normCountsFile, sep="\t", row.name=FALSE, col.names=TRUE, quote=FALSE)
+
+```
+
+
+
+
+# Count Stats
+
+```{r, Count Stats}
+# Check library Sizes
+barplot(dge$samples$lib.size, names=colnames(dge), las=2, main="Barplot of library sizes")
+abline(h=20e6, lty=2)
+
+#boxplots we see that overall the density distributions of raw log-intensities
+# If a sample is really far above or below the blue horizontal line we may need to investigate that sample further
+logcounts <- cpm(dge,log=TRUE)
+boxplot(logcounts, xlab="", ylab="Log2 counts per million",las=2)
+abline(h=median(logcounts), col="blue", main="Boxplots of logCPMs (unnormalised)")
+
+### Principle components analysis
+
+plotMDS(dge)
+
+```
+
+
+```{r, Count Visualizations}
+hist(edgerCounts$PValue)
+design <- model.matrix(~ groups)
+fit <- glmFit(dge, design)
+lrt.BvsL <- glmLRT(fit, coef=2)
+
+results <- as.data.frame(topTags(lrt.BvsL,n = Inf))
+
+summary(de <- decideTestsDGE(lrt.BvsL))
+detags <- rownames(dge)[as.logical(de)]
+plotSmear(lrt.BvsL, de.tags=detags)
+
+signif <- -log10(results$FDR)
+plot(results$logFC,signif,pch=16)
+points(results[detags,"logFC"],-log10(results[detags,"FDR"]),pch=16,col="red")
+```
+
+# Nioseq QC
 Build the data structure for all the NOISEQ graphs.
 ```{r}
-sample_count <- seqdata[,(7:ncol(seqdata))]
-rownames(sample_count) <- seqdata[,1]
-colnames(sample_count) <- sampleinfo[,3]
 
-set0numSamples <- sum(sampleinfo[,5]==0)
-set1numSamples <- sum(sampleinfo[,5]==1)
+vectorbase_gene <- new("Mart", biomart = "vb_gene_mart_1902", vschema = "vb_mart_1902", host = "https://biomart.vectorbase.org/biomart/martservice")
+aaegGenes<-useDataset("alvpagwg_eg_gene", vectorbase_gene)
 
 sample_biotype <- getBM(attributes = c("ensembl_gene_id", "gene_biotype"), mart = aaegGenes)
 sample_gc_content <- getBM(attributes = c("ensembl_gene_id", "percentage_gene_gc_content"), mart = aaegGenes)
@@ -37,6 +134,7 @@ sample_chrm_pos <- getBM(attributes = c("ensembl_gene_id", "chromosome_name", "s
 sample_chrm <- sample_chrm_pos[, c(2,3,4)]
 rownames(sample_chrm) <- sample_chrm_pos[,1]
 sample_factors <- sampleinfo[,c(3,4,5)]
+sample_count <- normCounts[, 2:ncol(normCounts)]
 
 noiseq_data <- readData(data=sample_count,length=sample_length, biotype=sample_biotype, gc=sample_gc_content, chromosome=sample_chrm, factors=sample_factors)
 
@@ -81,7 +179,7 @@ explo.plot(countsbio_data, toplot = 1, samples = NULL, plottype = "barplot")
 
 ## Length Bio
 ```{r}
-lengthbias_data = dat(noiseq_data, factor = "SampleSet", type = "lengthbias")
+lengthbias_data = dat(noiseq_data, factor = "SampleGroup", type = "lengthbias")
 explo.plot(lengthbias_data, samples = NULL, toplot = "global")
 ```
 
@@ -94,11 +192,66 @@ explo.plot(cd_data)
 
 ## GC 
 ```{r}
-gc_data = dat(noiseq_data, factor = "SampleSet", type = "GCbias")
+gc_data = dat(noiseq_data, factor = "SampleGroup", type = "GCbias")
 explo.plot(gc_data, samples = NULL, toplot = "global")
 ```
 
+# Filtering, CPM and P-Value
+
+```{r, Filtering}
+
+cpmValues <- cpm(sample_count)
+threshCPM <- cpmValues > cpmLimit
+keepCPM <- rowSums(threshCPM) >= min(group0numSamples, group1numSamples)
+
+# P-Value
+keepPValue <- edgerCounts[,3] < pValueLimit
+
+sample_count_filtered <- sample_count[keepCPM & keepPValue,]
+#sample_count_filtered <- sample_count_filtered[order(rowSums(sample_count_filtered), decreasing = T),]
+
+sample_count_filtered_sub <- sample_count_filtered[1:20,]
+sample_count_filtered_sub
+
+sample_filtered_info <- getBM(attributes = c("ensembl_gene_id", "chromosome_name", "gene_biotype", "description", "protein_id", "go_id"), filters = "ensembl_gene_id", values = rownames(sample_count_filtered),  mart = aaegGenes)
+
+write.table(sample_filtered_info, file=paste("count/", expName, "_final.tsv", sep=""), sep="\t", col.names=TRUE, quote=FALSE)
+
+```
+
+## `r paste(nrow(sample_count_filtered), "genes left of ", nrow(sample_count))`
+
+## HeatMap
+```{r, HeatMap}
 
 
+# Read normalized counts
+
+gene = rownames(sample_count_filtered)
+vals = as.matrix(sample_count_filtered)
+
+# Adds a little noise to each element
+# To avoid the clusteing function failing on zero
+# variance datalines.
+vals = jitter(vals, factor = 1, amount=0.00001)
+
+
+# Calculate zscore
+score = NULL
+for (i in 1:nrow(vals)) {
+    row=vals[i,]
+    zscore=(row-mean(row))/sd(row)
+    score =rbind(score,zscore)
+}
+
+row.names(score) = gene
+zscore=score
+
+# Generate heatmap
+mat = as.matrix(zscore)
+
+colors = colorRampPalette(c("green","black","red"),space="rgb")(256)
+heatmap.2(mat,col=colors,density.info="none",trace="none", Colv=FALSE, margins=c(12,12))
+```
 
 

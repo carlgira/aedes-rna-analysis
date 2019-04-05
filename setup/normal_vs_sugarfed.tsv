@@ -1,0 +1,5 @@
+FastaFile BamFile SampleName SampleGroup Group
+reads/Normal1_mappable.fq bam/Normal1_mappable.bam Normal1 Normal 0
+reads/Normal2_mappable.fq bam/Normal2_mappable.bam Normal2 Normal 0
+reads/SugarFed1_mappable.fq bam/SugarFed1_mappable.bam SugarFed1 SugarFed 1
+reads/SugarFed2_mappable.fq bam/SugarFed2_mappable.bam SugarFed2 SugarFed 1
