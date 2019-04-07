@@ -1,0 +1,808 @@
+\documentclass[]{article}
+\usepackage{lmodern}
+\usepackage{amssymb,amsmath}
+\usepackage{ifxetex,ifluatex}
+\usepackage{fixltx2e} % provides \textsubscript
+\ifnum 0\ifxetex 1\fi\ifluatex 1\fi=0 % if pdftex
+  \usepackage[T1]{fontenc}
+  \usepackage[utf8]{inputenc}
+\else % if luatex or xelatex
+  \ifxetex
+    \usepackage{mathspec}
+  \else
+    \usepackage{fontspec}
+  \fi
+  \defaultfontfeatures{Ligatures=TeX,Scale=MatchLowercase}
+\fi
+% use upquote if available, for straight quotes in verbatim environments
+\IfFileExists{upquote.sty}{\usepackage{upquote}}{}
+% use microtype if available
+\IfFileExists{microtype.sty}{%
+\usepackage{microtype}
+\UseMicrotypeSet[protrusion]{basicmath} % disable protrusion for tt fonts
+}{}
+\usepackage[margin=1in]{geometry}
+\usepackage{hyperref}
+\hypersetup{unicode=true,
+            pdftitle={RNA-seq},
+            pdfborder={0 0 0},
+            breaklinks=true}
+\urlstyle{same}  % don't use monospace font for urls
+\usepackage{color}
+\usepackage{fancyvrb}
+\newcommand{\VerbBar}{|}
+\newcommand{\VERB}{\Verb[commandchars=\\\{\}]}
+\DefineVerbatimEnvironment{Highlighting}{Verbatim}{commandchars=\\\{\}}
+% Add ',fontsize=\small' for more characters per line
+\usepackage{framed}
+\definecolor{shadecolor}{RGB}{248,248,248}
+\newenvironment{Shaded}{\begin{snugshade}}{\end{snugshade}}
+\newcommand{\KeywordTok}[1]{\textcolor[rgb]{0.13,0.29,0.53}{\textbf{#1}}}
+\newcommand{\DataTypeTok}[1]{\textcolor[rgb]{0.13,0.29,0.53}{#1}}
+\newcommand{\DecValTok}[1]{\textcolor[rgb]{0.00,0.00,0.81}{#1}}
+\newcommand{\BaseNTok}[1]{\textcolor[rgb]{0.00,0.00,0.81}{#1}}
+\newcommand{\FloatTok}[1]{\textcolor[rgb]{0.00,0.00,0.81}{#1}}
+\newcommand{\ConstantTok}[1]{\textcolor[rgb]{0.00,0.00,0.00}{#1}}
+\newcommand{\CharTok}[1]{\textcolor[rgb]{0.31,0.60,0.02}{#1}}
+\newcommand{\SpecialCharTok}[1]{\textcolor[rgb]{0.00,0.00,0.00}{#1}}
+\newcommand{\StringTok}[1]{\textcolor[rgb]{0.31,0.60,0.02}{#1}}
+\newcommand{\VerbatimStringTok}[1]{\textcolor[rgb]{0.31,0.60,0.02}{#1}}
+\newcommand{\SpecialStringTok}[1]{\textcolor[rgb]{0.31,0.60,0.02}{#1}}
+\newcommand{\ImportTok}[1]{#1}
+\newcommand{\CommentTok}[1]{\textcolor[rgb]{0.56,0.35,0.01}{\textit{#1}}}
+\newcommand{\DocumentationTok}[1]{\textcolor[rgb]{0.56,0.35,0.01}{\textbf{\textit{#1}}}}
+\newcommand{\AnnotationTok}[1]{\textcolor[rgb]{0.56,0.35,0.01}{\textbf{\textit{#1}}}}
+\newcommand{\CommentVarTok}[1]{\textcolor[rgb]{0.56,0.35,0.01}{\textbf{\textit{#1}}}}
+\newcommand{\OtherTok}[1]{\textcolor[rgb]{0.56,0.35,0.01}{#1}}
+\newcommand{\FunctionTok}[1]{\textcolor[rgb]{0.00,0.00,0.00}{#1}}
+\newcommand{\VariableTok}[1]{\textcolor[rgb]{0.00,0.00,0.00}{#1}}
+\newcommand{\ControlFlowTok}[1]{\textcolor[rgb]{0.13,0.29,0.53}{\textbf{#1}}}
+\newcommand{\OperatorTok}[1]{\textcolor[rgb]{0.81,0.36,0.00}{\textbf{#1}}}
+\newcommand{\BuiltInTok}[1]{#1}
+\newcommand{\ExtensionTok}[1]{#1}
+\newcommand{\PreprocessorTok}[1]{\textcolor[rgb]{0.56,0.35,0.01}{\textit{#1}}}
+\newcommand{\AttributeTok}[1]{\textcolor[rgb]{0.77,0.63,0.00}{#1}}
+\newcommand{\RegionMarkerTok}[1]{#1}
+\newcommand{\InformationTok}[1]{\textcolor[rgb]{0.56,0.35,0.01}{\textbf{\textit{#1}}}}
+\newcommand{\WarningTok}[1]{\textcolor[rgb]{0.56,0.35,0.01}{\textbf{\textit{#1}}}}
+\newcommand{\AlertTok}[1]{\textcolor[rgb]{0.94,0.16,0.16}{#1}}
+\newcommand{\ErrorTok}[1]{\textcolor[rgb]{0.64,0.00,0.00}{\textbf{#1}}}
+\newcommand{\NormalTok}[1]{#1}
+\usepackage{graphicx,grffile}
+\makeatletter
+\def\maxwidth{\ifdim\Gin@nat@width>\linewidth\linewidth\else\Gin@nat@width\fi}
+\def\maxheight{\ifdim\Gin@nat@height>\textheight\textheight\else\Gin@nat@height\fi}
+\makeatother
+% Scale images if necessary, so that they will not overflow the page
+% margins by default, and it is still possible to overwrite the defaults
+% using explicit options in \includegraphics[width, height, ...]{}
+\setkeys{Gin}{width=\maxwidth,height=\maxheight,keepaspectratio}
+\IfFileExists{parskip.sty}{%
+\usepackage{parskip}
+}{% else
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{6pt plus 2pt minus 1pt}
+}
+\setlength{\emergencystretch}{3em}  % prevent overfull lines
+\providecommand{\tightlist}{%
+  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+\setcounter{secnumdepth}{0}
+% Redefines (sub)paragraphs to behave more like sections
+\ifx\paragraph\undefined\else
+\let\oldparagraph\paragraph
+\renewcommand{\paragraph}[1]{\oldparagraph{#1}\mbox{}}
+\fi
+\ifx\subparagraph\undefined\else
+\let\oldsubparagraph\subparagraph
+\renewcommand{\subparagraph}[1]{\oldsubparagraph{#1}\mbox{}}
+\fi
+
+%%% Use protect on footnotes to avoid problems with footnotes in titles
+\let\rmarkdownfootnote\footnote%
+\def\footnote{\protect\rmarkdownfootnote}
+
+%%% Change title format to be more compact
+\usepackage{titling}
+
+% Create subtitle command for use in maketitle
+\providecommand{\subtitle}[1]{
+  \posttitle{
+    \begin{center}\large#1\end{center}
+    }
+}
+
+\setlength{\droptitle}{-2em}
+
+  \title{RNA-seq}
+    \pretitle{\vspace{\droptitle}\centering\huge}
+  \posttitle{\par}
+    \author{}
+    \preauthor{}\postauthor{}
+    \date{}
+    \predate{}\postdate{}
+  
+
+\begin{document}
+\maketitle
+
+\section{inactivated\_vs\_normal}\label{inactivated_vs_normal}
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\KeywordTok{library}\NormalTok{(gplots)}
+\end{Highlighting}
+\end{Shaded}
+
+\begin{verbatim}
+## 
+## Attaching package: 'gplots'
+\end{verbatim}
+
+\begin{verbatim}
+## The following object is masked from 'package:stats':
+## 
+##     lowess
+\end{verbatim}
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\KeywordTok{library}\NormalTok{(edgeR)}
+\end{Highlighting}
+\end{Shaded}
+
+\begin{verbatim}
+## Loading required package: limma
+\end{verbatim}
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\KeywordTok{library}\NormalTok{(NOISeq)}
+\end{Highlighting}
+\end{Shaded}
+
+\begin{verbatim}
+## Loading required package: Biobase
+\end{verbatim}
+
+\begin{verbatim}
+## Loading required package: BiocGenerics
+\end{verbatim}
+
+\begin{verbatim}
+## Loading required package: parallel
+\end{verbatim}
+
+\begin{verbatim}
+## 
+## Attaching package: 'BiocGenerics'
+\end{verbatim}
+
+\begin{verbatim}
+## The following objects are masked from 'package:parallel':
+## 
+##     clusterApply, clusterApplyLB, clusterCall, clusterEvalQ,
+##     clusterExport, clusterMap, parApply, parCapply, parLapply,
+##     parLapplyLB, parRapply, parSapply, parSapplyLB
+\end{verbatim}
+
+\begin{verbatim}
+## The following object is masked from 'package:limma':
+## 
+##     plotMA
+\end{verbatim}
+
+\begin{verbatim}
+## The following objects are masked from 'package:stats':
+## 
+##     IQR, mad, sd, var, xtabs
+\end{verbatim}
+
+\begin{verbatim}
+## The following objects are masked from 'package:base':
+## 
+##     anyDuplicated, append, as.data.frame, basename, cbind,
+##     colMeans, colnames, colSums, dirname, do.call, duplicated,
+##     eval, evalq, Filter, Find, get, grep, grepl, intersect,
+##     is.unsorted, lapply, lengths, Map, mapply, match, mget, order,
+##     paste, pmax, pmax.int, pmin, pmin.int, Position, rank, rbind,
+##     Reduce, rowMeans, rownames, rowSums, sapply, setdiff, sort,
+##     table, tapply, union, unique, unsplit, which, which.max,
+##     which.min
+\end{verbatim}
+
+\begin{verbatim}
+## Welcome to Bioconductor
+## 
+##     Vignettes contain introductory material; view with
+##     'browseVignettes()'. To cite Bioconductor, see
+##     'citation("Biobase")', and for packages 'citation("pkgname")'.
+\end{verbatim}
+
+\begin{verbatim}
+## Loading required package: splines
+\end{verbatim}
+
+\begin{verbatim}
+## Loading required package: Matrix
+\end{verbatim}
+
+\begin{verbatim}
+## 
+## Attaching package: 'NOISeq'
+\end{verbatim}
+
+\begin{verbatim}
+## The following object is masked from 'package:edgeR':
+## 
+##     rpkm
+\end{verbatim}
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\KeywordTok{library}\NormalTok{(biomaRt)}
+
+\NormalTok{expName =}\StringTok{ }\NormalTok{params}\OperatorTok{$}\NormalTok{expName}
+\NormalTok{cpmLimit =}\StringTok{ }\NormalTok{params}\OperatorTok{$}\NormalTok{cpm}
+\NormalTok{pValueLimit =}\StringTok{ }\NormalTok{params}\OperatorTok{$}\NormalTok{pvalue}
+\end{Highlighting}
+\end{Shaded}
+
+\section{Load ExpName and count data}\label{load-expname-and-count-data}
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\CommentTok{#expName <- "inactivated_vs_normal"}
+\NormalTok{sampleinfo <-}\StringTok{ }\KeywordTok{read.csv}\NormalTok{(}\KeywordTok{paste}\NormalTok{(}\StringTok{"setup/"}\NormalTok{, expName, }\StringTok{".tsv"}\NormalTok{, }\DataTypeTok{sep=}\StringTok{""}\NormalTok{), }\DataTypeTok{sep =} \StringTok{" "}\NormalTok{)}
+\NormalTok{seqdata <-}\StringTok{ }\KeywordTok{read.delim}\NormalTok{(}\KeywordTok{paste}\NormalTok{(}\StringTok{"count/"}\NormalTok{, expName, }\StringTok{"_count.tsv"}\NormalTok{, }\DataTypeTok{sep=}\StringTok{""}\NormalTok{), }\DataTypeTok{sep =} \StringTok{"}\CharTok{\textbackslash{}t}\StringTok{"}\NormalTok{, }\DataTypeTok{stringsAsFactors =} \OtherTok{FALSE}\NormalTok{, }\DataTypeTok{header=}\OtherTok{TRUE}\NormalTok{, }\DataTypeTok{skip=}\DecValTok{1}\NormalTok{)}
+
+\NormalTok{counts <-}\StringTok{ }\NormalTok{seqdata[,(}\DecValTok{7}\OperatorTok{:}\KeywordTok{ncol}\NormalTok{(seqdata))]}
+\KeywordTok{rownames}\NormalTok{(counts) <-}\StringTok{ }\NormalTok{seqdata[,}\DecValTok{1}\NormalTok{]}
+\KeywordTok{colnames}\NormalTok{(counts) <-}\StringTok{ }\NormalTok{sampleinfo[,}\DecValTok{3}\NormalTok{]}
+
+\NormalTok{groups <-}\StringTok{ }\NormalTok{sampleinfo[,}\DecValTok{4}\NormalTok{]}
+
+\NormalTok{group0numSamples <-}\StringTok{ }\KeywordTok{sum}\NormalTok{(sampleinfo[,}\DecValTok{5}\NormalTok{]}\OperatorTok{==}\DecValTok{0}\NormalTok{)}
+\NormalTok{group1numSamples <-}\StringTok{ }\KeywordTok{sum}\NormalTok{(sampleinfo[,}\DecValTok{5}\NormalTok{]}\OperatorTok{==}\DecValTok{1}\NormalTok{)}
+\end{Highlighting}
+\end{Shaded}
+
+\section{Normalisation TMM (Edger)}\label{normalisation-tmm-edger}
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\CommentTok{# Set up the groups based on the experimental setup.}
+\NormalTok{cond_}\DecValTok{1}\NormalTok{ =}\StringTok{ }\KeywordTok{rep}\NormalTok{(}\StringTok{"cond1"}\NormalTok{, group0numSamples)}
+\NormalTok{cond_}\DecValTok{2}\NormalTok{ =}\StringTok{ }\KeywordTok{rep}\NormalTok{(}\StringTok{"cond2"}\NormalTok{, group1numSamples)}
+
+\CommentTok{# Create the groups.}
+\NormalTok{group=}\KeywordTok{c}\NormalTok{(cond_}\DecValTok{1}\NormalTok{, cond_}\DecValTok{2}\NormalTok{)}
+
+\NormalTok{dge <-}\StringTok{ }\KeywordTok{DGEList}\NormalTok{(}\DataTypeTok{counts=}\NormalTok{counts, }\DataTypeTok{group=}\NormalTok{group)}
+\NormalTok{dge <-}\StringTok{ }\KeywordTok{estimateCommonDisp}\NormalTok{(dge)}
+\NormalTok{dge <-}\StringTok{ }\KeywordTok{estimateGLMTrendedDisp}\NormalTok{(dge)}
+\NormalTok{dge <-}\StringTok{ }\KeywordTok{estimateTagwiseDisp}\NormalTok{(dge)}
+
+
+\CommentTok{# This performs a pairwise comparison.}
+\NormalTok{etx <-}\StringTok{ }\KeywordTok{exactTest}\NormalTok{(dge)}
+\NormalTok{etp <-}\StringTok{ }\KeywordTok{topTags}\NormalTok{(etx, }\DataTypeTok{n=}\DecValTok{100000}\NormalTok{, }\DataTypeTok{sort.by=}\StringTok{"p.value"}\NormalTok{)}
+
+\CommentTok{# Generate the output.}
+\NormalTok{edgerCountsFile <-}\StringTok{ }\KeywordTok{paste}\NormalTok{(}\StringTok{"count/"}\NormalTok{, expName, }\StringTok{"_count_edger.tsv"}\NormalTok{, }\DataTypeTok{sep=}\StringTok{""}\NormalTok{)}
+\NormalTok{edgerCounts <-}\StringTok{ }\NormalTok{etp}\OperatorTok{$}\NormalTok{table}
+\KeywordTok{write.table}\NormalTok{(edgerCounts, }\DataTypeTok{file=}\NormalTok{edgerCountsFile, }\DataTypeTok{sep=}\StringTok{"}\CharTok{\textbackslash{}t}\StringTok{"}\NormalTok{, }\DataTypeTok{row.name=}\OtherTok{TRUE}\NormalTok{, }\DataTypeTok{quote=}\OtherTok{FALSE}\NormalTok{)}
+
+\CommentTok{# Get normalized counts and write to a file}
+\NormalTok{scale =}\StringTok{ }\NormalTok{dge}\OperatorTok{$}\NormalTok{samples}\OperatorTok{$}\NormalTok{lib.size}\OperatorTok{*}\NormalTok{dge}\OperatorTok{$}\NormalTok{samples}\OperatorTok{$}\NormalTok{norm.factors}
+\NormalTok{nc =}\StringTok{ }\KeywordTok{round}\NormalTok{(}\KeywordTok{t}\NormalTok{(}\KeywordTok{t}\NormalTok{(counts)}\OperatorTok{/}\NormalTok{scale)}\OperatorTok{*}\KeywordTok{mean}\NormalTok{(scale))}
+
+\CommentTok{# Turn it into a dataframe to have proper column names.}
+\NormalTok{dt =}\StringTok{ }\KeywordTok{data.frame}\NormalTok{(}\StringTok{"id"}\NormalTok{=}\KeywordTok{rownames}\NormalTok{(nc),nc)}
+
+\CommentTok{# Save into the normalize data matrix.}
+\NormalTok{normCountsFile <-}\StringTok{ }\KeywordTok{paste}\NormalTok{(}\StringTok{"count/"}\NormalTok{, expName, }\StringTok{"_count_norm.tsv"}\NormalTok{, }\DataTypeTok{sep=}\StringTok{""}\NormalTok{)}
+\NormalTok{normCounts <-}\StringTok{ }\NormalTok{dt}
+\KeywordTok{write.table}\NormalTok{(dt, }\DataTypeTok{file=}\NormalTok{normCountsFile, }\DataTypeTok{sep=}\StringTok{"}\CharTok{\textbackslash{}t}\StringTok{"}\NormalTok{, }\DataTypeTok{row.name=}\OtherTok{FALSE}\NormalTok{, }\DataTypeTok{col.names=}\OtherTok{TRUE}\NormalTok{, }\DataTypeTok{quote=}\OtherTok{FALSE}\NormalTok{)}
+\end{Highlighting}
+\end{Shaded}
+
+\section{Count Stats}\label{count-stats}
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\CommentTok{# Check library Sizes}
+\KeywordTok{barplot}\NormalTok{(dge}\OperatorTok{$}\NormalTok{samples}\OperatorTok{$}\NormalTok{lib.size, }\DataTypeTok{names=}\KeywordTok{colnames}\NormalTok{(dge), }\DataTypeTok{las=}\DecValTok{2}\NormalTok{, }\DataTypeTok{main=}\StringTok{"Barplot of library sizes"}\NormalTok{)}
+\KeywordTok{abline}\NormalTok{(}\DataTypeTok{h=}\FloatTok{20e6}\NormalTok{, }\DataTypeTok{lty=}\DecValTok{2}\NormalTok{)}
+\end{Highlighting}
+\end{Shaded}
+
+\includegraphics{output/inactivated_vs_normal_files/figure-latex/Count Stats-1.pdf}
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\CommentTok{#boxplots we see that overall the density distributions of raw log-intensities}
+\CommentTok{# If a sample is really far above or below the blue horizontal line we may need to investigate that sample further}
+\NormalTok{logcounts <-}\StringTok{ }\KeywordTok{cpm}\NormalTok{(dge,}\DataTypeTok{log=}\OtherTok{TRUE}\NormalTok{)}
+\KeywordTok{boxplot}\NormalTok{(logcounts, }\DataTypeTok{xlab=}\StringTok{""}\NormalTok{, }\DataTypeTok{ylab=}\StringTok{"Log2 counts per million"}\NormalTok{,}\DataTypeTok{las=}\DecValTok{2}\NormalTok{)}
+\KeywordTok{abline}\NormalTok{(}\DataTypeTok{h=}\KeywordTok{median}\NormalTok{(logcounts), }\DataTypeTok{col=}\StringTok{"blue"}\NormalTok{, }\DataTypeTok{main=}\StringTok{"Boxplots of logCPMs (unnormalised)"}\NormalTok{)}
+\end{Highlighting}
+\end{Shaded}
+
+\includegraphics{output/inactivated_vs_normal_files/figure-latex/Count Stats-2.pdf}
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\NormalTok{### Principle components analysis}
+
+\KeywordTok{plotMDS}\NormalTok{(dge)}
+\end{Highlighting}
+\end{Shaded}
+
+\includegraphics{output/inactivated_vs_normal_files/figure-latex/Count Stats-3.pdf}
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\KeywordTok{hist}\NormalTok{(edgerCounts}\OperatorTok{$}\NormalTok{PValue)}
+\end{Highlighting}
+\end{Shaded}
+
+\includegraphics{output/inactivated_vs_normal_files/figure-latex/Count Visualizations-1.pdf}
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\NormalTok{design <-}\StringTok{ }\KeywordTok{model.matrix}\NormalTok{(}\OperatorTok{~}\StringTok{ }\NormalTok{groups)}
+\NormalTok{fit <-}\StringTok{ }\KeywordTok{glmFit}\NormalTok{(dge, design)}
+\NormalTok{lrt.BvsL <-}\StringTok{ }\KeywordTok{glmLRT}\NormalTok{(fit, }\DataTypeTok{coef=}\DecValTok{2}\NormalTok{)}
+
+\NormalTok{results <-}\StringTok{ }\KeywordTok{as.data.frame}\NormalTok{(}\KeywordTok{topTags}\NormalTok{(lrt.BvsL,}\DataTypeTok{n =} \OtherTok{Inf}\NormalTok{))}
+
+\KeywordTok{summary}\NormalTok{(de <-}\StringTok{ }\KeywordTok{decideTestsDGE}\NormalTok{(lrt.BvsL))}
+\end{Highlighting}
+\end{Shaded}
+
+\begin{verbatim}
+##        groupsNormal
+## Down             11
+## NotSig        19693
+## Up                8
+\end{verbatim}
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\NormalTok{detags <-}\StringTok{ }\KeywordTok{rownames}\NormalTok{(dge)[}\KeywordTok{as.logical}\NormalTok{(de)]}
+\KeywordTok{plotSmear}\NormalTok{(lrt.BvsL, }\DataTypeTok{de.tags=}\NormalTok{detags)}
+\end{Highlighting}
+\end{Shaded}
+
+\includegraphics{output/inactivated_vs_normal_files/figure-latex/Count Visualizations-2.pdf}
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\NormalTok{signif <-}\StringTok{ }\OperatorTok{-}\KeywordTok{log10}\NormalTok{(results}\OperatorTok{$}\NormalTok{FDR)}
+\KeywordTok{plot}\NormalTok{(results}\OperatorTok{$}\NormalTok{logFC,signif,}\DataTypeTok{pch=}\DecValTok{16}\NormalTok{)}
+\KeywordTok{points}\NormalTok{(results[detags,}\StringTok{"logFC"}\NormalTok{],}\OperatorTok{-}\KeywordTok{log10}\NormalTok{(results[detags,}\StringTok{"FDR"}\NormalTok{]),}\DataTypeTok{pch=}\DecValTok{16}\NormalTok{,}\DataTypeTok{col=}\StringTok{"red"}\NormalTok{)}
+\end{Highlighting}
+\end{Shaded}
+
+\includegraphics{output/inactivated_vs_normal_files/figure-latex/Count Visualizations-3.pdf}
+
+\section{Nioseq QC}\label{nioseq-qc}
+
+Build the data structure for all the NOISEQ graphs.
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\NormalTok{vectorbase_gene <-}\StringTok{ }\KeywordTok{new}\NormalTok{(}\StringTok{"Mart"}\NormalTok{, }\DataTypeTok{biomart =} \StringTok{"vb_gene_mart_1902"}\NormalTok{, }\DataTypeTok{vschema =} \StringTok{"vb_mart_1902"}\NormalTok{, }\DataTypeTok{host =} \StringTok{"https://biomart.vectorbase.org/biomart/martservice"}\NormalTok{)}
+\NormalTok{aaegGenes<-}\KeywordTok{useDataset}\NormalTok{(}\StringTok{"alvpagwg_eg_gene"}\NormalTok{, vectorbase_gene)}
+
+\NormalTok{sample_biotype <-}\StringTok{ }\KeywordTok{getBM}\NormalTok{(}\DataTypeTok{attributes =} \KeywordTok{c}\NormalTok{(}\StringTok{"ensembl_gene_id"}\NormalTok{, }\StringTok{"gene_biotype"}\NormalTok{), }\DataTypeTok{mart =}\NormalTok{ aaegGenes)}
+\NormalTok{sample_gc_content <-}\StringTok{ }\KeywordTok{getBM}\NormalTok{(}\DataTypeTok{attributes =} \KeywordTok{c}\NormalTok{(}\StringTok{"ensembl_gene_id"}\NormalTok{, }\StringTok{"percentage_gene_gc_content"}\NormalTok{), }\DataTypeTok{mart =}\NormalTok{ aaegGenes)}
+\NormalTok{sample_length <-}\StringTok{ }\NormalTok{seqdata[,}\KeywordTok{c}\NormalTok{(}\DecValTok{1}\NormalTok{,}\DecValTok{6}\NormalTok{)]}
+\NormalTok{sample_chrm_pos <-}\StringTok{ }\KeywordTok{getBM}\NormalTok{(}\DataTypeTok{attributes =} \KeywordTok{c}\NormalTok{(}\StringTok{"ensembl_gene_id"}\NormalTok{, }\StringTok{"chromosome_name"}\NormalTok{, }\StringTok{"start_position"}\NormalTok{, }\StringTok{"end_position"}\NormalTok{), }\DataTypeTok{mart =}\NormalTok{ aaegGenes)}
+\NormalTok{sample_chrm <-}\StringTok{ }\NormalTok{sample_chrm_pos[, }\KeywordTok{c}\NormalTok{(}\DecValTok{2}\NormalTok{,}\DecValTok{3}\NormalTok{,}\DecValTok{4}\NormalTok{)]}
+\KeywordTok{rownames}\NormalTok{(sample_chrm) <-}\StringTok{ }\NormalTok{sample_chrm_pos[,}\DecValTok{1}\NormalTok{]}
+\NormalTok{sample_factors <-}\StringTok{ }\NormalTok{sampleinfo[,}\KeywordTok{c}\NormalTok{(}\DecValTok{3}\NormalTok{,}\DecValTok{4}\NormalTok{,}\DecValTok{5}\NormalTok{)]}
+\NormalTok{sample_count <-}\StringTok{ }\NormalTok{normCounts[, }\DecValTok{2}\OperatorTok{:}\KeywordTok{ncol}\NormalTok{(normCounts)]}
+
+\NormalTok{noiseq_data <-}\StringTok{ }\KeywordTok{readData}\NormalTok{(}\DataTypeTok{data=}\NormalTok{sample_count,}\DataTypeTok{length=}\NormalTok{sample_length, }\DataTypeTok{biotype=}\NormalTok{sample_biotype, }\DataTypeTok{gc=}\NormalTok{sample_gc_content, }\DataTypeTok{chromosome=}\NormalTok{sample_chrm, }\DataTypeTok{factors=}\NormalTok{sample_factors)}
+\end{Highlighting}
+\end{Shaded}
+
+\subsection{Biodetection plots}\label{biodetection-plots}
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\NormalTok{biodetection_data <-}\StringTok{ }\KeywordTok{dat}\NormalTok{(noiseq_data, }\DataTypeTok{type =} \StringTok{"biodetection"}\NormalTok{)}
+\end{Highlighting}
+\end{Shaded}
+
+\begin{verbatim}
+## Biotypes detection is to be computed for:
+## [1] "Inactivated1" "Inactivated2" "Normal1"      "Normal2"
+\end{verbatim}
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\KeywordTok{par}\NormalTok{(}\DataTypeTok{mfrow =} \KeywordTok{c}\NormalTok{(}\DecValTok{1}\NormalTok{, }\DecValTok{2}\NormalTok{))}
+\KeywordTok{explo.plot}\NormalTok{(biodetection_data, }\DataTypeTok{samples =} \KeywordTok{c}\NormalTok{(}\DecValTok{1}\NormalTok{, }\DecValTok{3}\NormalTok{), }\DataTypeTok{plottype =} \StringTok{"persample"}\NormalTok{)}
+\end{Highlighting}
+\end{Shaded}
+
+\includegraphics{output/inactivated_vs_normal_files/figure-latex/unnamed-chunk-2-1.pdf}
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\KeywordTok{par}\NormalTok{(}\DataTypeTok{mfrow =} \KeywordTok{c}\NormalTok{(}\DecValTok{1}\NormalTok{, }\DecValTok{2}\NormalTok{))}
+\KeywordTok{explo.plot}\NormalTok{(biodetection_data, }\DataTypeTok{samples =} \KeywordTok{c}\NormalTok{(}\DecValTok{1}\NormalTok{, }\DecValTok{3}\NormalTok{), }\DataTypeTok{toplot =} \StringTok{"protein_coding"}\NormalTok{, }\DataTypeTok{plottype =} \StringTok{"comparison"}\NormalTok{)}
+\end{Highlighting}
+\end{Shaded}
+
+\includegraphics{output/inactivated_vs_normal_files/figure-latex/unnamed-chunk-2-2.pdf}
+
+\begin{verbatim}
+## [1] "Percentage of protein_coding biotype in each sample:"
+## Inactivated1      Normal1 
+##      91.9541      91.4418 
+## [1] "Confidence interval at 95% for the difference of percentages: Inactivated1 - Normal1"
+## [1] -0.0374  1.0621
+## [1] "The percentage of this biotype is NOT significantly different for these two samples (p-value = 0.06795 )."
+\end{verbatim}
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\KeywordTok{par}\NormalTok{(}\DataTypeTok{mfrow =} \KeywordTok{c}\NormalTok{(}\DecValTok{1}\NormalTok{, }\DecValTok{2}\NormalTok{))}
+\KeywordTok{explo.plot}\NormalTok{(biodetection_data, }\DataTypeTok{samples =} \KeywordTok{c}\NormalTok{(}\DecValTok{2}\NormalTok{, }\DecValTok{4}\NormalTok{), }\DataTypeTok{plottype =} \StringTok{"persample"}\NormalTok{)}
+\end{Highlighting}
+\end{Shaded}
+
+\includegraphics{output/inactivated_vs_normal_files/figure-latex/unnamed-chunk-2-3.pdf}
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\KeywordTok{par}\NormalTok{(}\DataTypeTok{mfrow =} \KeywordTok{c}\NormalTok{(}\DecValTok{1}\NormalTok{, }\DecValTok{2}\NormalTok{))}
+\KeywordTok{explo.plot}\NormalTok{(biodetection_data, }\DataTypeTok{samples =} \KeywordTok{c}\NormalTok{(}\DecValTok{2}\NormalTok{, }\DecValTok{4}\NormalTok{), }\DataTypeTok{toplot =} \StringTok{"protein_coding"}\NormalTok{, }\DataTypeTok{plottype =} \StringTok{"comparison"}\NormalTok{)}
+\end{Highlighting}
+\end{Shaded}
+
+\includegraphics{output/inactivated_vs_normal_files/figure-latex/unnamed-chunk-2-4.pdf}
+
+\begin{verbatim}
+## [1] "Percentage of protein_coding biotype in each sample:"
+## Inactivated2      Normal2 
+##      91.3099      91.6295 
+## [1] "Confidence interval at 95% for the difference of percentages: Inactivated2 - Normal2"
+## [1] -0.8761  0.2369
+## [1] "The percentage of this biotype is NOT significantly different for these two samples (p-value = 0.2636 )."
+\end{verbatim}
+
+\subsection{Countsbio plots}\label{countsbio-plots}
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\NormalTok{countsbio_data =}\StringTok{ }\KeywordTok{dat}\NormalTok{(noiseq_data, }\DataTypeTok{factor =} \OtherTok{NULL}\NormalTok{, }\DataTypeTok{type =} \StringTok{"countsbio"}\NormalTok{)}
+\end{Highlighting}
+\end{Shaded}
+
+\begin{verbatim}
+## [1] "Warning: 6299 features with 0 counts in all samples are to be removed for this analysis."
+## [1] "Count distributions are to be computed for:"
+## [1] "Inactivated1" "Inactivated2" "Normal1"      "Normal2"
+\end{verbatim}
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\KeywordTok{explo.plot}\NormalTok{(countsbio_data, }\DataTypeTok{toplot =} \DecValTok{1}\NormalTok{, }\DataTypeTok{samples =} \DecValTok{1}\NormalTok{, }\DataTypeTok{plottype =} \StringTok{"boxplot"}\NormalTok{)}
+\end{Highlighting}
+\end{Shaded}
+
+\includegraphics{output/inactivated_vs_normal_files/figure-latex/unnamed-chunk-3-1.pdf}
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\NormalTok{saturation_data =}\StringTok{ }\KeywordTok{dat}\NormalTok{(noiseq_data, }\DataTypeTok{k =} \DecValTok{0}\NormalTok{, }\DataTypeTok{ndepth =} \DecValTok{7}\NormalTok{, }\DataTypeTok{type =} \StringTok{"saturation"}\NormalTok{)}
+\KeywordTok{explo.plot}\NormalTok{(saturation_data, }\DataTypeTok{toplot =} \DecValTok{1}\NormalTok{, }\DataTypeTok{samples =} \DecValTok{1}\OperatorTok{:}\DecValTok{2}\NormalTok{, }\DataTypeTok{yleftlim =} \OtherTok{NULL}\NormalTok{, }\DataTypeTok{yrightlim =} \OtherTok{NULL}\NormalTok{)}
+\end{Highlighting}
+\end{Shaded}
+
+\includegraphics{output/inactivated_vs_normal_files/figure-latex/unnamed-chunk-3-2.pdf}
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\KeywordTok{explo.plot}\NormalTok{(saturation_data, }\DataTypeTok{toplot =} \StringTok{"protein_coding"}\NormalTok{, }\DataTypeTok{samples =} \DecValTok{1}\OperatorTok{:}\DecValTok{4}\NormalTok{)}
+\end{Highlighting}
+\end{Shaded}
+
+\includegraphics{output/inactivated_vs_normal_files/figure-latex/unnamed-chunk-3-3.pdf}
+
+\subsection{Sensitivity}\label{sensitivity}
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\KeywordTok{explo.plot}\NormalTok{(countsbio_data, }\DataTypeTok{toplot =} \DecValTok{1}\NormalTok{, }\DataTypeTok{samples =} \OtherTok{NULL}\NormalTok{, }\DataTypeTok{plottype =} \StringTok{"barplot"}\NormalTok{)}
+\end{Highlighting}
+\end{Shaded}
+
+\includegraphics{output/inactivated_vs_normal_files/figure-latex/unnamed-chunk-4-1.pdf}
+
+\subsection{Length Bio}\label{length-bio}
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\NormalTok{lengthbias_data =}\StringTok{ }\KeywordTok{dat}\NormalTok{(noiseq_data, }\DataTypeTok{factor =} \StringTok{"SampleGroup"}\NormalTok{, }\DataTypeTok{type =} \StringTok{"lengthbias"}\NormalTok{)}
+\end{Highlighting}
+\end{Shaded}
+
+\begin{verbatim}
+## [1] "Warning: 6299 features with 0 counts in all samples are to be removed for this analysis."
+## [1] "Length bias detection information is to be computed for:"
+## [1] "Inactivated" "Normal"     
+## [1] "Inactivated"
+## 
+## Call:
+## lm(formula = datos[, i] ~ bx)
+## 
+## Residuals:
+##     Min      1Q  Median      3Q     Max 
+## -19.468  -9.357  -1.811   4.880  63.624 
+## 
+## Coefficients: (1 not defined because of singularities)
+##              Estimate Std. Error t value Pr(>|t|)    
+## (Intercept)    69.340     16.210   4.277  7.3e-05 ***
+## bx1           -62.985     20.539  -3.067  0.00331 ** 
+## bx2           -16.317     19.470  -0.838  0.40550    
+## bx3           -57.894     19.843  -2.918  0.00504 ** 
+## bx4           -14.996     20.306  -0.739  0.46324    
+## bx5           -30.922     23.382  -1.322  0.19129    
+## bx6           -23.016     31.574  -0.729  0.46901    
+## bx7            -9.864     63.201  -0.156  0.87653    
+## bx8             6.494   1445.467   0.004  0.99643    
+## bx9         -2272.826  48001.265  -0.047  0.96240    
+## bx10               NA         NA      NA       NA    
+## ---
+## Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
+## 
+## Residual standard error: 16.21 on 57 degrees of freedom
+## Multiple R-squared:  0.262,  Adjusted R-squared:  0.1455 
+## F-statistic: 2.249 on 9 and 57 DF,  p-value: 0.03144
+## 
+## [1] "Normal"
+## 
+## Call:
+## lm(formula = datos[, i] ~ bx)
+## 
+## Residuals:
+##     Min      1Q  Median      3Q     Max 
+## -22.741  -8.916  -0.396   4.617  62.587 
+## 
+## Coefficients: (1 not defined because of singularities)
+##               Estimate Std. Error t value Pr(>|t|)   
+## (Intercept)    59.3078    17.1446   3.459  0.00103 **
+## bx1           -52.3397    21.7221  -2.410  0.01923 * 
+## bx2             0.9508    20.5918   0.046  0.96334   
+## bx3           -53.5377    20.9866  -2.551  0.01345 * 
+## bx4           -10.3757    21.4756  -0.483  0.63085   
+## bx5           -30.3670    24.7290  -1.228  0.22450   
+## bx6           -21.7900    33.3932  -0.653  0.51668   
+## bx7            -9.5714    66.8432  -0.143  0.88664   
+## bx8             4.1447  1528.7580   0.003  0.99785   
+## bx9         -2798.0084 50767.2058  -0.055  0.95624   
+## bx10                NA         NA      NA       NA   
+## ---
+## Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
+## 
+## Residual standard error: 17.14 on 57 degrees of freedom
+## Multiple R-squared:  0.1657, Adjusted R-squared:  0.03393 
+## F-statistic: 1.258 on 9 and 57 DF,  p-value: 0.2799
+\end{verbatim}
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\KeywordTok{explo.plot}\NormalTok{(lengthbias_data, }\DataTypeTok{samples =} \OtherTok{NULL}\NormalTok{, }\DataTypeTok{toplot =} \StringTok{"global"}\NormalTok{)}
+\end{Highlighting}
+\end{Shaded}
+
+\includegraphics{output/inactivated_vs_normal_files/figure-latex/unnamed-chunk-5-1.pdf}
+
+\subsection{Cd Data}\label{cd-data}
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\NormalTok{cd_data =}\StringTok{ }\KeywordTok{dat}\NormalTok{(noiseq_data, }\DataTypeTok{type =} \StringTok{"cd"}\NormalTok{, }\DataTypeTok{norm =} \OtherTok{FALSE}\NormalTok{, }\DataTypeTok{refColumn =} \DecValTok{1}\NormalTok{)}
+\end{Highlighting}
+\end{Shaded}
+
+\begin{verbatim}
+## [1] "Warning: 6299 features with 0 counts in all samples are to be removed for this analysis."
+## [1] "Reference sample is: Inactivated1"
+## [1] "Confidence intervals for median of M:"
+##              0.83%               99.17%               Diagnostic Test
+## Inactivated2 "0.299892856869878" "0.332410381630769"  "FAILED"       
+## Normal1      "-0.178963366955"   "-0.139387116127735" "FAILED"       
+## Normal2      "0.132382782305652" "0.162328093385255"  "FAILED"       
+## [1] "Diagnostic test: FAILED. Normalization is required to correct this bias."
+\end{verbatim}
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\KeywordTok{explo.plot}\NormalTok{(cd_data)}
+\end{Highlighting}
+\end{Shaded}
+
+\includegraphics{output/inactivated_vs_normal_files/figure-latex/unnamed-chunk-6-1.pdf}
+
+\subsection{GC}\label{gc}
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\NormalTok{gc_data =}\StringTok{ }\KeywordTok{dat}\NormalTok{(noiseq_data, }\DataTypeTok{factor =} \StringTok{"SampleGroup"}\NormalTok{, }\DataTypeTok{type =} \StringTok{"GCbias"}\NormalTok{)}
+\end{Highlighting}
+\end{Shaded}
+
+\begin{verbatim}
+## [1] "Warning: 6299 features with 0 counts in all samples are to be removed for this analysis."
+## [1] "GC content bias detection is to be computed for:"
+## [1] "Inactivated" "Normal"     
+## [1] "Inactivated"
+## 
+## Call:
+## lm(formula = datos[, i] ~ bx)
+## 
+## Residuals:
+##     Min      1Q  Median      3Q     Max 
+## -11.875  -5.337  -0.454   3.336  47.176 
+## 
+## Coefficients: (2 not defined because of singularities)
+##             Estimate Std. Error t value Pr(>|t|)    
+## (Intercept)   24.584      8.718   2.820  0.00656 ** 
+## bx1          -19.074     12.329  -1.547  0.12727    
+## bx2               NA         NA      NA       NA    
+## bx3         -133.222    130.595  -1.020  0.31191    
+## bx4           -1.850     17.219  -0.107  0.91482    
+## bx5           18.713     10.920   1.714  0.09194 .  
+## bx6            9.427     10.975   0.859  0.39388    
+## bx7           -9.790     13.036  -0.751  0.45568    
+## bx8          140.577     32.691   4.300 6.62e-05 ***
+## bx9         -563.337    176.628  -3.189  0.00230 ** 
+## bx10              NA         NA      NA       NA    
+## ---
+## Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
+## 
+## Residual standard error: 8.718 on 58 degrees of freedom
+## Multiple R-squared:  0.4834, Adjusted R-squared:  0.4121 
+## F-statistic: 6.783 on 8 and 58 DF,  p-value: 3.002e-06
+## 
+## [1] "Normal"
+## 
+## Call:
+## lm(formula = datos[, i] ~ bx)
+## 
+## Residuals:
+##     Min      1Q  Median      3Q     Max 
+## -10.578  -4.757  -0.806   2.006  44.171 
+## 
+## Coefficients: (2 not defined because of singularities)
+##             Estimate Std. Error t value Pr(>|t|)    
+## (Intercept)   21.240      8.246   2.576  0.01257 *  
+## bx1          -13.859     11.662  -1.188  0.23952    
+## bx2               NA         NA      NA       NA    
+## bx3          -95.001    123.534  -0.769  0.44500    
+## bx4            2.900     16.288   0.178  0.85931    
+## bx5           14.829     10.330   1.436  0.15649    
+## bx6           11.095     10.381   1.069  0.28962    
+## bx7           -6.180     12.331  -0.501  0.61812    
+## bx8          135.812     30.923   4.392 4.83e-05 ***
+## bx9         -545.941    167.077  -3.268  0.00183 ** 
+## bx10              NA         NA      NA       NA    
+## ---
+## Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
+## 
+## Residual standard error: 8.246 on 58 degrees of freedom
+## Multiple R-squared:  0.4513, Adjusted R-squared:  0.3756 
+## F-statistic: 5.963 on 8 and 58 DF,  p-value: 1.424e-05
+\end{verbatim}
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\KeywordTok{explo.plot}\NormalTok{(gc_data, }\DataTypeTok{samples =} \OtherTok{NULL}\NormalTok{, }\DataTypeTok{toplot =} \StringTok{"global"}\NormalTok{)}
+\end{Highlighting}
+\end{Shaded}
+
+\includegraphics{output/inactivated_vs_normal_files/figure-latex/unnamed-chunk-7-1.pdf}
+
+\section{Filtering, CPM and P-Value}\label{filtering-cpm-and-p-value}
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\NormalTok{cpmValues <-}\StringTok{ }\KeywordTok{cpm}\NormalTok{(sample_count)}
+\NormalTok{threshCPM <-}\StringTok{ }\NormalTok{cpmValues }\OperatorTok{>}\StringTok{ }\NormalTok{cpmLimit}
+\NormalTok{keepCPM <-}\StringTok{ }\KeywordTok{rowSums}\NormalTok{(threshCPM) }\OperatorTok{>=}\StringTok{ }\KeywordTok{min}\NormalTok{(group0numSamples, group1numSamples)}
+
+\CommentTok{# P-Value}
+\NormalTok{keepPValue <-}\StringTok{ }\NormalTok{edgerCounts[,}\DecValTok{3}\NormalTok{] }\OperatorTok{<}\StringTok{ }\NormalTok{pValueLimit}
+
+\NormalTok{sample_count_filtered <-}\StringTok{ }\NormalTok{sample_count[keepCPM }\OperatorTok{&}\StringTok{ }\NormalTok{keepPValue,]}
+\CommentTok{#sample_count_filtered <- sample_count_filtered[order(rowSums(sample_count_filtered), decreasing = T),]}
+
+\NormalTok{sample_count_filtered_sub <-}\StringTok{ }\NormalTok{sample_count_filtered[}\DecValTok{1}\OperatorTok{:}\DecValTok{20}\NormalTok{,]}
+\NormalTok{sample_count_filtered_sub}
+\end{Highlighting}
+\end{Shaded}
+
+\begin{verbatim}
+##            Inactivated1 Inactivated2 Normal1 Normal2
+## AAEL024932           17            3       8      11
+## AAEL026536            6            8       0       5
+## AAEL024089            8            1       0       5
+## AAEL026215          114          131     109     188
+## AAEL021190            2            2       9       6
+## AAEL009339           57           81      64      39
+## AAEL023380           19           36      20      43
+## AAEL022169            7           10      16      10
+## AAEL022013            9           29       0      18
+## AAEL020524          417           86     329     307
+## AAEL003192           24           33      27      37
+## AAEL017258           15            5       7      10
+## AAEL007077           25           30      25      33
+## AAEL024775           13           10       7      31
+## AAEL024516           18           23      20      27
+## AAEL025400           16           11      11       7
+## AAEL021447            5           16       2      29
+## AAEL026175          250          636    1057     869
+## AAEL025324            3            9      23      13
+## AAEL026650           24           26       3      16
+\end{verbatim}
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\NormalTok{sample_filtered_info <-}\StringTok{ }\KeywordTok{getBM}\NormalTok{(}\DataTypeTok{attributes =} \KeywordTok{c}\NormalTok{(}\StringTok{"ensembl_gene_id"}\NormalTok{, }\StringTok{"chromosome_name"}\NormalTok{, }\StringTok{"gene_biotype"}\NormalTok{, }\StringTok{"description"}\NormalTok{, }\StringTok{"protein_id"}\NormalTok{, }\StringTok{"go_id"}\NormalTok{), }\DataTypeTok{filters =} \StringTok{"ensembl_gene_id"}\NormalTok{, }\DataTypeTok{values =} \KeywordTok{rownames}\NormalTok{(sample_count_filtered),  }\DataTypeTok{mart =}\NormalTok{ aaegGenes)}
+
+\KeywordTok{write.table}\NormalTok{(sample_filtered_info, }\DataTypeTok{file=}\KeywordTok{paste}\NormalTok{(}\StringTok{"count/"}\NormalTok{, expName, }\StringTok{"_final.tsv"}\NormalTok{, }\DataTypeTok{sep=}\StringTok{""}\NormalTok{), }\DataTypeTok{sep=}\StringTok{"}\CharTok{\textbackslash{}t}\StringTok{"}\NormalTok{, }\DataTypeTok{col.names=}\OtherTok{TRUE}\NormalTok{, }\DataTypeTok{quote=}\OtherTok{FALSE}\NormalTok{)}
+\end{Highlighting}
+\end{Shaded}
+
+\subsection{68 genes left of 19712}\label{genes-left-of-19712}
+
+\subsection{HeatMap}\label{heatmap}
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\CommentTok{# Read normalized counts}
+
+\NormalTok{gene =}\StringTok{ }\KeywordTok{rownames}\NormalTok{(sample_count_filtered)}
+\NormalTok{vals =}\StringTok{ }\KeywordTok{as.matrix}\NormalTok{(sample_count_filtered)}
+
+\CommentTok{# Adds a little noise to each element}
+\CommentTok{# To avoid the clusteing function failing on zero}
+\CommentTok{# variance datalines.}
+\NormalTok{vals =}\StringTok{ }\KeywordTok{jitter}\NormalTok{(vals, }\DataTypeTok{factor =} \DecValTok{1}\NormalTok{, }\DataTypeTok{amount=}\FloatTok{0.00001}\NormalTok{)}
+
+
+\CommentTok{# Calculate zscore}
+\NormalTok{score =}\StringTok{ }\OtherTok{NULL}
+\ControlFlowTok{for}\NormalTok{ (i }\ControlFlowTok{in} \DecValTok{1}\OperatorTok{:}\KeywordTok{nrow}\NormalTok{(vals)) \{}
+\NormalTok{    row=vals[i,]}
+\NormalTok{    zscore=(row}\OperatorTok{-}\KeywordTok{mean}\NormalTok{(row))}\OperatorTok{/}\KeywordTok{sd}\NormalTok{(row)}
+\NormalTok{    score =}\KeywordTok{rbind}\NormalTok{(score,zscore)}
+\NormalTok{\}}
+
+\KeywordTok{row.names}\NormalTok{(score) =}\StringTok{ }\NormalTok{gene}
+\NormalTok{zscore=score}
+
+\CommentTok{# Generate heatmap}
+\NormalTok{mat =}\StringTok{ }\KeywordTok{as.matrix}\NormalTok{(zscore)}
+
+\NormalTok{colors =}\StringTok{ }\KeywordTok{colorRampPalette}\NormalTok{(}\KeywordTok{c}\NormalTok{(}\StringTok{"green"}\NormalTok{,}\StringTok{"black"}\NormalTok{,}\StringTok{"red"}\NormalTok{),}\DataTypeTok{space=}\StringTok{"rgb"}\NormalTok{)(}\DecValTok{256}\NormalTok{)}
+\KeywordTok{heatmap.2}\NormalTok{(mat,}\DataTypeTok{col=}\NormalTok{colors,}\DataTypeTok{density.info=}\StringTok{"none"}\NormalTok{,}\DataTypeTok{trace=}\StringTok{"none"}\NormalTok{, }\DataTypeTok{Colv=}\OtherTok{FALSE}\NormalTok{, }\DataTypeTok{margins=}\KeywordTok{c}\NormalTok{(}\DecValTok{12}\NormalTok{,}\DecValTok{12}\NormalTok{))}
+\end{Highlighting}
+\end{Shaded}
+
+\begin{verbatim}
+## Warning in heatmap.2(mat, col = colors, density.info = "none", trace =
+## "none", : Discrepancy: Colv is FALSE, while dendrogram is `both'. Omitting
+## column dendogram.
+\end{verbatim}
+
+\includegraphics{output/inactivated_vs_normal_files/figure-latex/HeatMap-1.pdf}
+
+
+\end{document}

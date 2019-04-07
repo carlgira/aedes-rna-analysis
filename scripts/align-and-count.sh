@@ -4,6 +4,7 @@
 # Output folders
 mkdir -p count
 mkdir -p bam
+mkdir -p output
 
 if [ $# -ne 2 ]
   then
@@ -45,7 +46,7 @@ done
 BAM_FILES=`awk 'BEGIN {ORS=" "}; NR>1{print $2}' $SAMPLE_FILE`
 
 # Generate counts.
-echo "*** [$(date)] [align-and-count.sh] Counting features"
+echo "*** [$(date)] [align-and-count.sh] Counting features $COUNT_FILE"
 if [ ! -f $COUNT_FILE ]; then
     featureCounts -a $GTF -g gene_id -o $COUNT_FILE $BAM_FILES
 fi

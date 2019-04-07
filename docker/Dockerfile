@@ -1,4 +1,4 @@
-FROM debian:stretch
+FROM ubuntu:18.04
 
 # docker build . -t carlgira/rna-analysis:latest
 
@@ -7,14 +7,13 @@ FROM debian:stretch
 #######
 
 ENV LANG=C.UTF-8 LC_ALL=C.UTF-8
-ENV PATH /opt/conda/bin:$PATH
+ENV TZ=Europe/Minsk
+ENV PATH /opt/conda/bin:/opt/STAR/source:$PATH
+RUN ln -snf /usr/share/zoneinfo/$TZ /etc/localtime && echo $TZ > /etc/timezone
 
 RUN apt-get update --fix-missing && \
-    apt-get install -y wget bzip2 ca-certificates curl git dirmngr apt-transport-https ca-certificates software-properties-common gnupg2 && \
-    apt-key adv --keyserver keys.gnupg.net --recv-key 'E19F5F87128899B192B1A2C2AD5F960A256A04AF' && \
-    add-apt-repository 'deb https://cloud.r-project.org/bin/linux/debian stretch-cran35/' && \
+    apt-get install -y wget bzip2 ca-certificates curl git r-base && \
     apt-get update && \
-    apt-get -y install r-base && \
     apt-get clean && \
     rm -rf /var/lib/apt/lists/*
 
@@ -35,24 +34,20 @@ RUN wget --quiet https://repo.anaconda.com/miniconda/Miniconda3-4.5.11-Linux-x86
 ##################
 
 RUN conda config --add channels conda-forge && \
-    conda config --add channels bioconda && \
-    conda install -y fastqc=0.11.8 && \
-    conda install -y hisat2=2.1.0 && \
-    conda install -y samtools=1.9 && \
-    conda install -y subread=1.6.4 && \
-    conda install -y pandas=0.23.4
+    conda config --add channels bioconda
 
+RUN conda install -y fastqc=0.11.8
+RUN conda install -y hisat2=2.1.0
+RUN conda install -y samtools=1.9
+RUN conda install -y subread=1.6.4
 RUN conda install -y picard=2.19.0
-RUN conda install -y fadapa=0.3.1
 RUN conda install -y multiqc=1.7
-
-###############
-## R packages #
-###############
-
-RUN echo "source('http://bioconductor.org/biocLite.R') \n biocLite('edgeR') \n biocLite('biomaRt')" | R --no-save
-#RUN echo "install.packages('ggplot2',  dep = TRUE)" | R --no-save
-#RUN echo "install.packages('BiocManager', repos='http://cran.us.r-project.org', dep=TRUE)" | R --no-save
-#RUN echo "BiocManager::install('Glimma', version = '3.8')" | R --no-save
-# BiocManager::install("NOISeq", version = "3.8")
-# BiocManager::install("Rsubread", version = "3.8")
+RUN conda install -y star=2.7.0e
+RUN conda install -y pandoc=2.7.1
+RUN conda install -y bioconductor-edger=3.24.1
+RUN conda install -y bioconductor-biomart=2.38.0
+RUN conda install -y bioconductor-noiseq=2.26.0
+RUN conda install -y bioconductor-glimma=1.10.0
+RUN conda install -y r-rmarkdown=1.12
+RUN conda install -y r-gplots=3.0.1.1
+RUN conda install -y r-ggplot2=3.1.0

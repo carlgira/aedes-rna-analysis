@@ -1,5 +1,5 @@
 ---
-title: "RNA-seq"
+title: "Differential Expression Analysis"
 output: html_document
 params:
   expName: ""
@@ -7,24 +7,31 @@ params:
   pvalue: 0.05
 ---
 
-# `r params$expName`
+This notebook shows the differential expression analysis for the experiment `r params$expName`.
 
-```{r, Load Library, results='hide'}
+There are different graphs that represent an exploratory analysis of the data, the quality of the results and the list of genes that have a relevant difference in expression bettewn two groups of samples.
+
+### Load libraries
+- **edger:** Library to normalize RNA-seq expression data [1].
+- **noiseq:** Using noiseq exploratory plots to evaluate the quality of the results [2].
+- **biomart:** Interface to biomart databases [3]
+
+```{r, Load Library, message=FALSE}
 library(gplots)
 library(edgeR)
 library(NOISeq)
 library(biomaRt)
 
+# Parameters
 expName = params$expName
 cpmLimit = params$cpm
 pValueLimit = params$pvalue
 ```
 
 
-
-# Load ExpName and count data
+### Load Experimental data
+Loading count data from output of *featurecounts* tool.
 ```{r, Load data}
-#expName <- "inactivated_vs_normal"
 sampleinfo <- read.csv(paste("setup/", expName, ".tsv", sep=""), sep = " ")
 seqdata <- read.delim(paste("count/", expName, "_count.tsv", sep=""), sep = "\t", stringsAsFactors = FALSE, header=TRUE, skip=1)
 
@@ -36,13 +43,11 @@ groups <- sampleinfo[,4]
 
 group0numSamples <- sum(sampleinfo[,5]==0)
 group1numSamples <- sum(sampleinfo[,5]==1)
-
+sampleinfo
 ```
 
-
-# Normalisation TMM (Edger)
+### TMM Normalization (Edger)
 ```{r, Normalisation}
-
 
 # Set up the groups based on the experimental setup.
 cond_1 = rep("cond1", group0numSamples)
@@ -57,7 +62,7 @@ dge <- estimateGLMTrendedDisp(dge)
 dge <- estimateTagwiseDisp(dge)
 
 
-# This performs a pairwise comparison.
+# Perform pairwise comparison.
 etx <- exactTest(dge)
 etp <- topTags(etx, n=100000, sort.by="p.value")
 
@@ -80,49 +85,9 @@ write.table(dt, file=normCountsFile, sep="\t", row.name=FALSE, col.names=TRUE, q
 
 ```
 
-
-
-
-# Count Stats
-
-```{r, Count Stats}
-# Check library Sizes
-barplot(dge$samples$lib.size, names=colnames(dge), las=2, main="Barplot of library sizes")
-abline(h=20e6, lty=2)
-
-#boxplots we see that overall the density distributions of raw log-intensities
-# If a sample is really far above or below the blue horizontal line we may need to investigate that sample further
-logcounts <- cpm(dge,log=TRUE)
-boxplot(logcounts, xlab="", ylab="Log2 counts per million",las=2)
-abline(h=median(logcounts), col="blue", main="Boxplots of logCPMs (unnormalised)")
-
-### Principle components analysis
-
-plotMDS(dge)
-
-```
-
-
-```{r, Count Visualizations}
-hist(edgerCounts$PValue)
-design <- model.matrix(~ groups)
-fit <- glmFit(dge, design)
-lrt.BvsL <- glmLRT(fit, coef=2)
-
-results <- as.data.frame(topTags(lrt.BvsL,n = Inf))
-
-summary(de <- decideTestsDGE(lrt.BvsL))
-detags <- rownames(dge)[as.logical(de)]
-plotSmear(lrt.BvsL, de.tags=detags)
-
-signif <- -log10(results$FDR)
-plot(results$logFC,signif,pch=16)
-points(results[detags,"logFC"],-log10(results[detags,"FDR"]),pch=16,col="red")
-```
-
-# Nioseq QC
+# Exploration Analysis
 Build the data structure for all the NOISEQ graphs.
-```{r}
+```{r, Nioseq data structure}
 
 vectorbase_gene <- new("Mart", biomart = "vb_gene_mart_1902", vschema = "vb_mart_1902", host = "https://biomart.vectorbase.org/biomart/martservice")
 aaegGenes<-useDataset("alvpagwg_eg_gene", vectorbase_gene)
@@ -137,67 +102,109 @@ sample_factors <- sampleinfo[,c(3,4,5)]
 sample_count <- normCounts[, 2:ncol(normCounts)]
 
 noiseq_data <- readData(data=sample_count,length=sample_length, biotype=sample_biotype, gc=sample_gc_content, chromosome=sample_chrm, factors=sample_factors)
-
 ```
 
-## Biodetection plots
-```{r}
+### Countsbio plots
+```{r Countbio}
+# Build countbio data
+countsbio_data = dat(noiseq_data, factor = NULL, type = "countsbio")
 
+# Count data samples
+for( i in 1:nrow(sampleinfo)){
+  explo.plot(countsbio_data, toplot = 1, samples = i, plottype = "boxplot")  
+}
+
+# Saturation plot
+saturation_data = dat(noiseq_data, k = 0, ndepth = 7, type = "saturation")
+explo.plot(saturation_data, toplot = 1, samples = 1:nrow(sampleinfo), yleftlim = NULL, yrightlim = NULL)
+```
+
+### Biodetection plots
+The gray bar corresponds to the percentage of each biotypein the genome, the stripped color bar is the proportion detected in oursample, and the solid color bar is the percentage of each biotype withinthe sample.  The vertical green line separates the most abundant biotypes  from the rest (in the right-hand side, corresponding to the right axis scale).
+```{r, Biodetection}
+# data
 biodetection_data <- dat(noiseq_data, type = "biodetection")
 
 par(mfrow = c(1, 2))
-explo.plot(biodetection_data, samples = c(1, 3), plottype = "persample")
+explo.plot(biodetection_data, samples = c(1, 1 + group0numSamples), plottype = "persample")
 
 par(mfrow = c(1, 2))
-explo.plot(biodetection_data, samples = c(1, 3), toplot = "protein_coding", plottype = "comparison")
-
-par(mfrow = c(1, 2))
-explo.plot(biodetection_data, samples = c(2, 4), plottype = "persample")
-
-par(mfrow = c(1, 2))
-explo.plot(biodetection_data, samples = c(2, 4), toplot = "protein_coding", plottype = "comparison")
-
+explo.plot(biodetection_data, samples = c(1, 1 + group0numSamples), toplot = "protein_coding", plottype = "comparison")
 ```
 
-## Countsbio plots
-```{r}
-
-countsbio_data = dat(noiseq_data, factor = NULL, type = "countsbio")
-
-explo.plot(countsbio_data, toplot = 1, samples = 1, plottype = "boxplot")
-
-saturation_data = dat(noiseq_data, k = 0, ndepth = 7, type = "saturation")
-explo.plot(saturation_data, toplot = 1, samples = 1:2, yleftlim = NULL, yrightlim = NULL)
-explo.plot(saturation_data, toplot = "protein_coding", samples = 1:4)
-```
-
-## Sensitivity
-```{r}
-
+### Sensitivity
+ The “Sensitivity plot” helps to decide the threshold to remove low-count features by indicating the proportion of such features that are presentin our data.
+```{r, Sensitivity}
 explo.plot(countsbio_data, toplot = 1, samples = NULL, plottype = "barplot")
 ```
 
-## Length Bio
-```{r}
+### Length Bias
+The “lengthbias” plot describes the relationship between the feature length and the expression values.
+```{r. Length bias}
 lengthbias_data = dat(noiseq_data, factor = "SampleGroup", type = "lengthbias")
 explo.plot(lengthbias_data, samples = NULL, toplot = "global")
 ```
 
-## Cd Data
-```{r}
-cd_data = dat(noiseq_data, type = "cd", norm = FALSE, refColumn = 1)
-explo.plot(cd_data)
-```
-
-
-## GC 
-```{r}
+### GC Content Bias
+The “GCbias” plot describes the relationship between the feature GC content and the expression values. 
+```{r, GC content bias}
 gc_data = dat(noiseq_data, factor = "SampleGroup", type = "GCbias")
 explo.plot(gc_data, samples = NULL, toplot = "global")
 ```
 
-# Filtering, CPM and P-Value
+### Count Stats
+```{r, Count Stats}
+par(mfrow = c(1, 2))
+# Check library Sizes
+barplot(dge$samples$lib.size, names=colnames(dge), las=2, main="Barplot of library sizes")
+abline(h=20e6, lty=2)
 
+# If a sample is really far above or below the blue horizontal line we may need to investigate that sample further
+logcounts <- cpm(dge,log=TRUE)
+boxplot(logcounts, xlab="", ylab="Log2 counts per million",las=2)
+abline(h=median(logcounts), col="blue", main="Boxplots of logCPMs (unnormalised)")
+
+```
+
+
+### Principal Component Analysis
+Visualize if the experimental samples are clustered according to the experimental design or if there is an unwanted source of noise in the data that hampers this clustering is the Principal Component Analysis.
+```{r}
+# Principle components analysis
+plotMDS(dge)
+
+cd_data = dat(noiseq_data, type = "cd", norm = FALSE, refColumn = 1)
+explo.plot(cd_data)
+```
+
+# Differential Expression
+
+```{r, Count Visualizations}
+
+# Histogram of PValue
+hist(edgerCounts$PValue)
+
+# Summary of Expression Analysis
+design <- model.matrix(~ groups)
+fit <- glmFit(dge, design)
+lrt.BvsL <- glmLRT(fit, coef=2)
+results <- as.data.frame(topTags(lrt.BvsL,n = Inf))
+summary(de <- decideTestsDGE(lrt.BvsL))
+
+par(mfrow = c(1, 2))
+# Log-fold change against log-counts per million with DE genes highlighted
+detags <- rownames(dge)[as.logical(de)]
+plotSmear(lrt.BvsL, de.tags=detags)
+
+# Volcano plot
+signif <- -log10(results$FDR)
+plot(results$logFC,signif,pch=16)
+points(results[detags,"logFC"],-log10(results[detags,"FDR"]),pch=16,col="red")
+```
+
+
+## Filtering
+Filteing the results using a the conditions of pvalue < `r pValueLimit` and cpm > `r cpmLimit`  
 ```{r, Filtering}
 
 cpmValues <- cpm(sample_count)
@@ -208,7 +215,6 @@ keepCPM <- rowSums(threshCPM) >= min(group0numSamples, group1numSamples)
 keepPValue <- edgerCounts[,3] < pValueLimit
 
 sample_count_filtered <- sample_count[keepCPM & keepPValue,]
-#sample_count_filtered <- sample_count_filtered[order(rowSums(sample_count_filtered), decreasing = T),]
 
 sample_count_filtered_sub <- sample_count_filtered[1:20,]
 sample_count_filtered_sub
@@ -219,9 +225,9 @@ write.table(sample_filtered_info, file=paste("count/", expName, "_final.tsv", se
 
 ```
 
-## `r paste(nrow(sample_count_filtered), "genes left of ", nrow(sample_count))`
+`r paste(nrow(sample_count_filtered), "genes left of ", nrow(sample_count))`
 
-## HeatMap
+### HeatMap
 ```{r, HeatMap}
 
 
@@ -253,5 +259,13 @@ mat = as.matrix(zscore)
 colors = colorRampPalette(c("green","black","red"),space="rgb")(256)
 heatmap.2(mat,col=colors,density.info="none",trace="none", Colv=FALSE, margins=c(12,12))
 ```
+
+## References
+
+1. Edger.https://bioconductor.org/packages/release/bioc/html/edgeR.html
+2. Noiseq. https://bioconductor.org/packages/release/bioc/html/NOISeq.html
+3. Biomart. https://bioconductor.org/packages/release/bioc/html/biomaRt.html
+
+
 
 
