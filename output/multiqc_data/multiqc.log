@@ -1,0 +1,309 @@
+[2019-04-07 15:41:36,310] multiqc                                            [DEBUG  ]  No MultiQC config found: /opt/conda/lib/python3.6/site-packages/multiqc_config.yaml
+[2019-04-07 15:41:36,310] multiqc                                            [DEBUG  ]  No MultiQC config found: /root/.multiqc_config.yaml
+[2019-04-07 15:41:36,310] multiqc                                            [DEBUG  ]  No MultiQC config found: multiqc_config.yaml
+[2019-04-07 15:41:36,310] multiqc                                            [DEBUG  ]  Command used: /opt/conda/bin/multiqc -o output .
+[2019-04-07 15:41:36,950] multiqc                                            [DEBUG  ]  Latest MultiQC version is v1.7
+[2019-04-07 15:41:36,950] multiqc                                            [INFO   ]  This is MultiQC v1.7
+[2019-04-07 15:41:36,950] multiqc                                            [DEBUG  ]  Command     : /opt/conda/bin/multiqc -o output .
+[2019-04-07 15:41:36,951] multiqc                                            [DEBUG  ]  Working dir : /work
+[2019-04-07 15:41:36,951] multiqc                                            [INFO   ]  Template    : default
+[2019-04-07 15:41:36,951] multiqc                                            [INFO   ]  Searching '.'
+[2019-04-07 15:41:36,953] multiqc                                            [DEBUG  ]  Analysing modules: custom_content, conpair, peddy, methylQA, phantompeakqualtools, qualimap, preseq, quast, qorts, rna_seqc, rsem, rseqc, busco, goleft_indexcov, disambiguate, supernova, deeptools, sargasso, verifybamid, mirtrace, happy, homer, macs2, theta2, snpeff, gatk, htseq, bcftools, featureCounts, dedup, damageprofiler, picard, prokka, samblaster, samtools, bamtools, jellyfish, vcftools, longranger, stacks, bbmap, bismark, biscuit, hicexplorer, hicup, hicpro, salmon, kallisto, slamdunk, star, hisat2, tophat, bowtie2, bowtie1, kat, leehom, adapterRemoval, clipandmerge, cutadapt, flexbar, trimmomatic, skewer, sortmerna, biobloomtools, fastq_screen, afterqc, fastp, fastqc, minionqc, clusterflow, bcl2fastq, interop, flash
+[2019-04-07 15:41:36,953] multiqc                                            [DEBUG  ]  Using temporary directory for creating report: /tmp/tmpa7d5pie7
+[2019-04-07 15:41:37,023] multiqc                                            [DEBUG  ]  Ignoring directory as matched fn_ignore_dirs: ./multiqc_data
+[2019-04-07 15:41:37,765] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: multiqc_report.html
+[2019-04-07 15:41:37,766] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: .DS_Store
+[2019-04-07 15:41:39,198] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: output.nb.html
+[2019-04-07 15:41:41,232] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: Normal2_mappable.bam
+[2019-04-07 15:41:41,234] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: SugarFed2_mappable.bam.bai
+[2019-04-07 15:41:41,236] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: Control2_mappable.bam.bai
+[2019-04-07 15:41:41,239] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: C5a1_mappable.bam.bai
+[2019-04-07 15:41:41,241] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: Inactivated2_mappable.bam.bai
+[2019-04-07 15:41:41,242] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: SugarFed2_mappable.bam
+[2019-04-07 15:41:41,244] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: Control2_mappable.bam
+[2019-04-07 15:41:41,245] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: C3a2_mappable.bam
+[2019-04-07 15:41:41,246] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: C5a3_mappable.bam
+[2019-04-07 15:41:41,247] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: Control3_mappable.bam.bai
+[2019-04-07 15:41:41,248] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: Control3_mappable.bam
+[2019-04-07 15:41:41,249] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: C3a1_mappable.bam.bai
+[2019-04-07 15:41:41,250] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: Inactivated2_mappable.bam
+[2019-04-07 15:41:41,252] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: C5a2_mappable.bam
+[2019-04-07 15:41:41,253] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: C3a3_mappable.bam
+[2019-04-07 15:41:41,254] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: Control1_mappable.bam
+[2019-04-07 15:41:41,255] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: C5a3_mappable.bam.bai
+[2019-04-07 15:41:41,256] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: SugarFed1_mappable.bam
+[2019-04-07 15:41:41,257] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: C3a1_mappable.bam
+[2019-04-07 15:41:41,258] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: Inactivated1_mappable.bam
+[2019-04-07 15:41:41,259] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: C5a1_mappable.bam
+[2019-04-07 15:41:41,260] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: C3a2_mappable.bam.bai
+[2019-04-07 15:41:41,261] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: SugarFed1_mappable.bam.bai
+[2019-04-07 15:41:41,262] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: Control1_mappable.bam.bai
+[2019-04-07 15:41:41,262] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: C5a2_mappable.bam.bai
+[2019-04-07 15:41:41,264] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: Normal1_mappable.bam
+[2019-04-07 15:41:41,264] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: Inactivated1_mappable.bam.bai
+[2019-04-07 15:41:41,265] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: C3a3_mappable.bam.bai
+[2019-04-07 15:41:41,266] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: Normal2_mappable.bam.bai
+[2019-04-07 15:41:41,478] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: Normal2_mappable_fastqc.html
+[2019-04-07 15:41:41,480] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: Control2_mappable_fastqc.html
+[2019-04-07 15:41:41,484] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: Inactivated2_mappable_fastqc.html
+[2019-04-07 15:41:41,486] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: Control3_mappable_fastqc.html
+[2019-04-07 15:41:41,489] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: SugarFed2_mappable_fastqc.html
+[2019-04-07 15:41:41,490] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: C3a1_mappable_fastqc.html
+[2019-04-07 15:41:41,494] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: SugarFed1_mappable_fastqc.html
+[2019-04-07 15:41:41,496] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: Inactivated1_mappable_fastqc.html
+[2019-04-07 15:41:41,497] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: C3a2_mappable_fastqc.html
+[2019-04-07 15:41:41,500] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: C5a3_mappable_fastqc.html
+[2019-04-07 15:41:41,502] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: C5a2_mappable_fastqc.html
+[2019-04-07 15:41:41,505] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: Normal2_mappable_fastqc.html
+[2019-04-07 15:41:41,506] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: C3a3_mappable_fastqc.html
+[2019-04-07 15:41:41,509] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: C5a1_mappable_fastqc.html
+[2019-04-07 15:41:41,512] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: Control1_mappable_fastqc.html
+[2019-04-07 15:41:41,515] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: Control1_mappable_fastqc.html
+[2019-04-07 15:41:41,516] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: C3a3_mappable_fastqc.html
+[2019-04-07 15:41:41,519] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: C3a2_mappable_fastqc.html
+[2019-04-07 15:41:41,522] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: SugarFed2_mappable_fastqc.html
+[2019-04-07 15:41:41,524] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: SugarFed1_mappable_fastqc.html
+[2019-04-07 15:41:41,526] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: Normal1_mappable_fastqc.html
+[2019-04-07 15:41:41,529] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: Inactivated2_mappable_fastqc.html
+[2019-04-07 15:41:41,531] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: Inactivated1_mappable_fastqc.html
+[2019-04-07 15:41:41,532] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: C5a3_mappable_fastqc.html
+[2019-04-07 15:41:41,535] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: Control3_mappable_fastqc.html
+[2019-04-07 15:41:41,537] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: Control2_mappable_fastqc.html
+[2019-04-07 15:41:41,539] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: C3a1_mappable_fastqc.html
+[2019-04-07 15:41:41,541] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: C5a2_mappable_fastqc.html
+[2019-04-07 15:41:41,545] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: Normal1_mappable_fastqc.html
+[2019-04-07 15:41:41,547] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: C5a1_mappable_fastqc.html
+[2019-04-07 15:41:41,555] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: .DS_Store
+[2019-04-07 15:41:41,559] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: Normal2_mappable_fastqc.html
+[2019-04-07 15:41:41,563] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: Inactivated2_mappable_fastqc.html
+[2019-04-07 15:41:41,565] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: C3a1_mappable_fastqc.html
+[2019-04-07 15:41:41,570] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: SugarFed1_mappable_fastqc.html
+[2019-04-07 15:41:41,572] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: C5a3_mappable_fastqc.html
+[2019-04-07 15:41:41,574] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: C5a2_mappable_fastqc.html
+[2019-04-07 15:41:41,577] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: Control1_mappable_fastqc.html
+[2019-04-07 15:41:41,578] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: C3a3_mappable_fastqc.html
+[2019-04-07 15:41:41,580] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: C3a2_mappable_fastqc.html
+[2019-04-07 15:41:41,584] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: SugarFed2_mappable_fastqc.html
+[2019-04-07 15:41:41,586] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: .DS_Store
+[2019-04-07 15:41:41,589] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: Normal1_mappable_fastqc.html
+[2019-04-07 15:41:41,591] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: fastqc_report.html
+[2019-04-07 15:41:42,109] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: Inactivated1_mappable_fastqc.html
+[2019-04-07 15:41:42,110] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: Control3_mappable_fastqc.html
+[2019-04-07 15:41:42,113] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: Control2_mappable_fastqc.html
+[2019-04-07 15:41:42,117] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: C5a1_mappable_fastqc.html
+[2019-04-07 15:41:42,118] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: Normal2_mappable.bam
+[2019-04-07 15:41:42,125] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: SugarFed2_mappable.bam.bai
+[2019-04-07 15:41:42,127] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: Control2_mappable.bam.bai
+[2019-04-07 15:41:42,128] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: C5a1_mappable.bam.bai
+[2019-04-07 15:41:42,130] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: Normal1_mappable.bam.bai
+[2019-04-07 15:41:42,131] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: Inactivated2_mappable.bam.bai
+[2019-04-07 15:41:42,133] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: SugarFed2_mappable.bam
+[2019-04-07 15:41:42,134] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: Control2_mappable.bam
+[2019-04-07 15:41:42,135] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: C3a2_mappable.bam
+[2019-04-07 15:41:42,137] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: C5a3_mappable.bam
+[2019-04-07 15:41:42,138] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: Control3_mappable.bam.bai
+[2019-04-07 15:41:42,139] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: Control3_mappable.bam
+[2019-04-07 15:41:42,140] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: C3a1_mappable.bam.bai
+[2019-04-07 15:41:42,141] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: Inactivated2_mappable.bam
+[2019-04-07 15:41:42,143] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: C5a2_mappable.bam
+[2019-04-07 15:41:42,143] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: C3a3_mappable.bam
+[2019-04-07 15:41:42,144] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: Control1_mappable.bam
+[2019-04-07 15:41:42,145] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: C5a3_mappable.bam.bai
+[2019-04-07 15:41:42,146] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: SugarFed1_mappable.bam
+[2019-04-07 15:41:42,147] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: C3a1_mappable.bam
+[2019-04-07 15:41:42,148] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: Inactivated1_mappable.bam
+[2019-04-07 15:41:42,150] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: C5a1_mappable.bam
+[2019-04-07 15:41:42,150] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: C3a2_mappable.bam.bai
+[2019-04-07 15:41:42,151] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: SugarFed1_mappable.bam.bai
+[2019-04-07 15:41:42,153] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: Control1_mappable.bam.bai
+[2019-04-07 15:41:42,154] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: C5a2_mappable.bam.bai
+[2019-04-07 15:41:42,155] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: Normal1_mappable.bam
+[2019-04-07 15:41:42,156] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: Inactivated1_mappable.bam.bai
+[2019-04-07 15:41:42,157] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: C3a3_mappable.bam.bai
+[2019-04-07 15:41:42,158] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: Normal2_mappable.bam.bai
+[2019-04-07 15:42:06,601] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: inactivated_vs_sugarfed.html
+[2019-04-07 15:42:06,602] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: c5a_vs_control.html
+[2019-04-07 15:42:06,865] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: inactivated_vs_normal.html
+[2019-04-07 15:42:06,865] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: c3a_vs_control.html
+[2019-04-07 15:42:06,867] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: normal_vs_sugarfed.html
+[2019-04-07 15:42:06,868] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: C3a3_mappable.fq
+[2019-04-07 15:42:06,869] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: Normal1_mappable.fq
+[2019-04-07 15:42:06,875] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: C5a1_mappable.fq
+[2019-04-07 15:42:06,876] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: .DS_Store
+[2019-04-07 15:42:07,084] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: Normal1_1.fastq
+[2019-04-07 15:42:07,085] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: Inactivated2_mappable.fq
+[2019-04-07 15:42:07,087] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: Control2_mappable.fq
+[2019-04-07 15:42:07,088] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: Inactivated1_mappable.fq
+[2019-04-07 15:42:07,090] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: Control1_mappable.fq
+[2019-04-07 15:42:07,091] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: C5a2_mappable.fq
+[2019-04-07 15:42:07,092] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: Aligned.sortedByCoord.out.bam
+[2019-04-07 15:42:07,093] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: Normal2_mappable.fq
+[2019-04-07 15:42:07,313] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: SugarFed2_mappable.fq
+[2019-04-07 15:42:07,320] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: C5a1_1.fastq
+[2019-04-07 15:42:07,321] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: Control3_mappable.fq
+[2019-04-07 15:42:07,920] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: Control2_1.fastq
+[2019-04-07 15:42:08,098] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: C3a2_mappable.fq
+[2019-04-07 15:42:08,312] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: SugarFed1_1.fastq
+[2019-04-07 15:42:08,314] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: C3a1_mappable.fq
+[2019-04-07 15:42:08,316] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: C5a3_mappable.fq
+[2019-04-07 15:42:08,318] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: SugarFed1_mappable.fq
+[2019-04-07 15:42:08,319] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: Control1_1_fastqc.html
+[2019-04-07 15:42:08,325] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: Control1_mappable_fastqc.html
+[2019-04-07 15:42:08,326] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: MDS-Plot.html
+[2019-04-07 15:42:10,150] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: Aedes-aegypti-LVP_AGWG_BASEFEATURES_AaegL5.1.gtf
+[2019-04-07 15:42:23,881] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: Aedes-aegypti-LVP_AGWG_CHROMOSOMES_AaegL5.fa
+[2019-04-07 15:43:56,393] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: c3a_vs_control_heatmap.pdf
+[2019-04-07 15:43:56,394] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: inactivated_vs_sugarFed_heatmap.pdf
+[2019-04-07 15:43:56,407] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: inactivated_vs_normal_heatmap.pdf
+[2019-04-07 15:43:56,409] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: normal_vs_sugarFed_heatmap.pdf
+[2019-04-07 15:43:56,411] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: c5a_vs_control_heatmap.pdf
+[2019-04-07 15:43:56,413] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: Aedes-aegypti-LVP_AGWG_BASEFEATURES_AaegL5.1.gtf
+[2019-04-07 15:43:56,640] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: Aedes-aegypti-LVP_AGWG_CHROMOSOMES_AaegL5.fa
+[2019-04-07 15:43:58,035] multiqc                                            [DEBUG  ]  No samples found: custom_content
+[2019-04-07 15:43:58,042] multiqc                                            [DEBUG  ]  No samples found: conpair
+[2019-04-07 15:43:58,047] multiqc                                            [DEBUG  ]  No samples found: peddy
+[2019-04-07 15:43:58,053] multiqc                                            [DEBUG  ]  No samples found: methylQA
+[2019-04-07 15:43:58,059] multiqc                                            [DEBUG  ]  No samples found: phantompeakqualtools
+[2019-04-07 15:43:58,067] multiqc                                            [DEBUG  ]  No samples found: qualimap
+[2019-04-07 15:43:58,073] multiqc                                            [DEBUG  ]  No samples found: preseq
+[2019-04-07 15:43:58,079] multiqc                                            [DEBUG  ]  No samples found: quast
+[2019-04-07 15:43:58,085] multiqc                                            [DEBUG  ]  No samples found: qorts
+[2019-04-07 15:43:58,090] multiqc                                            [DEBUG  ]  No samples found: rna_seqc
+[2019-04-07 15:43:58,095] multiqc                                            [DEBUG  ]  No samples found: rsem
+[2019-04-07 15:43:58,109] multiqc                                            [DEBUG  ]  No samples found: rseqc
+[2019-04-07 15:43:58,115] multiqc                                            [DEBUG  ]  No samples found: busco
+[2019-04-07 15:43:58,120] multiqc                                            [DEBUG  ]  No samples found: goleft_indexcov
+[2019-04-07 15:43:58,126] multiqc                                            [DEBUG  ]  No samples found: disambiguate
+[2019-04-07 15:43:58,131] multiqc                                            [DEBUG  ]  No samples found: supernova
+[2019-04-07 15:43:58,147] multiqc                                            [DEBUG  ]  No samples found: deeptools
+[2019-04-07 15:43:58,152] multiqc                                            [DEBUG  ]  No samples found: sargasso
+[2019-04-07 15:43:58,157] multiqc                                            [DEBUG  ]  No samples found: verifybamid
+[2019-04-07 15:43:58,163] multiqc                                            [DEBUG  ]  No samples found: mirtrace
+[2019-04-07 15:43:58,168] multiqc                                            [DEBUG  ]  No samples found: happy
+[2019-04-07 15:43:58,179] multiqc                                            [DEBUG  ]  No samples found: homer
+[2019-04-07 15:43:58,186] multiqc                                            [DEBUG  ]  No samples found: macs2
+[2019-04-07 15:43:58,193] multiqc                                            [DEBUG  ]  No samples found: theta2
+[2019-04-07 15:43:58,199] multiqc                                            [DEBUG  ]  No samples found: snpeff
+[2019-04-07 15:43:58,207] multiqc                                            [DEBUG  ]  No samples found: gatk
+[2019-04-07 15:43:58,213] multiqc                                            [DEBUG  ]  No samples found: htseq
+[2019-04-07 15:43:58,220] multiqc                                            [DEBUG  ]  No samples found: bcftools
+[2019-04-07 15:43:58,238] multiqc.modules.featureCounts.feature_counts       [DEBUG  ]  Duplicate sample name found! Overwriting: Normal1_mappable
+[2019-04-07 15:43:58,238] multiqc.modules.featureCounts.feature_counts       [DEBUG  ]  Duplicate sample name found! Overwriting: Normal2_mappable
+[2019-04-07 15:43:58,241] multiqc.modules.featureCounts.feature_counts       [DEBUG  ]  Duplicate sample name found! Overwriting: Inactivated1_mappable
+[2019-04-07 15:43:58,241] multiqc.modules.featureCounts.feature_counts       [DEBUG  ]  Duplicate sample name found! Overwriting: Inactivated2_mappable
+[2019-04-07 15:43:58,241] multiqc.modules.featureCounts.feature_counts       [DEBUG  ]  Duplicate sample name found! Overwriting: SugarFed1_mappable
+[2019-04-07 15:43:58,241] multiqc.modules.featureCounts.feature_counts       [DEBUG  ]  Duplicate sample name found! Overwriting: SugarFed2_mappable
+[2019-04-07 15:43:58,244] multiqc.modules.featureCounts.feature_counts       [DEBUG  ]  Duplicate sample name found! Overwriting: Control1_mappable
+[2019-04-07 15:43:58,245] multiqc.modules.featureCounts.feature_counts       [DEBUG  ]  Duplicate sample name found! Overwriting: Control2_mappable
+[2019-04-07 15:43:58,245] multiqc.modules.featureCounts.feature_counts       [DEBUG  ]  Duplicate sample name found! Overwriting: Control3_mappable
+[2019-04-07 15:43:58,249] multiqc.modules.featureCounts.feature_counts       [DEBUG  ]  Duplicate sample name found! Overwriting: Normal1_mappable
+[2019-04-07 15:43:58,249] multiqc.modules.featureCounts.feature_counts       [DEBUG  ]  Duplicate sample name found! Overwriting: Normal1_mappable
+[2019-04-07 15:43:58,249] multiqc.modules.featureCounts.feature_counts       [DEBUG  ]  Duplicate sample name found! Overwriting: SugarFed1_mappable
+[2019-04-07 15:43:58,249] multiqc.modules.featureCounts.feature_counts       [DEBUG  ]  Duplicate sample name found! Overwriting: SugarFed2_mappable
+[2019-04-07 15:43:58,252] multiqc.modules.featureCounts.feature_counts       [DEBUG  ]  Duplicate sample name found! Overwriting: C3a1_mappable
+[2019-04-07 15:43:58,252] multiqc.modules.featureCounts.feature_counts       [DEBUG  ]  Duplicate sample name found! Overwriting: C3a2_mappable
+[2019-04-07 15:43:58,253] multiqc.modules.featureCounts.feature_counts       [DEBUG  ]  Duplicate sample name found! Overwriting: C3a3_mappable
+[2019-04-07 15:43:58,253] multiqc.modules.featureCounts.feature_counts       [DEBUG  ]  Duplicate sample name found! Overwriting: Control1_mappable
+[2019-04-07 15:43:58,253] multiqc.modules.featureCounts.feature_counts       [DEBUG  ]  Duplicate sample name found! Overwriting: Control2_mappable
+[2019-04-07 15:43:58,253] multiqc.modules.featureCounts.feature_counts       [DEBUG  ]  Duplicate sample name found! Overwriting: Control3_mappable
+[2019-04-07 15:43:58,256] multiqc.modules.featureCounts.feature_counts       [DEBUG  ]  Duplicate sample name found! Overwriting: Inactivated1_mappable
+[2019-04-07 15:43:58,256] multiqc.modules.featureCounts.feature_counts       [DEBUG  ]  Duplicate sample name found! Overwriting: Inactivated2_mappable
+[2019-04-07 15:43:58,256] multiqc.modules.featureCounts.feature_counts       [DEBUG  ]  Duplicate sample name found! Overwriting: Normal1_mappable
+[2019-04-07 15:43:58,257] multiqc.modules.featureCounts.feature_counts       [DEBUG  ]  Duplicate sample name found! Overwriting: Normal2_mappable
+[2019-04-07 15:43:58,259] multiqc.modules.featureCounts.feature_counts       [DEBUG  ]  Duplicate sample name found! Overwriting: Inactivated1_mappable
+[2019-04-07 15:43:58,260] multiqc.modules.featureCounts.feature_counts       [DEBUG  ]  Duplicate sample name found! Overwriting: Inactivated2_mappable
+[2019-04-07 15:43:58,260] multiqc.modules.featureCounts.feature_counts       [DEBUG  ]  Duplicate sample name found! Overwriting: SugarFed1_mappable
+[2019-04-07 15:43:58,260] multiqc.modules.featureCounts.feature_counts       [DEBUG  ]  Duplicate sample name found! Overwriting: SugarFed2_mappable
+[2019-04-07 15:43:58,263] multiqc.modules.featureCounts.feature_counts       [DEBUG  ]  Duplicate sample name found! Overwriting: C5a1_mappable
+[2019-04-07 15:43:58,263] multiqc.modules.featureCounts.feature_counts       [DEBUG  ]  Duplicate sample name found! Overwriting: C5a2_mappable
+[2019-04-07 15:43:58,263] multiqc.modules.featureCounts.feature_counts       [DEBUG  ]  Duplicate sample name found! Overwriting: C5a3_mappable
+[2019-04-07 15:43:58,263] multiqc.modules.featureCounts.feature_counts       [DEBUG  ]  Duplicate sample name found! Overwriting: Control1_mappable
+[2019-04-07 15:43:58,263] multiqc.modules.featureCounts.feature_counts       [DEBUG  ]  Duplicate sample name found! Overwriting: Control2_mappable
+[2019-04-07 15:43:58,263] multiqc.modules.featureCounts.feature_counts       [DEBUG  ]  Duplicate sample name found! Overwriting: Control3_mappable
+[2019-04-07 15:43:58,264] multiqc.modules.featureCounts.feature_counts       [INFO   ]  Found 15 reports
+[2019-04-07 15:43:58,277] multiqc                                            [DEBUG  ]  No samples found: dedup
+[2019-04-07 15:43:58,283] multiqc                                            [DEBUG  ]  No samples found: damageprofiler
+[2019-04-07 15:43:58,310] multiqc                                            [DEBUG  ]  No samples found: picard
+[2019-04-07 15:43:58,318] multiqc                                            [DEBUG  ]  No samples found: prokka
+[2019-04-07 15:43:58,322] multiqc                                            [DEBUG  ]  No samples found: samblaster
+[2019-04-07 15:43:58,333] multiqc                                            [DEBUG  ]  No samples found: samtools
+[2019-04-07 15:43:58,340] multiqc                                            [DEBUG  ]  No samples found: bamtools
+[2019-04-07 15:43:58,347] multiqc                                            [DEBUG  ]  No samples found: jellyfish
+[2019-04-07 15:43:58,355] multiqc                                            [DEBUG  ]  No samples found: vcftools
+[2019-04-07 15:43:58,360] multiqc                                            [DEBUG  ]  No samples found: longranger
+[2019-04-07 15:43:58,365] multiqc                                            [DEBUG  ]  No samples found: stacks
+[2019-04-07 15:43:58,378] multiqc                                            [DEBUG  ]  No samples found: bbmap
+[2019-04-07 15:43:58,383] multiqc                                            [DEBUG  ]  No samples found: bismark
+[2019-04-07 15:43:58,388] multiqc                                            [DEBUG  ]  No samples found: biscuit
+[2019-04-07 15:43:58,393] multiqc                                            [DEBUG  ]  No samples found: hicexplorer
+[2019-04-07 15:43:58,398] multiqc                                            [DEBUG  ]  No samples found: hicup
+[2019-04-07 15:43:58,403] multiqc                                            [DEBUG  ]  No samples found: hicpro
+[2019-04-07 15:43:58,407] multiqc                                            [DEBUG  ]  No samples found: salmon
+[2019-04-07 15:43:58,413] multiqc                                            [DEBUG  ]  No samples found: kallisto
+[2019-04-07 15:43:58,419] multiqc                                            [DEBUG  ]  No samples found: slamdunk
+[2019-04-07 15:43:58,448] multiqc.modules.star.star                          [INFO   ]  Found 2 reports
+[2019-04-07 15:43:58,459] multiqc                                            [DEBUG  ]  No samples found: hisat2
+[2019-04-07 15:43:58,464] multiqc                                            [DEBUG  ]  No samples found: tophat
+[2019-04-07 15:43:58,469] multiqc                                            [DEBUG  ]  No samples found: bowtie2
+[2019-04-07 15:43:58,474] multiqc                                            [DEBUG  ]  No samples found: bowtie1
+[2019-04-07 15:43:58,479] multiqc                                            [DEBUG  ]  No samples found: kat
+[2019-04-07 15:43:58,485] multiqc                                            [DEBUG  ]  No samples found: leehom
+[2019-04-07 15:43:58,491] multiqc                                            [DEBUG  ]  No samples found: adapterRemoval
+[2019-04-07 15:43:58,498] multiqc                                            [DEBUG  ]  No samples found: clipandmerge
+[2019-04-07 15:43:58,503] multiqc                                            [DEBUG  ]  No samples found: cutadapt
+[2019-04-07 15:43:58,508] multiqc                                            [DEBUG  ]  No samples found: flexbar
+[2019-04-07 15:43:58,514] multiqc                                            [DEBUG  ]  No samples found: trimmomatic
+[2019-04-07 15:43:58,520] multiqc                                            [DEBUG  ]  No samples found: skewer
+[2019-04-07 15:43:58,525] multiqc                                            [DEBUG  ]  No samples found: sortmerna
+[2019-04-07 15:43:58,530] multiqc                                            [DEBUG  ]  No samples found: biobloomtools
+[2019-04-07 15:43:58,535] multiqc                                            [DEBUG  ]  No samples found: fastq_screen
+[2019-04-07 15:43:58,540] multiqc                                            [DEBUG  ]  No samples found: afterqc
+[2019-04-07 15:43:58,546] multiqc                                            [DEBUG  ]  No samples found: fastp
+[2019-04-07 15:43:59,137] multiqc.modules.fastqc.fastqc                      [DEBUG  ]  Skipping 'Normal2_mappable_fastqc.zip' as already parsed 'Normal2_mappable'
+[2019-04-07 15:43:59,275] multiqc.modules.fastqc.fastqc                      [DEBUG  ]  Skipping 'Control1_mappable_fastqc.zip' as already parsed 'Control1_mappable'
+[2019-04-07 15:43:59,276] multiqc.modules.fastqc.fastqc                      [DEBUG  ]  Skipping 'C3a3_mappable_fastqc.zip' as already parsed 'C3a3_mappable'
+[2019-04-07 15:43:59,276] multiqc.modules.fastqc.fastqc                      [DEBUG  ]  Skipping 'C3a2_mappable_fastqc.zip' as already parsed 'C3a2_mappable'
+[2019-04-07 15:43:59,276] multiqc.modules.fastqc.fastqc                      [DEBUG  ]  Skipping 'SugarFed2_mappable_fastqc.zip' as already parsed 'SugarFed2_mappable'
+[2019-04-07 15:43:59,276] multiqc.modules.fastqc.fastqc                      [DEBUG  ]  Skipping 'SugarFed1_mappable_fastqc.zip' as already parsed 'SugarFed1_mappable'
+[2019-04-07 15:43:59,276] multiqc.modules.fastqc.fastqc                      [DEBUG  ]  Skipping 'Normal1_mappable_fastqc.zip' as already parsed 'Normal1_mappable'
+[2019-04-07 15:43:59,276] multiqc.modules.fastqc.fastqc                      [DEBUG  ]  Skipping 'Inactivated2_mappable_fastqc.zip' as already parsed 'Inactivated2_mappable'
+[2019-04-07 15:43:59,277] multiqc.modules.fastqc.fastqc                      [DEBUG  ]  Skipping 'Inactivated1_mappable_fastqc.zip' as already parsed 'Inactivated1_mappable'
+[2019-04-07 15:43:59,277] multiqc.modules.fastqc.fastqc                      [DEBUG  ]  Skipping 'C5a3_mappable_fastqc.zip' as already parsed 'C5a3_mappable'
+[2019-04-07 15:43:59,277] multiqc.modules.fastqc.fastqc                      [DEBUG  ]  Skipping 'Control3_mappable_fastqc.zip' as already parsed 'Control3_mappable'
+[2019-04-07 15:43:59,277] multiqc.modules.fastqc.fastqc                      [DEBUG  ]  Skipping 'Control2_mappable_fastqc.zip' as already parsed 'Control2_mappable'
+[2019-04-07 15:43:59,277] multiqc.modules.fastqc.fastqc                      [DEBUG  ]  Skipping 'C3a1_mappable_fastqc.zip' as already parsed 'C3a1_mappable'
+[2019-04-07 15:43:59,277] multiqc.modules.fastqc.fastqc                      [DEBUG  ]  Skipping 'C5a2_mappable_fastqc.zip' as already parsed 'C5a2_mappable'
+[2019-04-07 15:43:59,277] multiqc.modules.fastqc.fastqc                      [DEBUG  ]  Skipping 'Normal1_mappable_fastqc.zip' as already parsed 'Normal1_mappable'
+[2019-04-07 15:43:59,278] multiqc.modules.fastqc.fastqc                      [DEBUG  ]  Skipping 'C5a1_mappable_fastqc.zip' as already parsed 'C5a1_mappable'
+[2019-04-07 15:43:59,278] multiqc.modules.fastqc.fastqc                      [DEBUG  ]  Skipping 'Normal2_mappable_fastqc.zip' as already parsed 'Normal2_mappable'
+[2019-04-07 15:43:59,278] multiqc.modules.fastqc.fastqc                      [DEBUG  ]  Skipping 'Inactivated2_mappable_fastqc.zip' as already parsed 'Inactivated2_mappable'
+[2019-04-07 15:43:59,278] multiqc.modules.fastqc.fastqc                      [DEBUG  ]  Skipping 'C3a1_mappable_fastqc.zip' as already parsed 'C3a1_mappable'
+[2019-04-07 15:43:59,278] multiqc.modules.fastqc.fastqc                      [DEBUG  ]  Skipping 'SugarFed1_mappable_fastqc.zip' as already parsed 'SugarFed1_mappable'
+[2019-04-07 15:43:59,278] multiqc.modules.fastqc.fastqc                      [DEBUG  ]  Skipping 'C5a3_mappable_fastqc.zip' as already parsed 'C5a3_mappable'
+[2019-04-07 15:43:59,278] multiqc.modules.fastqc.fastqc                      [DEBUG  ]  Skipping 'C5a2_mappable_fastqc.zip' as already parsed 'C5a2_mappable'
+[2019-04-07 15:43:59,279] multiqc.modules.fastqc.fastqc                      [DEBUG  ]  Skipping 'Control1_mappable_fastqc.zip' as already parsed 'Control1_mappable'
+[2019-04-07 15:43:59,279] multiqc.modules.fastqc.fastqc                      [DEBUG  ]  Skipping 'C3a3_mappable_fastqc.zip' as already parsed 'C3a3_mappable'
+[2019-04-07 15:43:59,279] multiqc.modules.fastqc.fastqc                      [DEBUG  ]  Skipping 'C3a2_mappable_fastqc.zip' as already parsed 'C3a2_mappable'
+[2019-04-07 15:43:59,279] multiqc.modules.fastqc.fastqc                      [DEBUG  ]  Skipping 'SugarFed2_mappable_fastqc.zip' as already parsed 'SugarFed2_mappable'
+[2019-04-07 15:43:59,279] multiqc.modules.fastqc.fastqc                      [DEBUG  ]  Skipping 'Normal1_mappable_fastqc.zip' as already parsed 'Normal1_mappable'
+[2019-04-07 15:43:59,279] multiqc.modules.fastqc.fastqc                      [DEBUG  ]  Skipping 'Inactivated1_mappable_fastqc.zip' as already parsed 'Inactivated1_mappable'
+[2019-04-07 15:43:59,279] multiqc.modules.fastqc.fastqc                      [DEBUG  ]  Skipping 'Control3_mappable_fastqc.zip' as already parsed 'Control3_mappable'
+[2019-04-07 15:43:59,280] multiqc.modules.fastqc.fastqc                      [DEBUG  ]  Skipping 'Control2_mappable_fastqc.zip' as already parsed 'Control2_mappable'
+[2019-04-07 15:43:59,280] multiqc.modules.fastqc.fastqc                      [DEBUG  ]  Skipping 'C5a1_mappable_fastqc.zip' as already parsed 'C5a1_mappable'
+[2019-04-07 15:43:59,312] multiqc.modules.fastqc.fastqc                      [DEBUG  ]  Skipping 'Control1_mappable_fastqc.zip' as already parsed 'Control1_mappable'
+[2019-04-07 15:43:59,312] multiqc.modules.fastqc.fastqc                      [INFO   ]  Found 16 reports
+[2019-04-07 15:43:59,485] multiqc                                            [DEBUG  ]  No samples found: minionqc
+[2019-04-07 15:43:59,492] multiqc                                            [DEBUG  ]  No samples found: clusterflow
+[2019-04-07 15:43:59,499] multiqc                                            [DEBUG  ]  No samples found: bcl2fastq
+[2019-04-07 15:43:59,505] multiqc                                            [DEBUG  ]  No samples found: interop
+[2019-04-07 15:43:59,510] multiqc                                            [DEBUG  ]  No samples found: flash
+[2019-04-07 15:43:59,539] multiqc                                            [INFO   ]  Compressing plot data
+[2019-04-07 15:43:59,836] multiqc                                            [INFO   ]  Report      : output/multiqc_report.html
+[2019-04-07 15:43:59,836] multiqc                                            [INFO   ]  Data        : output/multiqc_data
+[2019-04-07 15:43:59,838] multiqc                                            [DEBUG  ]  Moving data file from '/tmp/tmpa7d5pie7/multiqc_data/multiqc_featureCounts.txt' to 'output/multiqc_data'
+[2019-04-07 15:43:59,899] multiqc                                            [DEBUG  ]  Moving data file from '/tmp/tmpa7d5pie7/multiqc_data/multiqc_fastqc.txt' to 'output/multiqc_data'
+[2019-04-07 15:43:59,910] multiqc                                            [DEBUG  ]  Moving data file from '/tmp/tmpa7d5pie7/multiqc_data/multiqc_sources.txt' to 'output/multiqc_data'
+[2019-04-07 15:43:59,925] multiqc                                            [DEBUG  ]  Moving data file from '/tmp/tmpa7d5pie7/multiqc_data/multiqc_star.txt' to 'output/multiqc_data'
+[2019-04-07 15:43:59,936] multiqc                                            [DEBUG  ]  Moving data file from '/tmp/tmpa7d5pie7/multiqc_data/multiqc_data.json' to 'output/multiqc_data'
+[2019-04-07 15:44:00,003] multiqc                                            [DEBUG  ]  Moving data file from '/tmp/tmpa7d5pie7/multiqc_data/multiqc_general_stats.txt' to 'output/multiqc_data'
+[2019-04-07 15:44:00,184] multiqc                                            [INFO   ]  MultiQC complete

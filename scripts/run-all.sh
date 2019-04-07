@@ -30,7 +30,7 @@ if [[ $1 != "COUNT" ]]; then
   done
 
   # MultiQC Report
-  multiqc -o output
+  multiqc -o output .
 
 fi
 
