@@ -1,0 +1,1994 @@
+ensembl_gene_id	chromosome_name	gene_biotype	description	protein_id	go_id
+1	AAEL000219	1	protein_coding	lactoylglutathione lyase [Source:VB Community Annotation]	EAT48747.1	
+2	AAEL000223	1	protein_coding	alpha-glucosidase [Source:VB Community Annotation]	EAT48754.1	GO:0005975
+3	AAEL000223	1	protein_coding	alpha-glucosidase [Source:VB Community Annotation]	EAT48754.1	GO:0004553
+4	AAEL000230	1	protein_coding		EAT48757.1	GO:0016021
+5	AAEL000231	1	protein_coding	oligopeptidase [Source:VB Community Annotation]	EAT48748.1	GO:0006508
+6	AAEL000231	1	protein_coding	oligopeptidase [Source:VB Community Annotation]	EAT48748.1	GO:0046872
+7	AAEL000231	1	protein_coding	oligopeptidase [Source:VB Community Annotation]	EAT48748.1	GO:0004222
+8	AAEL000239	1	protein_coding	clathrin coat assembly protein [Source:VB Community Annotation]		GO:0030100
+9	AAEL000239	1	protein_coding	clathrin coat assembly protein [Source:VB Community Annotation]		GO:0006897
+10	AAEL000239	1	protein_coding	clathrin coat assembly protein [Source:VB Community Annotation]		GO:0036465
+11	AAEL000241	1	protein_coding		EAT48753.1	
+12	AAEL000242	1	protein_coding	voltage-gated potassium channel [Source:VB Community Annotation]		GO:0016020
+13	AAEL000242	1	protein_coding	voltage-gated potassium channel [Source:VB Community Annotation]		GO:0006811
+14	AAEL000242	1	protein_coding	voltage-gated potassium channel [Source:VB Community Annotation]		GO:0006813
+15	AAEL000242	1	protein_coding	voltage-gated potassium channel [Source:VB Community Annotation]		GO:0005216
+16	AAEL000242	1	protein_coding	voltage-gated potassium channel [Source:VB Community Annotation]		GO:0055085
+17	AAEL000242	1	protein_coding	voltage-gated potassium channel [Source:VB Community Annotation]		GO:0051260
+18	AAEL000242	1	protein_coding	voltage-gated potassium channel [Source:VB Community Annotation]		GO:0005249
+19	AAEL000242	1	protein_coding	voltage-gated potassium channel [Source:VB Community Annotation]		GO:0008076
+20	AAEL000242	1	protein_coding	voltage-gated potassium channel [Source:VB Community Annotation]		GO:0005515
+21	AAEL000242	1	protein_coding	voltage-gated potassium channel [Source:VB Community Annotation]		GO:0034765
+22	AAEL000243	1	protein_coding	leucine-rich transmembrane protein [Source:VB Community Annotation]		GO:0005515
+23	AAEL000244	1	protein_coding	alpha(1,3)fucosyltransferase [Source:VB Community Annotation]	EAT48746.1	GO:0016020
+24	AAEL000244	1	protein_coding	alpha(1,3)fucosyltransferase [Source:VB Community Annotation]	EAT48746.1	GO:0016021
+25	AAEL000244	1	protein_coding	alpha(1,3)fucosyltransferase [Source:VB Community Annotation]	EAT48746.1	GO:0008417
+26	AAEL000244	1	protein_coding	alpha(1,3)fucosyltransferase [Source:VB Community Annotation]	EAT48746.1	GO:0006486
+27	AAEL000244	1	protein_coding	alpha(1,3)fucosyltransferase [Source:VB Community Annotation]	EAT48746.1	GO:0032580
+28	AAEL000249	1	protein_coding	mitochondrial carrier protein [Source:VB Community Annotation]	EAT48750.1	GO:0016021
+29	AAEL000249	1	protein_coding	mitochondrial carrier protein [Source:VB Community Annotation]	EAT48750.1	GO:0055085
+30	AAEL000249	1	protein_coding	mitochondrial carrier protein [Source:VB Community Annotation]	EAT48750.1	GO:0022857
+31	AAEL000249	1	protein_coding	mitochondrial carrier protein [Source:VB Community Annotation]		GO:0055085
+32	AAEL000249	1	protein_coding	mitochondrial carrier protein [Source:VB Community Annotation]		GO:0022857
+33	AAEL000251	1	protein_coding		EAT48745.1	
+34	AAEL000252	1	protein_coding		EAT48740.1	GO:0006508
+35	AAEL000252	1	protein_coding		EAT48740.1	GO:0004252
+36	AAEL000254	1	protein_coding	nuclear factor i [Source:VB Community Annotation]		GO:0006355
+37	AAEL000254	1	protein_coding	nuclear factor i [Source:VB Community Annotation]		GO:0005634
+38	AAEL000254	1	protein_coding	nuclear factor i [Source:VB Community Annotation]		GO:0003700
+39	AAEL000254	1	protein_coding	nuclear factor i [Source:VB Community Annotation]		GO:0005622
+40	AAEL000459	NIGP01002020	protein_coding		EAT48510.1	GO:0016021
+41	AAEL000459	NIGP01002020	protein_coding		EAT48510.1	GO:0015165
+42	AAEL000459	NIGP01002020	protein_coding		EAT48510.1	GO:0000139
+43	AAEL000459	NIGP01002020	protein_coding		EAT48510.1	GO:0090481
+44	AAEL001289	NIGP01001447	protein_coding	permease, putative [Source:VB Community Annotation]	EAT47571.1	GO:0016021
+45	AAEL001289	NIGP01001447	protein_coding	permease, putative [Source:VB Community Annotation]	EAT47571.1	GO:0005215
+46	AAEL001289	NIGP01001447	protein_coding	permease, putative [Source:VB Community Annotation]	EAT47571.1	GO:0055085
+47	AAEL001289	NIGP01001447	protein_coding	permease, putative [Source:VB Community Annotation]	EAT47571.1	GO:0022857
+48	AAEL002321	1	protein_coding	paired box protein pax-6 [Source:VB Community Annotation]		GO:0003677
+49	AAEL002321	1	protein_coding	paired box protein pax-6 [Source:VB Community Annotation]		GO:0006355
+50	AAEL002321	1	protein_coding	paired box protein pax-6 [Source:VB Community Annotation]		GO:0043565
+51	AAEL002321	1	protein_coding	paired box protein pax-6 [Source:VB Community Annotation]		GO:0005634
+52	AAEL002321	1	protein_coding	paired box protein pax-6 [Source:VB Community Annotation]		GO:0007275
+53	AAEL002331	1	protein_coding	Mannose-6-phosphate isomerase [Source:UniProtKB/TrEMBL;Acc:Q17IJ3]	EAT46476.1	GO:0008270
+54	AAEL002331	1	protein_coding	Mannose-6-phosphate isomerase [Source:UniProtKB/TrEMBL;Acc:Q17IJ3]	EAT46476.1	GO:0005975
+55	AAEL002331	1	protein_coding	Mannose-6-phosphate isomerase [Source:UniProtKB/TrEMBL;Acc:Q17IJ3]	EAT46476.1	GO:0004476
+56	AAEL002331	1	protein_coding	Mannose-6-phosphate isomerase [Source:UniProtKB/TrEMBL;Acc:Q17IJ3]	EAT46476.1	GO:0009298
+57	AAEL002335	1	protein_coding	atbf1 [Source:VB Community Annotation]		GO:0003677
+58	AAEL002335	1	protein_coding	atbf1 [Source:VB Community Annotation]		GO:0008270
+59	AAEL002335	1	protein_coding	atbf1 [Source:VB Community Annotation]		GO:0006355
+60	AAEL002335	1	protein_coding	atbf1 [Source:VB Community Annotation]		GO:0043565
+61	AAEL002335	1	protein_coding	atbf1 [Source:VB Community Annotation]		GO:0003676
+62	AAEL002343	1	protein_coding	neuronal pas domain protein [Source:VB Community Annotation]	EAT46470.1	GO:0006355
+63	AAEL002343	1	protein_coding	neuronal pas domain protein [Source:VB Community Annotation]	EAT46470.1	GO:0005634
+64	AAEL002343	1	protein_coding	neuronal pas domain protein [Source:VB Community Annotation]	EAT46470.1	GO:0046983
+65	AAEL002346	1	protein_coding	plexin a [Source:VB Community Annotation]		GO:0007165
+66	AAEL002346	1	protein_coding	plexin a [Source:VB Community Annotation]		GO:0005515
+67	AAEL002346	1	protein_coding	plexin a [Source:VB Community Annotation]		GO:0071526
+68	AAEL002346	1	protein_coding	plexin a [Source:VB Community Annotation]		GO:0017154
+69	AAEL002348	1	protein_coding	paired box protein pax-6 [Source:VB Community Annotation]		GO:0003677
+70	AAEL002348	1	protein_coding	paired box protein pax-6 [Source:VB Community Annotation]		GO:0006355
+71	AAEL002354	1	protein_coding	heme peroxidase [Source:VB Community Annotation]		GO:0055114
+72	AAEL002354	1	protein_coding	heme peroxidase [Source:VB Community Annotation]		GO:0020037
+73	AAEL002354	1	protein_coding	heme peroxidase [Source:VB Community Annotation]		GO:0006979
+74	AAEL002354	1	protein_coding	heme peroxidase [Source:VB Community Annotation]		GO:0004601
+75	AAEL002357	1	protein_coding			GO:0005509
+76	AAEL002357	1	protein_coding			GO:0035556
+77	AAEL002357	1	protein_coding			GO:0019992
+78	AAEL002357	1	protein_coding			GO:0007268
+79	AAEL002357	1	protein_coding			GO:0005543
+80	AAEL002357	1	protein_coding		EAT46460.1	GO:0005509
+81	AAEL002357	1	protein_coding		EAT46460.1	GO:0035556
+82	AAEL002357	1	protein_coding		EAT46460.1	GO:0019992
+83	AAEL002357	1	protein_coding		EAT46460.1	GO:0007268
+84	AAEL002357	1	protein_coding		EAT46460.1	GO:0005543
+85	AAEL002815	NIGP01001630	protein_coding		EAT45951.1	
+86	AAEL003188	NIGP01001712	protein_coding	sphingosine phosphate lyase [Source:VB Community Annotation]		GO:0003824
+87	AAEL003188	NIGP01001712	protein_coding	sphingosine phosphate lyase [Source:VB Community Annotation]		GO:0030170
+88	AAEL003188	NIGP01001712	protein_coding	sphingosine phosphate lyase [Source:VB Community Annotation]		GO:0019752
+89	AAEL003188	NIGP01001712	protein_coding	sphingosine phosphate lyase [Source:VB Community Annotation]		GO:0016831
+90	AAEL003192	NIGP01000133	protein_coding	mfs transporter [Source:VB Community Annotation]	EAT45535.1	GO:0016021
+91	AAEL003192	NIGP01000133	protein_coding	mfs transporter [Source:VB Community Annotation]	EAT45535.1	GO:0055085
+92	AAEL003192	NIGP01000133	protein_coding	mfs transporter [Source:VB Community Annotation]	EAT45535.1	GO:0022857
+93	AAEL003202	NIGP01001976	protein_coding	cyclohex-1-ene-1-carboxyl-CoA hydratase, putative [Source:VB Community Annotation]		GO:0003824
+94	AAEL003541	NIGP01000309	protein_coding	galectin [Source:VB Community Annotation]		GO:0030246
+95	AAEL004163	1	protein_coding	O-fucosyltransferase, putative [Source:VB Community Annotation]		GO:0016757
+96	AAEL004163	1	protein_coding	O-fucosyltransferase, putative [Source:VB Community Annotation]		GO:0006004
+97	AAEL004167	1	protein_coding	zinc finger protein [Source:VB Community Annotation]	EAT44482.1	GO:0008270
+98	AAEL004167	1	protein_coding	zinc finger protein [Source:VB Community Annotation]	EAT44482.1	GO:0003723
+99	AAEL004167	1	protein_coding	zinc finger protein [Source:VB Community Annotation]	EAT44482.1	GO:0003676
+100	AAEL004167	1	protein_coding	zinc finger protein [Source:VB Community Annotation]	EAT44482.1	GO:0000398
+101	AAEL004167	1	protein_coding	zinc finger protein [Source:VB Community Annotation]	EAT44482.1	GO:0045131
+102	AAEL004169	1	protein_coding		EAT44478.1	
+103	AAEL004179	1	protein_coding		EAT44480.1	GO:0016020
+104	AAEL004179	1	protein_coding		EAT44480.1	GO:0006811
+105	AAEL004179	1	protein_coding		EAT44480.1	GO:0016021
+106	AAEL004179	1	protein_coding		EAT44480.1	GO:0005216
+107	AAEL004179	1	protein_coding		EAT44480.1	GO:0055085
+108	AAEL004179	1	protein_coding		EAT44480.1	GO:0005515
+109	AAEL004180	1	protein_coding			GO:0055114
+110	AAEL004180	1	protein_coding			GO:0050660
+111	AAEL004180	1	protein_coding			GO:0004497
+112	AAEL004180	1	protein_coding			GO:0071949
+113	AAEL004180	1	protein_coding			GO:0006744
+114	AAEL004180	1	protein_coding			GO:0016709
+115	AAEL004193	1	protein_coding	rhophilin [Source:VB Community Annotation]		GO:0007165
+116	AAEL004193	1	protein_coding	rhophilin [Source:VB Community Annotation]		GO:0005515
+117	AAEL004195	1	protein_coding	membrane associated progesterone receptor [Source:VB Community Annotation]	EAT44473.1	GO:0016021
+118	AAEL004404	1	protein_coding	HIG1 domain family member 2A, putative [Source:VB Community Annotation]	EAT44199.1	GO:0016021
+119	AAEL004410	1	protein_coding	protein phosphatase [Source:VB Community Annotation]		GO:0016791
+120	AAEL004410	1	protein_coding	protein phosphatase [Source:VB Community Annotation]		GO:0004725
+121	AAEL004410	1	protein_coding	protein phosphatase [Source:VB Community Annotation]		GO:0008138
+122	AAEL004410	1	protein_coding	protein phosphatase [Source:VB Community Annotation]		GO:0016311
+123	AAEL004410	1	protein_coding	protein phosphatase [Source:VB Community Annotation]		GO:0006470
+124	AAEL004489	NIGP01000295	protein_coding	Daxx-like protein [Source:VB Community Annotation]		
+125	AAEL004503	NIGP01000295	protein_coding	40S ribosomal protein S21 [Source:UniProtKB/TrEMBL;Acc:Q1HR25]	EAT48397.1	GO:0003735
+126	AAEL004503	NIGP01000295	protein_coding	40S ribosomal protein S21 [Source:UniProtKB/TrEMBL;Acc:Q1HR25]	EAT48397.1	GO:0006412
+127	AAEL004503	NIGP01000295	protein_coding	40S ribosomal protein S21 [Source:UniProtKB/TrEMBL;Acc:Q1HR25]	EAT48397.1	GO:0005840
+128	AAEL004503	NIGP01000295	protein_coding	40S ribosomal protein S21 [Source:UniProtKB/TrEMBL;Acc:Q1HR25]	EAT48397.1	GO:0005622
+129	AAEL004503	NIGP01000295	protein_coding	40S ribosomal protein S21 [Source:UniProtKB/TrEMBL;Acc:Q1HR25]	EAT44098.1	GO:0003735
+130	AAEL004503	NIGP01000295	protein_coding	40S ribosomal protein S21 [Source:UniProtKB/TrEMBL;Acc:Q1HR25]	EAT44098.1	GO:0006412
+131	AAEL004503	NIGP01000295	protein_coding	40S ribosomal protein S21 [Source:UniProtKB/TrEMBL;Acc:Q1HR25]	EAT44098.1	GO:0005840
+132	AAEL004503	NIGP01000295	protein_coding	40S ribosomal protein S21 [Source:UniProtKB/TrEMBL;Acc:Q1HR25]	EAT44098.1	GO:0005622
+133	AAEL004503	NIGP01000295	protein_coding	40S ribosomal protein S21 [Source:UniProtKB/TrEMBL;Acc:Q1HR25]	EJY57537.1	GO:0003735
+134	AAEL004503	NIGP01000295	protein_coding	40S ribosomal protein S21 [Source:UniProtKB/TrEMBL;Acc:Q1HR25]	EJY57537.1	GO:0006412
+135	AAEL004503	NIGP01000295	protein_coding	40S ribosomal protein S21 [Source:UniProtKB/TrEMBL;Acc:Q1HR25]	EJY57537.1	GO:0005840
+136	AAEL004503	NIGP01000295	protein_coding	40S ribosomal protein S21 [Source:UniProtKB/TrEMBL;Acc:Q1HR25]	EJY57537.1	GO:0005622
+137	AAEL004793	NIGP01001877	protein_coding	dipeptidyl-peptidase [Source:VB Community Annotation]		GO:0006508
+138	AAEL004793	NIGP01001877	protein_coding	dipeptidyl-peptidase [Source:VB Community Annotation]		GO:0008236
+139	AAEL004809	1	protein_coding		EAT33832.1	
+140	AAEL004824	1	protein_coding			GO:0016747
+141	AAEL005245	NIGP01000944	protein_coding	DNA repair protein rad50 [Source:VB Community Annotation]		GO:0005634
+142	AAEL005245	NIGP01000944	protein_coding	DNA repair protein rad50 [Source:VB Community Annotation]		GO:0006281
+143	AAEL005245	NIGP01000944	protein_coding	DNA repair protein rad50 [Source:VB Community Annotation]		GO:0016887
+144	AAEL005245	NIGP01000944	protein_coding	DNA repair protein rad50 [Source:VB Community Annotation]		GO:0030870
+145	AAEL005245	NIGP01000944	protein_coding	DNA repair protein rad50 [Source:VB Community Annotation]		GO:0000723
+146	AAEL005254	1	protein_coding	dynactin P62 subunit [Source:VB Community Annotation]	EAT43296.1	GO:0005869
+147	AAEL005261	1	protein_coding			
+148	AAEL005266	1	protein_coding	40S ribosomal protein S14 [Source:UniProtKB/Swiss-Prot;Acc:Q1HR24]	EAT43298.1	GO:0003735
+149	AAEL005266	1	protein_coding	40S ribosomal protein S14 [Source:UniProtKB/Swiss-Prot;Acc:Q1HR24]	EAT43298.1	GO:0006412
+150	AAEL005266	1	protein_coding	40S ribosomal protein S14 [Source:UniProtKB/Swiss-Prot;Acc:Q1HR24]	EAT43298.1	GO:0005840
+151	AAEL005266	1	protein_coding	40S ribosomal protein S14 [Source:UniProtKB/Swiss-Prot;Acc:Q1HR24]	EAT43299.1	GO:0003735
+152	AAEL005266	1	protein_coding	40S ribosomal protein S14 [Source:UniProtKB/Swiss-Prot;Acc:Q1HR24]	EAT43299.1	GO:0006412
+153	AAEL005266	1	protein_coding	40S ribosomal protein S14 [Source:UniProtKB/Swiss-Prot;Acc:Q1HR24]	EAT43299.1	GO:0005840
+154	AAEL005271	1	protein_coding			GO:0017137
+155	AAEL005279	1	protein_coding	methionyl-tRNA formyltransferase [Source:VB Community Annotation]	EAT43302.1	GO:0003824
+156	AAEL005279	1	protein_coding	methionyl-tRNA formyltransferase [Source:VB Community Annotation]	EAT43302.1	GO:0009058
+157	AAEL005279	1	protein_coding	methionyl-tRNA formyltransferase [Source:VB Community Annotation]	EAT43302.1	GO:0016742
+158	AAEL005279	1	protein_coding	methionyl-tRNA formyltransferase [Source:VB Community Annotation]	EAT43302.1	GO:0004479
+159	AAEL005279	1	protein_coding	methionyl-tRNA formyltransferase [Source:VB Community Annotation]	EAT43302.1	GO:0071951
+160	AAEL005281	1	protein_coding		EAT43301.1	GO:0005639
+161	AAEL005281	1	protein_coding			GO:0005639
+162	AAEL005515	1	protein_coding	heterogeneous nuclear ribonucleoprotein [Source:VB Community Annotation]	EAT42987.1	GO:0003723
+163	AAEL005515	1	protein_coding	heterogeneous nuclear ribonucleoprotein [Source:VB Community Annotation]	EAT42987.1	GO:0003676
+164	AAEL005515	1	protein_coding	heterogeneous nuclear ribonucleoprotein [Source:VB Community Annotation]	EAT42989.1	GO:0003723
+165	AAEL005515	1	protein_coding	heterogeneous nuclear ribonucleoprotein [Source:VB Community Annotation]	EAT42989.1	GO:0003676
+166	AAEL005515	1	protein_coding	heterogeneous nuclear ribonucleoprotein [Source:VB Community Annotation]	EAT42991.1	GO:0003723
+167	AAEL005515	1	protein_coding	heterogeneous nuclear ribonucleoprotein [Source:VB Community Annotation]	EAT42991.1	GO:0003676
+168	AAEL005515	1	protein_coding	heterogeneous nuclear ribonucleoprotein [Source:VB Community Annotation]		GO:0003676
+169	AAEL005515	1	protein_coding	heterogeneous nuclear ribonucleoprotein [Source:VB Community Annotation]	EAT42988.1	GO:0003723
+170	AAEL005515	1	protein_coding	heterogeneous nuclear ribonucleoprotein [Source:VB Community Annotation]	EAT42988.1	GO:0003676
+171	AAEL005515	1	protein_coding	heterogeneous nuclear ribonucleoprotein [Source:VB Community Annotation]	EAT42990.1	GO:0003723
+172	AAEL005515	1	protein_coding	heterogeneous nuclear ribonucleoprotein [Source:VB Community Annotation]	EAT42990.1	GO:0003676
+173	AAEL005518	1	protein_coding			GO:0003677
+174	AAEL005518	1	protein_coding			GO:0005634
+175	AAEL005520	1	protein_coding	carbonic anhydrase [Source:VB Community Annotation]	EJY57590.1	GO:0008270
+176	AAEL005520	1	protein_coding	carbonic anhydrase [Source:VB Community Annotation]	EJY57590.1	GO:0004089
+177	AAEL005520	1	protein_coding	carbonic anhydrase [Source:VB Community Annotation]	EAT42998.1	GO:0008270
+178	AAEL005520	1	protein_coding	carbonic anhydrase [Source:VB Community Annotation]	EAT42998.1	GO:0004089
+179	AAEL005521	1	protein_coding	prolylcarboxypeptidase [Source:VB Community Annotation]	EAT43002.1	GO:0006508
+180	AAEL005521	1	protein_coding	prolylcarboxypeptidase [Source:VB Community Annotation]	EAT43002.1	GO:0008236
+181	AAEL005522	1	protein_coding	Putative conserved protein with signal anchor [Source:UniProtKB/TrEMBL;Acc:A0A0P6J688]		GO:0005634
+182	AAEL005524	1	protein_coding	Adenosylhomocysteinase [Source:UniProtKB/TrEMBL;Acc:Q179S1]		GO:0004013
+183	AAEL005524	1	protein_coding	Adenosylhomocysteinase [Source:UniProtKB/TrEMBL;Acc:Q179S1]	EAT43000.1	GO:0006730
+184	AAEL005524	1	protein_coding	Adenosylhomocysteinase [Source:UniProtKB/TrEMBL;Acc:Q179S1]	EAT43000.1	GO:0004013
+185	AAEL005525	NIGP01002221	protein_coding			GO:0005515
+186	AAEL005526	1	protein_coding			GO:0005515
+187	AAEL005527	1	protein_coding	Probable exonuclease mut-7 homolog (EC 3.1.-.-)(Exonuclease 3'-5' domain-containing protein 3 homolog) [Source:VB Community Annotation]		GO:0003676
+188	AAEL005527	1	protein_coding	Probable exonuclease mut-7 homolog (EC 3.1.-.-)(Exonuclease 3'-5' domain-containing protein 3 homolog) [Source:VB Community Annotation]		GO:0006139
+189	AAEL005527	1	protein_coding	Probable exonuclease mut-7 homolog (EC 3.1.-.-)(Exonuclease 3'-5' domain-containing protein 3 homolog) [Source:VB Community Annotation]		GO:0008408
+190	AAEL005528	1	protein_coding		EAT42994.1	GO:0003723
+191	AAEL005528	1	protein_coding		EAT42994.1	GO:0003676
+192	AAEL005528	1	protein_coding			GO:0003676
+193	AAEL005530	1	protein_coding		EAT42983.1	GO:0005975
+194	AAEL005530	1	protein_coding		EAT42983.1	GO:0003824
+195	AAEL005530	1	protein_coding		EAT42983.1	GO:0005576
+196	AAEL005530	1	protein_coding		EAT42983.1	GO:0008061
+197	AAEL005530	1	protein_coding		EAT42983.1	GO:0006030
+198	AAEL005531	1	protein_coding	venom allergen [Source:VB Community Annotation]	EAT42985.1	
+199	AAEL005821	NIGP01002224	protein_coding	alanyl aminopeptidase [Source:VB Community Annotation]		GO:0008270
+200	AAEL005821	NIGP01002224	protein_coding	alanyl aminopeptidase [Source:VB Community Annotation]		GO:0006508
+201	AAEL005821	NIGP01002224	protein_coding	alanyl aminopeptidase [Source:VB Community Annotation]		GO:0004177
+202	AAEL005821	NIGP01002224	protein_coding	alanyl aminopeptidase [Source:VB Community Annotation]		GO:0008237
+203	AAEL005825	1	protein_coding	translation initiation factor eif-2b beta subunit [Source:VB Community Annotation]		GO:0044237
+204	AAEL005826	1	protein_coding	E3 ubiquitin-protein ligase [Source:UniProtKB/TrEMBL;Acc:A0A1S4FBP6]		GO:0008270
+205	AAEL005826	1	protein_coding	E3 ubiquitin-protein ligase [Source:UniProtKB/TrEMBL;Acc:A0A1S4FBP6]		GO:0005634
+206	AAEL005826	1	protein_coding	E3 ubiquitin-protein ligase [Source:UniProtKB/TrEMBL;Acc:A0A1S4FBP6]		GO:0006511
+207	AAEL005826	1	protein_coding	E3 ubiquitin-protein ligase [Source:UniProtKB/TrEMBL;Acc:A0A1S4FBP6]		GO:0007275
+208	AAEL005826	1	protein_coding	E3 ubiquitin-protein ligase [Source:UniProtKB/TrEMBL;Acc:A0A1S4FBP6]		GO:0016567
+209	AAEL005826	1	protein_coding	E3 ubiquitin-protein ligase [Source:UniProtKB/TrEMBL;Acc:A0A1S4FBP6]		GO:0005515
+210	AAEL005832	1	protein_coding	programmed cell death [Source:VB Community Annotation]		GO:0045892
+211	AAEL005839	1	protein_coding	uridine phosphorylase [Source:VB Community Annotation]		GO:0005737
+212	AAEL005839	1	protein_coding	uridine phosphorylase [Source:VB Community Annotation]		GO:0003824
+213	AAEL005839	1	protein_coding	uridine phosphorylase [Source:VB Community Annotation]		GO:0009116
+214	AAEL005839	1	protein_coding	uridine phosphorylase [Source:VB Community Annotation]		GO:0004850
+215	AAEL005839	1	protein_coding	uridine phosphorylase [Source:VB Community Annotation]		GO:0009166
+216	AAEL005866	NIGP01002023	protein_coding	succinate dehydrogenase assembly factor 2, mitochondrial precursor (SDH assembly factor 2) [Source:VB Community Annotation]		GO:0018293
+217	AAEL005866	NIGP01002023	protein_coding	succinate dehydrogenase assembly factor 2, mitochondrial precursor (SDH assembly factor 2) [Source:VB Community Annotation]		GO:0005739
+218	AAEL005866	NIGP01002023	protein_coding	succinate dehydrogenase assembly factor 2, mitochondrial precursor (SDH assembly factor 2) [Source:VB Community Annotation]		GO:0005759
+219	AAEL005866	NIGP01002023	protein_coding	succinate dehydrogenase assembly factor 2, mitochondrial precursor (SDH assembly factor 2) [Source:VB Community Annotation]		GO:0006121
+220	AAEL005892	NIGP01000892	protein_coding		EAT42615.1	GO:0003676
+221	AAEL005893	NIGP01000892	protein_coding			
+222	AAEL005939	NIGP01000497	protein_coding	mpv17 protein [Source:VB Community Annotation]	EJY57608.1	GO:0016021
+223	AAEL006081	NIGP01000525	protein_coding	NADPH fad oxidoreductase [Source:VB Community Annotation]	EAT42389.1	GO:0016491
+224	AAEL006081	NIGP01000525	protein_coding	NADPH fad oxidoreductase [Source:VB Community Annotation]	EAT42389.1	GO:0055114
+225	AAEL006772	NIGP01000440	protein_coding			GO:0045132
+226	AAEL006772	NIGP01000440	protein_coding			GO:0007062
+227	AAEL006772	NIGP01000440	protein_coding			GO:0000070
+228	AAEL006772	NIGP01000440	protein_coding			GO:0016407
+229	AAEL007010	NIGP01001282	protein_coding	cytochrome P450 [Source:VB Community Annotation]		GO:0016021
+230	AAEL007010	NIGP01001282	protein_coding	cytochrome P450 [Source:VB Community Annotation]		GO:0055114
+231	AAEL007010	NIGP01001282	protein_coding	cytochrome P450 [Source:VB Community Annotation]		GO:0004497
+232	AAEL007010	NIGP01001282	protein_coding	cytochrome P450 [Source:VB Community Annotation]		GO:0005506
+233	AAEL007010	NIGP01001282	protein_coding	cytochrome P450 [Source:VB Community Annotation]		GO:0020037
+234	AAEL007010	NIGP01001282	protein_coding	cytochrome P450 [Source:VB Community Annotation]		GO:0016705
+235	AAEL007017	NIGP01001080	protein_coding		EAT41319.1	
+236	AAEL007077	NIGP01000140	protein_coding	integrin beta 1 binding protein (melusin) [Source:VB Community Annotation]	EAT41267.1	
+237	AAEL007572	NIGP01000959	protein_coding	fidipidine [Source:VB Community Annotation]		
+238	AAEL007650	1	protein_coding	Chaperonin [Source:UniProtKB/TrEMBL;Acc:A0A1S4FHA0]		GO:0005524
+239	AAEL007650	1	protein_coding	Chaperonin [Source:UniProtKB/TrEMBL;Acc:A0A1S4FHA0]		GO:0005737
+240	AAEL007650	1	protein_coding	Chaperonin [Source:UniProtKB/TrEMBL;Acc:A0A1S4FHA0]		GO:0006457
+241	AAEL007650	1	protein_coding	Chaperonin [Source:UniProtKB/TrEMBL;Acc:A0A1S4FHA0]		GO:0051082
+242	AAEL007651	1	protein_coding	phosphorylase b kinase [Source:VB Community Annotation]		GO:0003824
+243	AAEL007651	1	protein_coding	phosphorylase b kinase [Source:VB Community Annotation]		GO:0005516
+244	AAEL007651	1	protein_coding	phosphorylase b kinase [Source:VB Community Annotation]		GO:0005977
+245	AAEL007651	1	protein_coding	phosphorylase b kinase [Source:VB Community Annotation]		GO:0005886
+246	AAEL007652	1	protein_coding			
+247	AAEL007653	1	protein_coding	allantoinase [Source:VB Community Annotation]	EAT40633.1	GO:0008270
+248	AAEL007653	1	protein_coding	allantoinase [Source:VB Community Annotation]	EAT40633.1	GO:0016787
+249	AAEL007653	1	protein_coding	allantoinase [Source:VB Community Annotation]	EAT40633.1	GO:0016810
+250	AAEL007653	1	protein_coding	allantoinase [Source:VB Community Annotation]	EAT40633.1	GO:0000256
+251	AAEL007653	1	protein_coding	allantoinase [Source:VB Community Annotation]	EAT40633.1	GO:0004038
+252	AAEL007653	1	protein_coding	allantoinase [Source:VB Community Annotation]	EAT40633.1	GO:0050897
+253	AAEL007653	1	protein_coding	allantoinase [Source:VB Community Annotation]	EAT40633.1	GO:0016888
+254	AAEL007653	1	protein_coding	allantoinase [Source:VB Community Annotation]	EAT40633.1	GO:0016812
+255	AAEL007654	1	protein_coding		EAT40636.1	GO:0008270
+256	AAEL007654	1	protein_coding		EAT40636.1	GO:0005634
+257	AAEL007654	1	protein_coding		EAT40636.1	GO:0003676
+258	AAEL007655	1	protein_coding		EAT40635.1	GO:0003676
+259	AAEL007656	1	protein_coding	receptor for activated C kinase, putative [Source:VB Community Annotation]	EAT40630.1	GO:0005515
+260	AAEL007657	1	protein_coding	low-density lipoprotein receptor (ldl) [Source:VB Community Annotation]		GO:0016021
+261	AAEL007657	1	protein_coding	low-density lipoprotein receptor (ldl) [Source:VB Community Annotation]		GO:0005509
+262	AAEL007657	1	protein_coding	low-density lipoprotein receptor (ldl) [Source:VB Community Annotation]		GO:0005515
+263	AAEL007658	1	protein_coding	partitioning defective 3, par-3 [Source:VB Community Annotation]		GO:0005515
+264	AAEL007659	1	protein_coding		EAT40632.1	
+265	AAEL007660	1	protein_coding	suppressor of actin (sac) [Source:VB Community Annotation]	EAT40629.1	GO:0016021
+266	AAEL007660	1	protein_coding	suppressor of actin (sac) [Source:VB Community Annotation]	EAT40629.1	GO:0042578
+267	AAEL007661	1	protein_coding	rab-40 [Source:VB Community Annotation]	EAT40624.1	GO:0003924
+268	AAEL007661	1	protein_coding	rab-40 [Source:VB Community Annotation]	EAT40624.1	GO:0005525
+269	AAEL007661	1	protein_coding	rab-40 [Source:VB Community Annotation]	EAT40624.1	GO:0035556
+270	AAEL007661	1	protein_coding	rab-40 [Source:VB Community Annotation]		GO:0003924
+271	AAEL007661	1	protein_coding	rab-40 [Source:VB Community Annotation]		GO:0005525
+272	AAEL007661	1	protein_coding	rab-40 [Source:VB Community Annotation]		GO:0035556
+273	AAEL007662	1	protein_coding	casein kinase [Source:VB Community Annotation]	EAT40625.1	GO:0005524
+274	AAEL007662	1	protein_coding	casein kinase [Source:VB Community Annotation]	EAT40625.1	GO:0004674
+275	AAEL007662	1	protein_coding	casein kinase [Source:VB Community Annotation]	EAT40625.1	GO:0004672
+276	AAEL007662	1	protein_coding	casein kinase [Source:VB Community Annotation]	EAT40625.1	GO:0006468
+277	AAEL007747	NIGP01001876	protein_coding			
+278	AAEL008395	NIGP01001053	protein_coding			GO:0005515
+279	AAEL008412	NIGP01001909	protein_coding	Mitochondrial import inner membrane translocase subunit TIM44 [Source:UniProtKB/TrEMBL;Acc:Q16YW1]	EAT39827.1	GO:0051087
+280	AAEL008412	NIGP01001909	protein_coding	Mitochondrial import inner membrane translocase subunit TIM44 [Source:UniProtKB/TrEMBL;Acc:Q16YW1]	EAT39827.1	GO:0005743
+281	AAEL008412	NIGP01001909	protein_coding	Mitochondrial import inner membrane translocase subunit TIM44 [Source:UniProtKB/TrEMBL;Acc:Q16YW1]	EAT39827.1	GO:0030150
+282	AAEL008454	NIGP01001031	protein_coding		EAT39764.1	GO:0003824
+283	AAEL008454	NIGP01001031	protein_coding		EJY57752.1	GO:0003824
+284	AAEL009314	NIGP01001678	protein_coding	adenylate cyclase [Source:VB Community Annotation]	EAT38831.1	GO:0016021
+285	AAEL009314	NIGP01001678	protein_coding	adenylate cyclase [Source:VB Community Annotation]	EAT38831.1	GO:0055085
+286	AAEL009339	NIGP01000080	protein_coding	activin receptor type I, putative [Source:VB Community Annotation]		GO:0005524
+287	AAEL009339	NIGP01000080	protein_coding	activin receptor type I, putative [Source:VB Community Annotation]		GO:0016020
+288	AAEL009339	NIGP01000080	protein_coding	activin receptor type I, putative [Source:VB Community Annotation]		GO:0016021
+289	AAEL009339	NIGP01000080	protein_coding	activin receptor type I, putative [Source:VB Community Annotation]		GO:0004675
+290	AAEL009339	NIGP01000080	protein_coding	activin receptor type I, putative [Source:VB Community Annotation]		GO:0004672
+291	AAEL009339	NIGP01000080	protein_coding	activin receptor type I, putative [Source:VB Community Annotation]		GO:0007178
+292	AAEL009339	NIGP01000080	protein_coding	activin receptor type I, putative [Source:VB Community Annotation]		GO:0006468
+293	AAEL009762	1	protein_coding	cytochrome P450 [Source:VB Community Annotation]		GO:0055114
+294	AAEL009762	1	protein_coding	cytochrome P450 [Source:VB Community Annotation]		GO:0005506
+295	AAEL009762	1	protein_coding	cytochrome P450 [Source:VB Community Annotation]		GO:0020037
+296	AAEL009762	1	protein_coding	cytochrome P450 [Source:VB Community Annotation]		GO:0016705
+297	AAEL009764	1	protein_coding	xaa-pro aminopeptidase [Source:VB Community Annotation]		GO:0016787
+298	AAEL009764	1	protein_coding	xaa-pro aminopeptidase [Source:VB Community Annotation]		GO:0046872
+299	AAEL009764	1	protein_coding	xaa-pro aminopeptidase [Source:VB Community Annotation]		GO:0070006
+300	AAEL009765	1	protein_coding	choline/ethanolamine kinase [Source:VB Community Annotation]	EAT38330.1	
+301	AAEL009766	1	protein_coding	lipoamide acyltransferase component of branched-chain alpha-keto acid dehydrogenase [Source:VB Community Annotation]	EAT38329.1	GO:0016746
+302	AAEL009767	1	protein_coding		EAT38332.1	GO:0005515
+303	AAEL009769	1	protein_coding		EAT38331.1	GO:0005515
+304	AAEL009987	NIGP01000650	protein_coding			GO:0046872
+305	AAEL010461	NIGP01000470	protein_coding			
+306	AAEL010711	1	protein_coding	eph receptor tyrosine kinase [Source:VB Community Annotation]		GO:0005524
+307	AAEL010711	1	protein_coding	eph receptor tyrosine kinase [Source:VB Community Annotation]		GO:0016021
+308	AAEL010711	1	protein_coding	eph receptor tyrosine kinase [Source:VB Community Annotation]		GO:0004672
+309	AAEL010711	1	protein_coding	eph receptor tyrosine kinase [Source:VB Community Annotation]		GO:0007169
+310	AAEL010711	1	protein_coding	eph receptor tyrosine kinase [Source:VB Community Annotation]		GO:0004713
+311	AAEL010711	1	protein_coding	eph receptor tyrosine kinase [Source:VB Community Annotation]		GO:0005003
+312	AAEL010711	1	protein_coding	eph receptor tyrosine kinase [Source:VB Community Annotation]		GO:0006468
+313	AAEL010711	1	protein_coding	eph receptor tyrosine kinase [Source:VB Community Annotation]		GO:0005515
+314	AAEL010711	1	protein_coding	eph receptor tyrosine kinase [Source:VB Community Annotation]		GO:0005887
+315	AAEL010946	NIGP01000958	protein_coding	cytochrome P450 [Source:VB Community Annotation]		GO:0055114
+316	AAEL010946	NIGP01000958	protein_coding	cytochrome P450 [Source:VB Community Annotation]		GO:0005506
+317	AAEL010946	NIGP01000958	protein_coding	cytochrome P450 [Source:VB Community Annotation]		GO:0020037
+318	AAEL010946	NIGP01000958	protein_coding	cytochrome P450 [Source:VB Community Annotation]		GO:0016705
+319	AAEL011025	NIGP01000976	protein_coding	vacuolar ATP synthase subunit ac39 [Source:VB Community Annotation]	EAT36933.1	GO:0015078
+320	AAEL011025	NIGP01000976	protein_coding	vacuolar ATP synthase subunit ac39 [Source:VB Community Annotation]	EAT36933.1	GO:0015991
+321	AAEL011025	NIGP01000976	protein_coding	vacuolar ATP synthase subunit ac39 [Source:VB Community Annotation]	EAT36933.1	GO:0033179
+322	AAEL011196	1	protein_coding			GO:0005515
+323	AAEL011197	1	protein_coding	actin [Source:VB Community Annotation]	EAT36735.1	GO:0005524
+324	AAEL011197	1	protein_coding	actin [Source:VB Community Annotation]	EAT36736.1	GO:0005524
+325	AAEL011198	1	protein_coding	mitochondrial ribosomal protein, L38, putative [Source:VB Community Annotation]	EAT36733.1	
+326	AAEL011199	1	protein_coding		EAT36739.1	GO:0030488
+327	AAEL011199	1	protein_coding		EAT36739.1	GO:0008168
+328	AAEL011199	1	protein_coding		EAT36739.1	GO:0008033
+329	AAEL011199	1	protein_coding		EAT36739.1	GO:0106050
+330	AAEL011200	1	protein_coding		EAT36740.1	
+331	AAEL011201	1	protein_coding			
+332	AAEL011202	1	protein_coding	bhlhzip transcription factor bigmax [Source:VB Community Annotation]	EAT36737.1	GO:0006355
+333	AAEL011202	1	protein_coding	bhlhzip transcription factor bigmax [Source:VB Community Annotation]	EAT36737.1	GO:0008134
+334	AAEL011202	1	protein_coding	bhlhzip transcription factor bigmax [Source:VB Community Annotation]	EAT36737.1	GO:0046983
+335	AAEL011203	1	protein_coding			GO:0016021
+336	AAEL011203	1	protein_coding			GO:0016491
+337	AAEL011203	1	protein_coding			GO:0055114
+338	AAEL011203	1	protein_coding			GO:0051537
+339	AAEL011204	1	protein_coding	xenotropic and polytropic murine leukemia virus receptor xpr1 [Source:VB Community Annotation]	EAT36732.1	GO:0016021
+340	AAEL011206	1	protein_coding	aminoacylase, putative [Source:VB Community Annotation]	EAT36741.1	GO:0016787
+341	AAEL011206	1	protein_coding	aminoacylase, putative [Source:VB Community Annotation]	EAT36741.1	GO:0005737
+342	AAEL011206	1	protein_coding	aminoacylase, putative [Source:VB Community Annotation]	EAT36741.1	GO:0006520
+343	AAEL011206	1	protein_coding	aminoacylase, putative [Source:VB Community Annotation]	EAT36741.1	GO:0004046
+344	AAEL011206	1	protein_coding	aminoacylase, putative [Source:VB Community Annotation]	EAT36742.1	GO:0016787
+345	AAEL011206	1	protein_coding	aminoacylase, putative [Source:VB Community Annotation]	EAT36742.1	GO:0005737
+346	AAEL011206	1	protein_coding	aminoacylase, putative [Source:VB Community Annotation]	EAT36742.1	GO:0006520
+347	AAEL011206	1	protein_coding	aminoacylase, putative [Source:VB Community Annotation]	EAT36742.1	GO:0004046
+348	AAEL011287	1	protein_coding	ubiquitin specific protease [Source:VB Community Annotation]		GO:0006511
+349	AAEL011287	1	protein_coding	ubiquitin specific protease [Source:VB Community Annotation]		GO:0036459
+350	AAEL011287	1	protein_coding	ubiquitin specific protease [Source:VB Community Annotation]		GO:0016579
+351	AAEL011288	1	protein_coding	elongation factor 1 gamma [Source:VB Community Annotation]	EAT36644.1	GO:0003746
+352	AAEL011288	1	protein_coding	elongation factor 1 gamma [Source:VB Community Annotation]	EAT36644.1	GO:0006414
+353	AAEL011288	1	protein_coding	elongation factor 1 gamma [Source:VB Community Annotation]	EAT36644.1	GO:0005515
+354	AAEL011289	1	protein_coding		EAT36645.1	GO:0005524
+355	AAEL011289	1	protein_coding		EAT36645.1	GO:0016887
+356	AAEL011292	1	protein_coding	protease m1 zinc metalloprotease [Source:VB Community Annotation]	EAT36641.1	GO:0008270
+357	AAEL011292	1	protein_coding	protease m1 zinc metalloprotease [Source:VB Community Annotation]	EAT36641.1	GO:0006508
+358	AAEL011292	1	protein_coding	protease m1 zinc metalloprotease [Source:VB Community Annotation]	EAT36641.1	GO:0004177
+359	AAEL011292	1	protein_coding	protease m1 zinc metalloprotease [Source:VB Community Annotation]	EAT36641.1	GO:0008237
+360	AAEL011293	1	protein_coding	vitamin-K-epoxide reductase (warfarin-sensitive), putative [Source:VB Community Annotation]	EAT36646.1	GO:0016021
+361	AAEL011352	1	protein_coding			GO:0005739
+362	AAEL011352	1	protein_coding			GO:0006260
+363	AAEL011352	1	protein_coding			GO:0006281
+364	AAEL011355	1	protein_coding	carnitine o-acetyltransferase [Source:VB Community Annotation]	EAT36562.1	GO:0016746
+365	AAEL011356	1	protein_coding	alcohol dehydrogenase [Source:VB Community Annotation]		GO:0005737
+366	AAEL011356	1	protein_coding	alcohol dehydrogenase [Source:VB Community Annotation]		GO:0016491
+367	AAEL011356	1	protein_coding	alcohol dehydrogenase [Source:VB Community Annotation]		GO:0055114
+368	AAEL011356	1	protein_coding	alcohol dehydrogenase [Source:VB Community Annotation]		GO:0047522
+369	AAEL011356	1	protein_coding	alcohol dehydrogenase [Source:VB Community Annotation]		GO:0032440
+370	AAEL011357	1	protein_coding	maintenance of killer 16 (mak16) protein [Source:VB Community Annotation]		
+371	AAEL011359	1	protein_coding	nfat [Source:VB Community Annotation]		GO:0003677
+372	AAEL011359	1	protein_coding	nfat [Source:VB Community Annotation]		GO:0006355
+373	AAEL011359	1	protein_coding	nfat [Source:VB Community Annotation]		GO:0003700
+374	AAEL011361	1	protein_coding		EAT36560.1	GO:0003682
+375	AAEL011361	1	protein_coding		EAT36560.1	GO:0045892
+376	AAEL011361	1	protein_coding		EAT36560.1	GO:0007219
+377	AAEL011362	1	protein_coding		EAT36568.1	GO:0008270
+378	AAEL011362	1	protein_coding		EAT36568.1	GO:0005634
+379	AAEL011362	1	protein_coding		EAT36568.1	GO:0003676
+380	AAEL011377	1	protein_coding			
+381	AAEL011379	1	protein_coding	coenzyme q10 biosynthesis protein [Source:VB Community Annotation]	EAT36532.1	GO:0055114
+382	AAEL011379	1	protein_coding	coenzyme q10 biosynthesis protein [Source:VB Community Annotation]	EAT36532.1	GO:0046872
+383	AAEL011379	1	protein_coding	coenzyme q10 biosynthesis protein [Source:VB Community Annotation]	EAT36532.1	GO:0006744
+384	AAEL011379	1	protein_coding	coenzyme q10 biosynthesis protein [Source:VB Community Annotation]	EAT36532.1	GO:0016709
+385	AAEL011379	1	protein_coding	coenzyme q10 biosynthesis protein [Source:VB Community Annotation]	EAT36532.1	GO:0031314
+386	AAEL011379	1	protein_coding	coenzyme q10 biosynthesis protein [Source:VB Community Annotation]	EJY58165.1	GO:0055114
+387	AAEL011379	1	protein_coding	coenzyme q10 biosynthesis protein [Source:VB Community Annotation]	EJY58165.1	GO:0046872
+388	AAEL011379	1	protein_coding	coenzyme q10 biosynthesis protein [Source:VB Community Annotation]	EJY58165.1	GO:0006744
+389	AAEL011379	1	protein_coding	coenzyme q10 biosynthesis protein [Source:VB Community Annotation]	EJY58165.1	GO:0016709
+390	AAEL011379	1	protein_coding	coenzyme q10 biosynthesis protein [Source:VB Community Annotation]	EJY58165.1	GO:0031314
+391	AAEL011379	1	protein_coding	coenzyme q10 biosynthesis protein [Source:VB Community Annotation]	EJY58166.1	GO:0055114
+392	AAEL011379	1	protein_coding	coenzyme q10 biosynthesis protein [Source:VB Community Annotation]	EJY58166.1	GO:0046872
+393	AAEL011379	1	protein_coding	coenzyme q10 biosynthesis protein [Source:VB Community Annotation]	EJY58166.1	GO:0006744
+394	AAEL011379	1	protein_coding	coenzyme q10 biosynthesis protein [Source:VB Community Annotation]	EJY58166.1	GO:0016709
+395	AAEL011379	1	protein_coding	coenzyme q10 biosynthesis protein [Source:VB Community Annotation]	EJY58166.1	GO:0031314
+396	AAEL011381	1	protein_coding	NADH-ubiquinone oxidoreductase fe-s protein 2 (ndufs2) [Source:VB Community Annotation]	EAT36538.1	GO:0055114
+397	AAEL011381	1	protein_coding	NADH-ubiquinone oxidoreductase fe-s protein 2 (ndufs2) [Source:VB Community Annotation]	EAT36538.1	GO:0016651
+398	AAEL011381	1	protein_coding	NADH-ubiquinone oxidoreductase fe-s protein 2 (ndufs2) [Source:VB Community Annotation]	EAT36538.1	GO:0048038
+399	AAEL011381	1	protein_coding	NADH-ubiquinone oxidoreductase fe-s protein 2 (ndufs2) [Source:VB Community Annotation]	EAT36538.1	GO:0051287
+400	AAEL011382	1	protein_coding	116 kda U5 small nuclear ribonucleoprotein component [Source:UniProtKB/TrEMBL;Acc:Q16Q70]	EAT36536.1	GO:0003924
+401	AAEL011382	1	protein_coding	116 kda U5 small nuclear ribonucleoprotein component [Source:UniProtKB/TrEMBL;Acc:Q16Q70]	EAT36536.1	GO:0005525
+402	AAEL011383	1	protein_coding	MAGE-41 protein, putative [Source:VB Community Annotation]	EAT36535.1	
+403	AAEL011385	1	protein_coding			
+404	AAEL011386	1	protein_coding		EAT36533.1	
+405	AAEL011386	1	protein_coding		EAT36534.1	
+406	AAEL011387	1	protein_coding	leucine-rich repeat [Source:VB Community Annotation]		GO:0005515
+407	AAEL011388	1	protein_coding	Vacuolar-sorting protein SNF8 [Source:UniProtKB/TrEMBL;Acc:A0A1S4FT08]		GO:0000814
+408	AAEL011388	1	protein_coding	Vacuolar-sorting protein SNF8 [Source:UniProtKB/TrEMBL;Acc:A0A1S4FT08]		GO:0071985
+409	AAEL011388	1	protein_coding	Vacuolar-sorting protein SNF8 [Source:UniProtKB/TrEMBL;Acc:A0A1S4FT08]		GO:0043328
+410	AAEL011389	1	protein_coding		EAT36537.1	GO:0006661
+411	AAEL011389	1	protein_coding		EAT36537.1	GO:0070772
+412	AAEL011390	1	protein_coding	mitochondrial ribosomal protein, L9, putative [Source:VB Community Annotation]	EAT36540.1	GO:0003735
+413	AAEL011390	1	protein_coding	mitochondrial ribosomal protein, L9, putative [Source:VB Community Annotation]	EAT36540.1	GO:0006412
+414	AAEL011390	1	protein_coding	mitochondrial ribosomal protein, L9, putative [Source:VB Community Annotation]	EAT36540.1	GO:0005840
+415	AAEL011390	1	protein_coding	mitochondrial ribosomal protein, L9, putative [Source:VB Community Annotation]	EAT36540.1	GO:0005622
+416	AAEL011718	1	protein_coding			
+417	AAEL011719	1	protein_coding			GO:0031080
+418	AAEL011719	1	protein_coding			GO:0005515
+419	AAEL011728	1	protein_coding			GO:0016020
+420	AAEL011728	1	protein_coding			GO:0003824
+421	AAEL011728	1	protein_coding			GO:0005509
+422	AAEL011728	1	protein_coding			GO:0004571
+423	AAEL011730	1	protein_coding	odorant-binding protein 99c, putative [Source:VB Community Annotation]		GO:0005549
+424	AAEL011751	NIGP01000838	protein_coding	ccar1 [Source:VB Community Annotation]		GO:0006355
+425	AAEL011754	NIGP01000599	protein_coding			
+426	AAEL011756	NIGP01001914	protein_coding	aldehyde dehydrogenase [Source:VB Community Annotation]	EAT36141.1	GO:0016491
+427	AAEL011756	NIGP01001914	protein_coding	aldehyde dehydrogenase [Source:VB Community Annotation]	EAT36141.1	GO:0055114
+428	AAEL011756	NIGP01001914	protein_coding	aldehyde dehydrogenase [Source:VB Community Annotation]	EAT36141.1	GO:0016620
+429	AAEL012094	1	protein_coding	casein kinase ii, alpha chain (cmgc group iv) [Source:VB Community Annotation]	EAT35758.1	GO:0005524
+430	AAEL012094	1	protein_coding	casein kinase ii, alpha chain (cmgc group iv) [Source:VB Community Annotation]	EAT35758.1	GO:0004674
+431	AAEL012094	1	protein_coding	casein kinase ii, alpha chain (cmgc group iv) [Source:VB Community Annotation]	EAT35758.1	GO:0004672
+432	AAEL012094	1	protein_coding	casein kinase ii, alpha chain (cmgc group iv) [Source:VB Community Annotation]	EAT35758.1	GO:0006468
+433	AAEL012094	1	protein_coding	casein kinase ii, alpha chain (cmgc group iv) [Source:VB Community Annotation]	EAT35759.1	GO:0005524
+434	AAEL012094	1	protein_coding	casein kinase ii, alpha chain (cmgc group iv) [Source:VB Community Annotation]	EAT35759.1	GO:0004674
+435	AAEL012094	1	protein_coding	casein kinase ii, alpha chain (cmgc group iv) [Source:VB Community Annotation]	EAT35759.1	GO:0004672
+436	AAEL012094	1	protein_coding	casein kinase ii, alpha chain (cmgc group iv) [Source:VB Community Annotation]	EAT35759.1	GO:0006468
+437	AAEL012095	1	protein_coding	26S protease regulatory subunit [Source:VB Community Annotation]	EAT35749.1	GO:0005524
+438	AAEL012095	1	protein_coding	26S protease regulatory subunit [Source:VB Community Annotation]	EAT35749.1	GO:0016787
+439	AAEL012095	1	protein_coding	26S protease regulatory subunit [Source:VB Community Annotation]	EAT35749.1	GO:0005737
+440	AAEL012095	1	protein_coding	26S protease regulatory subunit [Source:VB Community Annotation]	EAT35749.1	GO:0030163
+441	AAEL012095	1	protein_coding	26S protease regulatory subunit [Source:VB Community Annotation]	EAT35749.1	GO:0000502
+442	AAEL012095	1	protein_coding	26S protease regulatory subunit [Source:VB Community Annotation]	EAT35749.1	GO:0036402
+443	AAEL012098	1	protein_coding	synaptic vesicle protein [Source:VB Community Annotation]		GO:0016021
+444	AAEL012098	1	protein_coding	synaptic vesicle protein [Source:VB Community Annotation]		GO:0055085
+445	AAEL012098	1	protein_coding	synaptic vesicle protein [Source:VB Community Annotation]		GO:0022857
+446	AAEL012099	1	protein_coding	protease m1 zinc metalloprotease [Source:VB Community Annotation]		GO:0008270
+447	AAEL012099	1	protein_coding	protease m1 zinc metalloprotease [Source:VB Community Annotation]		GO:0006508
+448	AAEL012099	1	protein_coding	protease m1 zinc metalloprotease [Source:VB Community Annotation]		GO:0008237
+449	AAEL012100	1	protein_coding		EAT35745.1	GO:0003723
+450	AAEL012100	1	protein_coding		EAT35745.1	GO:0003676
+451	AAEL012102	1	protein_coding		EAT35761.1	
+452	AAEL012103	1	protein_coding			GO:0008270
+453	AAEL012103	1	protein_coding			GO:0016021
+454	AAEL012103	1	protein_coding			GO:0006508
+455	AAEL012103	1	protein_coding			GO:0008237
+456	AAEL012104	1	protein_coding			GO:0005515
+457	AAEL012105	1	protein_coding	Zinc finger protein-like 1 homolog [Source:UniProtKB/Swiss-Prot;Acc:Q16N38]	EAT35748.1	GO:0016021
+458	AAEL012105	1	protein_coding	Zinc finger protein-like 1 homolog [Source:UniProtKB/Swiss-Prot;Acc:Q16N38]	EAT35748.1	GO:0046872
+459	AAEL012107	1	protein_coding	nanos [Source:VB Community Annotation]	EAT35750.1	GO:0008270
+460	AAEL012107	1	protein_coding	nanos [Source:VB Community Annotation]	EAT35750.1	GO:0003723
+461	AAEL012107	1	protein_coding	nanos [Source:VB Community Annotation]	EAT35750.1	GO:0006417
+462	AAEL012109	1	protein_coding	sucrose transport protein [Source:VB Community Annotation]		
+463	AAEL012110	1	protein_coding	protease m1 zinc metalloprotease [Source:VB Community Annotation]		GO:0008270
+464	AAEL012110	1	protein_coding	protease m1 zinc metalloprotease [Source:VB Community Annotation]		GO:0016021
+465	AAEL012110	1	protein_coding	protease m1 zinc metalloprotease [Source:VB Community Annotation]		GO:0006508
+466	AAEL012110	1	protein_coding	protease m1 zinc metalloprotease [Source:VB Community Annotation]		GO:0008237
+467	AAEL012217	1	protein_coding	protease m1 zinc metalloprotease [Source:VB Community Annotation]	EAT35628.1	GO:0008270
+468	AAEL012217	1	protein_coding	protease m1 zinc metalloprotease [Source:VB Community Annotation]	EAT35628.1	GO:0006508
+469	AAEL012217	1	protein_coding	protease m1 zinc metalloprotease [Source:VB Community Annotation]	EAT35628.1	GO:0004177
+470	AAEL012217	1	protein_coding	protease m1 zinc metalloprotease [Source:VB Community Annotation]	EAT35628.1	GO:0008237
+471	AAEL012233	1	protein_coding			GO:0046983
+472	AAEL012235	NIGP01000214	protein_coding	Ribosome biogenesis protein NOP53 [Source:UniProtKB/TrEMBL;Acc:A0A1S4FVP6]		GO:0005730
+473	AAEL012235	NIGP01000214	protein_coding	Ribosome biogenesis protein NOP53 [Source:UniProtKB/TrEMBL;Acc:A0A1S4FVP6]		GO:0000027
+474	AAEL012235	NIGP01000214	protein_coding	Ribosome biogenesis protein NOP53 [Source:UniProtKB/TrEMBL;Acc:A0A1S4FVP6]		GO:0005654
+475	AAEL012339	NIGP01000763	protein_coding	cdk1 [Source:VB Community Annotation]	EAT35497.1	GO:0005524
+476	AAEL012339	NIGP01000763	protein_coding	cdk1 [Source:VB Community Annotation]	EAT35497.1	GO:0004674
+477	AAEL012339	NIGP01000763	protein_coding	cdk1 [Source:VB Community Annotation]	EAT35497.1	GO:0004672
+478	AAEL012339	NIGP01000763	protein_coding	cdk1 [Source:VB Community Annotation]	EAT35497.1	GO:0006468
+479	AAEL012339	NIGP01000763	protein_coding	cdk1 [Source:VB Community Annotation]	EAT34426.1	GO:0005524
+480	AAEL012339	NIGP01000763	protein_coding	cdk1 [Source:VB Community Annotation]	EAT34426.1	GO:0004674
+481	AAEL012339	NIGP01000763	protein_coding	cdk1 [Source:VB Community Annotation]	EAT34426.1	GO:0004672
+482	AAEL012339	NIGP01000763	protein_coding	cdk1 [Source:VB Community Annotation]	EAT34426.1	GO:0006468
+483	AAEL012595	1	protein_coding			
+484	AAEL012718	1	protein_coding	Putative progestin and adipoq receptor family member 4 [Source:UniProtKB/TrEMBL;Acc:A0A0P6ITR0]		GO:0016021
+485	AAEL012796	1	protein_coding	GPCR Growth Hormone Releasing Hormone Family [Source:VB Community Annotation]		GO:0016021
+486	AAEL012796	1	protein_coding	GPCR Growth Hormone Releasing Hormone Family [Source:VB Community Annotation]		GO:0007186
+487	AAEL012796	1	protein_coding	GPCR Growth Hormone Releasing Hormone Family [Source:VB Community Annotation]		GO:0004930
+488	AAEL012796	1	protein_coding	GPCR Growth Hormone Releasing Hormone Family [Source:VB Community Annotation]		GO:0001607
+489	AAEL012962	1	protein_coding	DEAD box ATP-dependent RNA helicase [Source:VB Community Annotation]		GO:0005524
+490	AAEL012962	1	protein_coding	DEAD box ATP-dependent RNA helicase [Source:VB Community Annotation]		GO:0003676
+491	AAEL012962	1	protein_coding	DEAD box ATP-dependent RNA helicase [Source:VB Community Annotation]		GO:0004386
+492	AAEL012964	1	protein_coding			
+493	AAEL013135	NIGP01001407	protein_coding	chromodomain helicase DNA binding protein [Source:VB Community Annotation]		GO:0005524
+494	AAEL013369	1	protein_coding		EAT34381.1	GO:0016192
+495	AAEL013369	1	protein_coding		EAT34381.1	GO:0030008
+496	AAEL013679	1	protein_coding	coilin-interacting nulcear ATPase protein, putative [Source:VB Community Annotation]	EAT34059.1	GO:0005634
+497	AAEL013679	1	protein_coding	coilin-interacting nulcear ATPase protein, putative [Source:VB Community Annotation]	EAT34059.1	GO:0005524
+498	AAEL013679	1	protein_coding	coilin-interacting nulcear ATPase protein, putative [Source:VB Community Annotation]	EAT34059.1	GO:0016887
+499	AAEL013679	1	protein_coding	coilin-interacting nulcear ATPase protein, putative [Source:VB Community Annotation]	EAT34059.1	GO:0004017
+500	AAEL013839	1	protein_coding		EAT33890.1	
+501	AAEL013839	1	protein_coding			
+502	AAEL013840	1	protein_coding			GO:0008083
+503	AAEL013840	1	protein_coding			GO:0016020
+504	AAEL013841	1	protein_coding	paraplegin [Source:VB Community Annotation]		GO:0008270
+505	AAEL013841	1	protein_coding	paraplegin [Source:VB Community Annotation]		GO:0005524
+506	AAEL013841	1	protein_coding	paraplegin [Source:VB Community Annotation]		GO:0016020
+507	AAEL013841	1	protein_coding	paraplegin [Source:VB Community Annotation]		GO:0016021
+508	AAEL013841	1	protein_coding	paraplegin [Source:VB Community Annotation]		GO:0006508
+509	AAEL013841	1	protein_coding	paraplegin [Source:VB Community Annotation]		GO:0004222
+510	AAEL013842	1	protein_coding		EAT33889.1	GO:0046872
+511	AAEL013842	1	protein_coding		EAT33889.1	GO:0003676
+512	AAEL013844	1	protein_coding	diazepam binding inhibitor, putative [Source:VB Community Annotation]		GO:0000062
+513	AAEL013847	1	protein_coding	diacylglycerol kinase, zeta, iota [Source:VB Community Annotation]		GO:0007165
+514	AAEL013847	1	protein_coding	diacylglycerol kinase, zeta, iota [Source:VB Community Annotation]		GO:0016301
+515	AAEL013847	1	protein_coding	diacylglycerol kinase, zeta, iota [Source:VB Community Annotation]		GO:0035556
+516	AAEL013847	1	protein_coding	diacylglycerol kinase, zeta, iota [Source:VB Community Annotation]		GO:0003951
+517	AAEL013847	1	protein_coding	diacylglycerol kinase, zeta, iota [Source:VB Community Annotation]		GO:0007205
+518	AAEL013847	1	protein_coding	diacylglycerol kinase, zeta, iota [Source:VB Community Annotation]		GO:0004143
+519	AAEL013847	1	protein_coding	diacylglycerol kinase, zeta, iota [Source:VB Community Annotation]		GO:0005515
+520	AAEL013894	1	protein_coding			GO:0016747
+521	AAEL014054	NIGP01002215	protein_coding		EAT33670.1	
+522	AAEL014130	1	protein_coding		EAT33596.1	GO:0008154
+523	AAEL014130	1	protein_coding		EAT33596.1	GO:0005515
+524	AAEL014134	1	protein_coding	kinesin heavy chain [Source:VB Community Annotation]		GO:0005524
+525	AAEL014134	1	protein_coding	kinesin heavy chain [Source:VB Community Annotation]		GO:0008017
+526	AAEL014134	1	protein_coding	kinesin heavy chain [Source:VB Community Annotation]		GO:0003777
+527	AAEL014134	1	protein_coding	kinesin heavy chain [Source:VB Community Annotation]		GO:0007018
+528	AAEL014198	1	protein_coding	cdp-diacylglycerol--glycerol-3-phosphate 3-phosphatidyltransferase [Source:VB Community Annotation]	EAT33524.1	GO:0016020
+529	AAEL014198	1	protein_coding	cdp-diacylglycerol--glycerol-3-phosphate 3-phosphatidyltransferase [Source:VB Community Annotation]	EAT33524.1	GO:0016021
+530	AAEL014198	1	protein_coding	cdp-diacylglycerol--glycerol-3-phosphate 3-phosphatidyltransferase [Source:VB Community Annotation]	EAT33524.1	GO:0016780
+531	AAEL014198	1	protein_coding	cdp-diacylglycerol--glycerol-3-phosphate 3-phosphatidyltransferase [Source:VB Community Annotation]	EAT33524.1	GO:0008654
+532	AAEL014201	1	protein_coding	chaperone protein, putative [Source:VB Community Annotation]	EAT33523.1	GO:0032981
+533	AAEL014719	1	protein_coding	inosine-uridine preferring nucleoside hydrolase [Source:VB Community Annotation]		GO:0016021
+534	AAEL014720	1	protein_coding			
+535	AAEL015077	1	protein_coding	WD and tetratricopeptide repeat protein [Source:VB Community Annotation]	EAT32700.1	GO:0005515
+536	AAEL015411	1	protein_coding	glutamine-dependent NAD(+) synthetase [Source:VB Community Annotation]		GO:0005524
+537	AAEL015411	1	protein_coding	glutamine-dependent NAD(+) synthetase [Source:VB Community Annotation]		GO:0006807
+538	AAEL015411	1	protein_coding	glutamine-dependent NAD(+) synthetase [Source:VB Community Annotation]		GO:0009435
+539	AAEL015411	1	protein_coding	glutamine-dependent NAD(+) synthetase [Source:VB Community Annotation]		GO:0003952
+540	AAEL015458	1	protein_coding	transferrin [Source:VB Community Annotation]		GO:0006811
+541	AAEL015458	1	protein_coding	transferrin [Source:VB Community Annotation]		GO:0005576
+542	AAEL015458	1	protein_coding	transferrin [Source:VB Community Annotation]		GO:0005615
+543	AAEL015458	1	protein_coding	transferrin [Source:VB Community Annotation]		GO:0046872
+544	AAEL015458	1	protein_coding	transferrin [Source:VB Community Annotation]		GO:0055072
+545	AAEL016969	1	protein_coding			
+546	AAEL017048	1	protein_coding	GPCR Growth Hormone Releasing Hormone Family [Source:VB Community Annotation]		GO:0016021
+547	AAEL017048	1	protein_coding	GPCR Growth Hormone Releasing Hormone Family [Source:VB Community Annotation]		GO:0007186
+548	AAEL017048	1	protein_coding	GPCR Growth Hormone Releasing Hormone Family [Source:VB Community Annotation]		GO:0004930
+549	AAEL017167	1	protein_coding	GPCR HE6-like Family [Source:VB Community Annotation]		GO:0016021
+550	AAEL017167	1	protein_coding	GPCR HE6-like Family [Source:VB Community Annotation]		GO:0007186
+551	AAEL017167	1	protein_coding	GPCR HE6-like Family [Source:VB Community Annotation]		GO:0004930
+552	AAEL017167	1	protein_coding	GPCR HE6-like Family [Source:VB Community Annotation]		GO:0007166
+553	AAEL017167	1	protein_coding	GPCR HE6-like Family [Source:VB Community Annotation]		GO:0004888
+554	AAEL017258	NIGP01000139	protein_coding		EJY57413.1	GO:0016021
+555	AAEL017258	NIGP01000139	protein_coding			
+556	AAEL017515	1	protein_coding			GO:0003677
+557	AAEL017515	1	protein_coding			GO:0006355
+558	AAEL017515	1	protein_coding			GO:0005634
+559	AAEL017515	1	protein_coding			GO:0003700
+560	AAEL017515	1	protein_coding			GO:0005515
+561	AAEL017515	1	protein_coding			GO:0043565
+562	AAEL017515	1	protein_coding			GO:0006357
+563	AAEL017515	1	protein_coding			GO:0046982
+564	AAEL017987	1	protein_coding			
+565	AAEL018057	1	protein_coding			GO:0005524
+566	AAEL018057	1	protein_coding			GO:0004672
+567	AAEL018057	1	protein_coding			GO:0006468
+568	AAEL018059	1	protein_coding			GO:0005524
+569	AAEL018059	1	protein_coding			GO:0035556
+570	AAEL018059	1	protein_coding			GO:0004674
+571	AAEL018059	1	protein_coding			GO:0004672
+572	AAEL018059	1	protein_coding			GO:0017048
+573	AAEL018059	1	protein_coding			GO:0006468
+574	AAEL019424	1	protein_coding			GO:0005515
+575	AAEL019446	1	protein_coding			GO:0008033
+576	AAEL019493	NIGP01001914	protein_coding			GO:0003676
+577	AAEL019493	NIGP01001914	protein_coding			GO:0008168
+578	AAEL019493	NIGP01001914	protein_coding			GO:0000179
+579	AAEL019493	NIGP01001914	protein_coding			GO:0008649
+580	AAEL019493	NIGP01001914	protein_coding			GO:0000154
+581	AAEL019493	NIGP01001914	protein_coding			GO:0032259
+582	AAEL019737	1	protein_coding			GO:0005515
+583	AAEL019786	1	protein_coding	NPYLR7B [Source:UniProtKB/TrEMBL;Acc:U5N1H5]		GO:0016021
+584	AAEL019786	1	protein_coding	NPYLR7B [Source:UniProtKB/TrEMBL;Acc:U5N1H5]		GO:0007186
+585	AAEL019786	1	protein_coding	NPYLR7B [Source:UniProtKB/TrEMBL;Acc:U5N1H5]		GO:0004930
+586	AAEL019786	1	protein_coding	NPYLR7B [Source:UniProtKB/TrEMBL;Acc:U5N1H5]		GO:0004983
+587	AAEL019787	1	protein_coding			GO:0003676
+588	AAEL019821	1	protein_coding			GO:0016021
+589	AAEL019821	1	protein_coding			GO:0007186
+590	AAEL019821	1	protein_coding			GO:0004930
+591	AAEL019866	1	protein_coding			
+592	AAEL019990	1	protein_coding			GO:0003677
+593	AAEL019990	1	protein_coding			GO:0005634
+594	AAEL020026	NIGP01001438	protein_coding			GO:0008270
+595	AAEL020026	NIGP01001438	protein_coding			GO:0006508
+596	AAEL020026	NIGP01001438	protein_coding			GO:0004181
+597	AAEL020042	1	protein_coding			GO:0003677
+598	AAEL020133	NIGP01000667	protein_coding			
+599	AAEL020135	NIGP01001085	protein_coding			GO:0007062
+600	AAEL020135	NIGP01001085	protein_coding			GO:0008278
+601	AAEL020197	NIGP01000470	protein_coding			GO:0019867
+602	AAEL020236	1	protein_coding			GO:0008270
+603	AAEL020236	1	protein_coding			GO:0061630
+604	AAEL020236	1	protein_coding			GO:0071596
+605	AAEL020314	NIGP01001844	protein_coding			GO:0032367
+606	AAEL020316	NIGP01001061	protein_coding			GO:0003723
+607	AAEL020316	NIGP01001061	protein_coding			GO:0006396
+608	AAEL020316	NIGP01001061	protein_coding			GO:0008173
+609	AAEL020332	NIGP01001861	protein_coding			GO:0005548
+610	AAEL020332	NIGP01001861	protein_coding			GO:0015914
+611	AAEL020332	NIGP01001861	protein_coding			GO:0005622
+612	AAEL020438	NIGP01001874	protein_coding			
+613	AAEL020524	NIGP01000124	protein_coding			GO:0016020
+614	AAEL020524	NIGP01000124	protein_coding			GO:0016021
+615	AAEL020524	NIGP01000124	protein_coding			GO:0005215
+616	AAEL020524	NIGP01000124	protein_coding			GO:0055085
+617	AAEL020524	NIGP01000124	protein_coding			GO:0022857
+618	AAEL020642	1	protein_coding			
+619	AAEL020853	NIGP01001335	protein_coding			
+620	AAEL020941	1	protein_coding			GO:0008270
+621	AAEL020941	1	protein_coding			GO:0006508
+622	AAEL020941	1	protein_coding			GO:0004181
+623	AAEL020987	NIGP01001717	protein_coding			GO:0005737
+624	AAEL020987	NIGP01001717	protein_coding			GO:0004725
+625	AAEL020987	NIGP01001717	protein_coding			GO:0003993
+626	AAEL020987	NIGP01001717	protein_coding			GO:0004726
+627	AAEL020987	NIGP01001717	protein_coding			GO:0006470
+628	AAEL020998	1	protein_coding		EAT42651.1	GO:0016021
+629	AAEL020998	1	protein_coding		EAT33169.1	GO:0016021
+630	AAEL021024	1	protein_coding			GO:0003677
+631	AAEL021024	1	protein_coding			GO:0006260
+632	AAEL021024	1	protein_coding			GO:0003887
+633	AAEL021024	1	protein_coding			GO:0005760
+634	AAEL021090	NIGP01001755	protein_coding			
+635	AAEL021134	NIGP01001694	protein_coding			
+636	AAEL021162	1	protein_coding			
+637	AAEL021190	NIGP01000077	protein_coding			GO:0016020
+638	AAEL021190	NIGP01000077	protein_coding			GO:0009966
+639	AAEL021318	1	protein_coding			GO:0005515
+640	AAEL021365	1	protein_coding			
+641	AAEL021447	NIGP01000184	protein_coding			GO:0016020
+642	AAEL021447	NIGP01000184	protein_coding			GO:0015018
+643	AAEL021453	NIGP01001786	protein_coding			
+644	AAEL021474	NIGP01000959	protein_coding	Protein arginine N-methyltransferase [Source:UniProtKB/TrEMBL;Acc:Q171P3]	EAT40711.1	GO:0008168
+645	AAEL021474	NIGP01000959	protein_coding	Protein arginine N-methyltransferase [Source:UniProtKB/TrEMBL;Acc:Q171P3]	EAT40711.1	GO:0006479
+646	AAEL021474	NIGP01000959	protein_coding	Protein arginine N-methyltransferase [Source:UniProtKB/TrEMBL;Acc:Q171P3]	EAT40711.1	GO:0035246
+647	AAEL021515	NIGP01001717	protein_coding			GO:0008270
+648	AAEL021515	NIGP01001717	protein_coding			GO:0005634
+649	AAEL021515	NIGP01001717	protein_coding			GO:0003676
+650	AAEL021584	NIGP01001230	protein_coding			GO:0005515
+651	AAEL021629	NIGP01000941	protein_coding		EAT36564.1	GO:0008270
+652	AAEL021629	NIGP01000941	protein_coding		EAT36564.1	GO:0005634
+653	AAEL021629	NIGP01000941	protein_coding		EAT36564.1	GO:0003676
+654	AAEL021666	1	protein_coding			GO:0006508
+655	AAEL021666	1	protein_coding			GO:0004252
+656	AAEL021736	1	protein_coding	Enhancer of rudimentary homolog [Source:UniProtKB/Swiss-Prot;Acc:Q93104]		GO:0006221
+657	AAEL021736	1	protein_coding	Enhancer of rudimentary homolog [Source:UniProtKB/Swiss-Prot;Acc:Q93104]		GO:0007049
+658	AAEL021736	1	protein_coding	Enhancer of rudimentary homolog [Source:UniProtKB/Swiss-Prot;Acc:Q93104]		GO:0045747
+659	AAEL021742	NIGP01000823	protein_coding			
+660	AAEL021767	NIGP01000446	protein_coding			
+661	AAEL021866	1	protein_coding	Putative origin recognition complex subunit 5 [Source:UniProtKB/TrEMBL;Acc:A0A0P6ITX9]		GO:0005634
+662	AAEL021866	1	protein_coding	Putative origin recognition complex subunit 5 [Source:UniProtKB/TrEMBL;Acc:A0A0P6ITX9]		GO:0006260
+663	AAEL021866	1	protein_coding	Putative origin recognition complex subunit 5 [Source:UniProtKB/TrEMBL;Acc:A0A0P6ITX9]		GO:0000808
+664	AAEL021890	NIGP01000986	protein_coding			
+665	AAEL021915	NIGP01000315	protein_coding			GO:0003779
+666	AAEL022013	NIGP01000101	protein_coding			GO:0003677
+667	AAEL022013	NIGP01000101	protein_coding			GO:0008270
+668	AAEL022013	NIGP01000101	protein_coding			GO:0005515
+669	AAEL022056	NIGP01000612	protein_coding			GO:0005524
+670	AAEL022056	NIGP01000612	protein_coding			GO:0015991
+671	AAEL022056	NIGP01000612	protein_coding			GO:0046034
+672	AAEL022056	NIGP01000612	protein_coding			GO:0033180
+673	AAEL022056	NIGP01000612	protein_coding			GO:1902600
+674	AAEL022067	NIGP01002263	protein_coding		EJY57703.1	
+675	AAEL022067	NIGP01002263	protein_coding		EAT40461.1	
+676	AAEL022078	NIGP01001806	protein_coding			GO:0003824
+677	AAEL022155	NIGP01001587	protein_coding			GO:0035556
+678	AAEL022167	NIGP01000184	protein_coding			
+679	AAEL022167	NIGP01000184	protein_coding			GO:0003676
+680	AAEL022169	NIGP01000101	protein_coding			GO:0006396
+681	AAEL022169	NIGP01000101	protein_coding			GO:0004525
+682	AAEL022363	NIGP01001574	protein_coding			GO:0016021
+683	AAEL022363	NIGP01001574	protein_coding			GO:0016765
+684	AAEL022363	NIGP01001574	protein_coding			GO:0004659
+685	AAEL022406	NIGP01001341	protein_coding			GO:0005856
+686	AAEL022406	NIGP01001341	protein_coding			GO:0005198
+687	AAEL022406	NIGP01001341	protein_coding			GO:0003779
+688	AAEL022530	NIGP01000558	protein_coding			GO:0007186
+689	AAEL022530	NIGP01000558	protein_coding			GO:0019236
+690	AAEL022538	1	protein_coding	Putative bisphosphate 3'-nucleotidase bpnt1/inositol polyphosphate 1-phosphatase [Source:UniProtKB/TrEMBL;Acc:A0A0P6IYC3]		GO:0046854
+691	AAEL022589	1	protein_coding			GO:0016021
+692	AAEL022589	1	protein_coding			GO:0007186
+693	AAEL022589	1	protein_coding			GO:0004930
+694	AAEL022615	1	protein_coding			GO:0003824
+695	AAEL022615	1	protein_coding			GO:0030170
+696	AAEL022615	1	protein_coding			GO:0006777
+697	AAEL022615	1	protein_coding			GO:0030151
+698	AAEL022615	1	protein_coding			GO:0008265
+699	AAEL022631	1	protein_coding			
+700	AAEL022632	NIGP01000412	protein_coding			
+701	AAEL022665	NIGP01000727	protein_coding			
+702	AAEL022712	1	protein_coding			GO:0006412
+703	AAEL022827	NIGP01001672	protein_coding		EAT32980.1	GO:0003824
+704	AAEL022827	NIGP01001672	protein_coding		EAT32980.1	GO:0004722
+705	AAEL022827	NIGP01001672	protein_coding		EAT32980.1	GO:0006470
+706	AAEL022893	NIGP01002032	protein_coding			
+707	AAEL022930	1	protein_coding			
+708	AAEL023000	NIGP01000101	protein_coding			
+709	AAEL023005	NIGP01002020	protein_coding			GO:0097428
+710	AAEL023069	1	protein_coding	26S protease regulatory subunit [Source:UniProtKB/TrEMBL;Acc:Q16FL0]	EAT34058.1	GO:0005524
+711	AAEL023069	1	protein_coding	26S protease regulatory subunit [Source:UniProtKB/TrEMBL;Acc:Q16FL0]	EAT34058.1	GO:0016787
+712	AAEL023069	1	protein_coding	26S protease regulatory subunit [Source:UniProtKB/TrEMBL;Acc:Q16FL0]	EAT34058.1	GO:0005737
+713	AAEL023069	1	protein_coding	26S protease regulatory subunit [Source:UniProtKB/TrEMBL;Acc:Q16FL0]	EAT34058.1	GO:0030163
+714	AAEL023069	1	protein_coding	26S protease regulatory subunit [Source:UniProtKB/TrEMBL;Acc:Q16FL0]	EAT34058.1	GO:0036402
+715	AAEL023069	1	protein_coding	26S protease regulatory subunit [Source:UniProtKB/TrEMBL;Acc:Q16FL0]	EAT33024.1	GO:0005524
+716	AAEL023069	1	protein_coding	26S protease regulatory subunit [Source:UniProtKB/TrEMBL;Acc:Q16FL0]	EAT33024.1	GO:0016787
+717	AAEL023069	1	protein_coding	26S protease regulatory subunit [Source:UniProtKB/TrEMBL;Acc:Q16FL0]	EAT33024.1	GO:0005737
+718	AAEL023069	1	protein_coding	26S protease regulatory subunit [Source:UniProtKB/TrEMBL;Acc:Q16FL0]	EAT33024.1	GO:0030163
+719	AAEL023069	1	protein_coding	26S protease regulatory subunit [Source:UniProtKB/TrEMBL;Acc:Q16FL0]	EAT33024.1	GO:0036402
+720	AAEL023240	NIGP01000525	protein_coding	U3 small nucleolar ribonucleoprotein component [Source:UniProtKB/TrEMBL;Acc:Q1HQS9]		
+721	AAEL023255	NIGP01000422	protein_coding	Ribonucleoside-diphosphate reductase [Source:UniProtKB/TrEMBL;Acc:Q8WRS8]	EAT37356.1	GO:0005524
+722	AAEL023255	NIGP01000422	protein_coding	Ribonucleoside-diphosphate reductase [Source:UniProtKB/TrEMBL;Acc:Q8WRS8]	EAT37356.1	GO:0055114
+723	AAEL023255	NIGP01000422	protein_coding	Ribonucleoside-diphosphate reductase [Source:UniProtKB/TrEMBL;Acc:Q8WRS8]	EAT37356.1	GO:0006260
+724	AAEL023255	NIGP01000422	protein_coding	Ribonucleoside-diphosphate reductase [Source:UniProtKB/TrEMBL;Acc:Q8WRS8]	EAT37356.1	GO:0004748
+725	AAEL023294	NIGP01002004	protein_coding			GO:0006508
+726	AAEL023294	NIGP01002004	protein_coding			GO:0008234
+727	AAEL023294	NIGP01002004	protein_coding			GO:0004869
+728	AAEL023412	NIGP01001816	protein_coding			GO:0046982
+729	AAEL023468	NIGP01000557	protein_coding	Protein FAM50 homolog [Source:UniProtKB/Swiss-Prot;Acc:Q16U25]	EAT38016.1	GO:0005634
+730	AAEL023483	NIGP01001844	protein_coding			GO:0003676
+731	AAEL023558	NIGP01000482	protein_coding			GO:0005319
+732	AAEL023558	NIGP01000482	protein_coding			GO:0006869
+733	AAEL023558	NIGP01000482	protein_coding			GO:0005548
+734	AAEL023559	NIGP01001678	protein_coding			GO:0016020
+735	AAEL023559	NIGP01001678	protein_coding			GO:0006508
+736	AAEL023559	NIGP01001678	protein_coding			GO:0008237
+737	AAEL023559	NIGP01001678	protein_coding			GO:0008241
+738	AAEL023576	NIGP01001350	protein_coding		EAT46181.1	
+739	AAEL023598	1	protein_coding			GO:0004803
+740	AAEL023598	1	protein_coding			GO:0006313
+741	AAEL023604	NIGP01001415	protein_coding			GO:0003824
+742	AAEL023629	1	protein_coding			GO:0008083
+743	AAEL023629	1	protein_coding			GO:0046872
+744	AAEL023629	1	protein_coding			GO:0005096
+745	AAEL023629	1	protein_coding			GO:0006897
+746	AAEL023647	NIGP01000779	protein_coding			GO:0003677
+747	AAEL023647	NIGP01000779	protein_coding			GO:0005515
+748	AAEL023712	NIGP01001480	protein_coding			
+749	AAEL023762	NIGP01000767	protein_coding			
+750	AAEL023842	NIGP01001717	protein_coding			GO:0008270
+751	AAEL023842	NIGP01001717	protein_coding			GO:0005634
+752	AAEL023842	NIGP01001717	protein_coding			GO:0003676
+753	AAEL023941	NIGP01002056	protein_coding			
+754	AAEL024051	NIGP01001186	protein_coding			
+755	AAEL024089	NIGP01000056	protein_coding			
+756	AAEL024101	NIGP01000714	protein_coding			GO:0007264
+757	AAEL024101	NIGP01000714	protein_coding			GO:0005085
+758	AAEL024101	NIGP01000714	protein_coding			GO:0005622
+759	AAEL024104	NIGP01000415	protein_coding			GO:0005524
+760	AAEL024104	NIGP01000415	protein_coding			GO:0004672
+761	AAEL024104	NIGP01000415	protein_coding			GO:0004713
+762	AAEL024104	NIGP01000415	protein_coding			GO:0006468
+763	AAEL024170	NIGP01000944	protein_coding			GO:0046872
+764	AAEL024175	NIGP01002209	protein_coding			GO:0046983
+765	AAEL024254	NIGP01001082	protein_coding			
+766	AAEL024298	NIGP01000324	protein_coding			GO:0016316
+767	AAEL024321	NIGP01000446	protein_coding			GO:0003677
+768	AAEL024321	NIGP01000446	protein_coding			GO:0016514
+769	AAEL024321	NIGP01000446	protein_coding			GO:0071565
+770	AAEL024321	NIGP01000446	protein_coding			GO:0071564
+771	AAEL024321	NIGP01000446	protein_coding			GO:0005515
+772	AAEL024358	NIGP01000599	protein_coding	Membrane trafficking protein emp24/gp25/p24 family member [Source:UniProtKB/TrEMBL;Acc:Q1HQL7]		GO:0016021
+773	AAEL024387	NIGP01000885	protein_coding	Putative serine protease [Source:UniProtKB/TrEMBL;Acc:A0A0P6ITL8]		GO:0008233
+774	AAEL024423	NIGP01000941	protein_coding		EAT36563.1	GO:0016255
+775	AAEL024423	NIGP01000941	protein_coding		EAT36563.1	GO:0042765
+776	AAEL024429	1	protein_coding			GO:0003676
+777	AAEL024451	NIGP01000087	protein_coding			
+778	AAEL024497	1	protein_coding			
+779	AAEL024516	NIGP01000160	protein_coding		EAT36321.1	GO:0005524
+780	AAEL024516	NIGP01000160	protein_coding		EAT36321.1	GO:0035556
+781	AAEL024516	NIGP01000160	protein_coding		EAT36321.1	GO:0004674
+782	AAEL024516	NIGP01000160	protein_coding		EAT36321.1	GO:0004672
+783	AAEL024516	NIGP01000160	protein_coding		EAT36321.1	GO:0006468
+784	AAEL024591	NIGP01002082	protein_coding			
+785	AAEL024616	1	protein_coding			
+786	AAEL024676	NIGP01000398	protein_coding			
+787	AAEL024747	NIGP01001408	protein_coding			
+788	AAEL024761	NIGP01000954	protein_coding			GO:0003676
+789	AAEL024775	NIGP01000158	protein_coding			GO:0005737
+790	AAEL024775	NIGP01000158	protein_coding			GO:0003743
+791	AAEL024775	NIGP01000158	protein_coding			GO:0005852
+792	AAEL024830	NIGP01002221	protein_coding			
+793	AAEL024868	NIGP01000481	protein_coding			GO:0003824
+794	AAEL024932	NIGP01000025	protein_coding			
+795	AAEL024964	NIGP01000470	protein_coding			
+796	AAEL025082	NIGP01000838	protein_coding	Peptidyl-prolyl cis-trans isomerase [Source:UniProtKB/TrEMBL;Acc:Q16P59]	EAT36139.1	GO:0006457
+797	AAEL025082	NIGP01000838	protein_coding	Peptidyl-prolyl cis-trans isomerase [Source:UniProtKB/TrEMBL;Acc:Q16P59]	EAT36139.1	GO:0003755
+798	AAEL025082	NIGP01000838	protein_coding	Peptidyl-prolyl cis-trans isomerase [Source:UniProtKB/TrEMBL;Acc:Q16P59]	EAT36139.1	GO:0000413
+799	AAEL025130	1	protein_coding			GO:0005089
+800	AAEL025130	1	protein_coding			GO:0035023
+801	AAEL025130	1	protein_coding			GO:0005515
+802	AAEL025133	NIGP01000737	protein_coding			GO:0031251
+803	AAEL025133	NIGP01000737	protein_coding			GO:0000289
+804	AAEL025133	NIGP01000737	protein_coding			GO:0003723
+805	AAEL025133	NIGP01000737	protein_coding			GO:0006397
+806	AAEL025146	NIGP01001507	protein_coding			GO:0003824
+807	AAEL025146	NIGP01001507	protein_coding			GO:0030170
+808	AAEL025146	NIGP01001507	protein_coding			GO:0035999
+809	AAEL025146	NIGP01001507	protein_coding			GO:0019264
+810	AAEL025146	NIGP01001507	protein_coding			GO:0004372
+811	AAEL025151	NIGP01002068	protein_coding			GO:0031204
+812	AAEL025151	NIGP01002068	protein_coding			GO:0030176
+813	AAEL025170	NIGP01001874	protein_coding			GO:0004014
+814	AAEL025170	NIGP01001874	protein_coding			GO:0006597
+815	AAEL025170	NIGP01001874	protein_coding			GO:0008295
+816	AAEL025187	NIGP01001695	protein_coding			
+817	AAEL025198	1	protein_coding			GO:0005515
+818	AAEL025224	NIGP01001844	protein_coding			GO:0005524
+819	AAEL025224	NIGP01001844	protein_coding			GO:0007165
+820	AAEL025224	NIGP01001844	protein_coding			GO:0004674
+821	AAEL025224	NIGP01001844	protein_coding			GO:0004672
+822	AAEL025224	NIGP01001844	protein_coding			GO:0006468
+823	AAEL025224	NIGP01001844	protein_coding			GO:0004703
+824	AAEL025230	NIGP01001876	protein_coding			GO:0005634
+825	AAEL025314	NIGP01001784	protein_coding			
+826	AAEL025324	NIGP01000184	protein_coding			GO:0005319
+827	AAEL025324	NIGP01000184	protein_coding			GO:0006869
+828	AAEL025363	1	protein_coding			GO:0016491
+829	AAEL025363	1	protein_coding			GO:0055114
+830	AAEL025363	1	protein_coding			GO:0010181
+831	AAEL025363	1	protein_coding			GO:0003958
+832	AAEL025379	NIGP01000188	protein_coding			GO:0072659
+833	AAEL025680	NIGP01001744	protein_coding			GO:0043874
+834	AAEL025680	NIGP01001744	protein_coding			GO:0016787
+835	AAEL025680	NIGP01001744	protein_coding			GO:0000287
+836	AAEL025680	NIGP01001744	protein_coding			GO:0019509
+837	AAEL025772	NIGP01000525	protein_coding		EAT42388.1	GO:0006406
+838	AAEL025772	NIGP01000525	protein_coding		EAT42388.1	GO:0005515
+839	AAEL025772	NIGP01000525	protein_coding		EAT42388.1	GO:0000346
+840	AAEL025814	1	protein_coding			GO:0005515
+841	AAEL025874	NIGP01001057	protein_coding			
+842	AAEL025999	NIGP01001222	protein_coding	40S ribosomal protein S17 [Source:UniProtKB/TrEMBL;Acc:Q52UT2]	EAT44440.1	GO:0003735
+843	AAEL025999	NIGP01001222	protein_coding	40S ribosomal protein S17 [Source:UniProtKB/TrEMBL;Acc:Q52UT2]	EAT44440.1	GO:0006412
+844	AAEL025999	NIGP01001222	protein_coding	40S ribosomal protein S17 [Source:UniProtKB/TrEMBL;Acc:Q52UT2]	EAT44440.1	GO:0005840
+845	AAEL025999	NIGP01001222	protein_coding	40S ribosomal protein S17 [Source:UniProtKB/TrEMBL;Acc:Q52UT2]	EAT44440.1	GO:0005622
+846	AAEL026175	NIGP01000184	protein_coding			GO:0005319
+847	AAEL026175	NIGP01000184	protein_coding			GO:0006869
+848	AAEL026177	NIGP01002044	protein_coding			GO:0006508
+849	AAEL026177	NIGP01002044	protein_coding			GO:0000062
+850	AAEL026177	NIGP01002044	protein_coding			GO:0004190
+851	AAEL026177	NIGP01002044	protein_coding			GO:0005515
+852	AAEL026215	NIGP01000077	protein_coding		EJY57621.1	GO:0005524
+853	AAEL026256	1	protein_coding			GO:0016021
+854	AAEL026380	NIGP01001216	protein_coding			GO:0003824
+855	AAEL026380	NIGP01001216	protein_coding			GO:0000287
+856	AAEL026380	NIGP01001216	protein_coding			GO:0030976
+857	AAEL026536	NIGP01000043	protein_coding			GO:0000290
+858	AAEL026634	NIGP01000221	protein_coding			GO:0003676
+859	AAEL026650	NIGP01000188	protein_coding			GO:0005515
+860	AAEL026743	1	protein_coding			
+861	AAEL026758	1	protein_coding			
+862	AAEL026893	NIGP01002082	protein_coding	Signal peptidase complex subunit 3 [Source:UniProtKB/TrEMBL;Acc:Q1HRQ4]	EAT47974.1	GO:0016021
+863	AAEL026893	NIGP01002082	protein_coding	Signal peptidase complex subunit 3 [Source:UniProtKB/TrEMBL;Acc:Q1HRQ4]	EAT47974.1	GO:0008233
+864	AAEL026893	NIGP01002082	protein_coding	Signal peptidase complex subunit 3 [Source:UniProtKB/TrEMBL;Acc:Q1HRQ4]	EAT47974.1	GO:0006465
+865	AAEL026893	NIGP01002082	protein_coding	Signal peptidase complex subunit 3 [Source:UniProtKB/TrEMBL;Acc:Q1HRQ4]	EAT47974.1	GO:0005787
+866	AAEL026895	NIGP01002303	protein_coding			
+867	AAEL026955	1	protein_coding			
+868	AAEL026967	NIGP01000666	protein_coding			GO:0005861
+869	AAEL026967	NIGP01000666	protein_coding			GO:0006937
+870	AAEL027008	NIGP01000978	protein_coding			
+871	AAEL027035	1	protein_coding			GO:0003677
+872	AAEL027035	1	protein_coding			GO:0006355
+873	AAEL027035	1	protein_coding			GO:0043565
+874	AAEL027046	NIGP01001343	protein_coding			GO:0003676
+875	AAEL027062	NIGP01001755	protein_coding			GO:0005524
+876	AAEL027062	NIGP01001755	protein_coding			GO:0004672
+877	AAEL027062	NIGP01001755	protein_coding			GO:0006468
+878	AAEL027140	NIGP01000212	protein_coding		EAT38833.1	GO:0016021
+879	AAEL027184	NIGP01001482	protein_coding			
+880	AAEL027190	1	protein_coding			
+881	AAEL027209	1	protein_coding			GO:0006511
+882	AAEL027209	1	protein_coding			GO:0036459
+883	AAEL027209	1	protein_coding			GO:0016579
+884	AAEL027240	1	protein_coding			GO:0003676
+885	AAEL027257	1	protein_coding			
+886	AAEL027275	NIGP01001979	protein_coding		EAT48593.1	GO:0016021
+887	AAEL027287	1	protein_coding			GO:0005759
+888	AAEL027287	1	protein_coding			GO:0006974
+889	AAEL027287	1	protein_coding			GO:1902445
+890	AAEL027380	1	protein_coding			GO:0005634
+891	AAEL027380	1	protein_coding			GO:0006281
+892	AAEL027396	NIGP01002058	protein_coding			GO:0032040
+893	AAEL027458	NIGP01001876	protein_coding			GO:0005762
+894	AAEL027643	NIGP01001672	protein_coding			GO:0008430
+895	AAEL027715	NIGP01000356	protein_coding			
+896	AAEL027749	NIGP01002020	protein_coding			
+897	AAEL027790	1	protein_coding			GO:0005515
+898	AAEL027973	NIGP01001921	protein_coding			GO:0006366
+899	AAEL027973	NIGP01001921	protein_coding			GO:0006367
+900	AAEL027973	NIGP01001921	protein_coding			GO:0005674
+901	AAEL028021	1	protein_coding			
+902	AAEL028163	NIGP01000958	protein_coding	Kinesin-like protein [Source:UniProtKB/TrEMBL;Acc:Q16RI3]	EAT37007.1	GO:0005524
+903	AAEL028163	NIGP01000958	protein_coding	Kinesin-like protein [Source:UniProtKB/TrEMBL;Acc:Q16RI3]	EAT37007.1	GO:0005874
+904	AAEL028163	NIGP01000958	protein_coding	Kinesin-like protein [Source:UniProtKB/TrEMBL;Acc:Q16RI3]	EAT37007.1	GO:0008017
+905	AAEL028163	NIGP01000958	protein_coding	Kinesin-like protein [Source:UniProtKB/TrEMBL;Acc:Q16RI3]	EAT37007.1	GO:0003777
+906	AAEL028163	NIGP01000958	protein_coding	Kinesin-like protein [Source:UniProtKB/TrEMBL;Acc:Q16RI3]	EAT37007.1	GO:0007018
+907	AAEL028215	NIGP01001921	protein_coding			GO:0016579
+908	AAEL028215	NIGP01001921	protein_coding			GO:0004843
+909	AAEL028215	NIGP01001921	protein_coding			GO:0030433
+910	AAEL028215	NIGP01001921	protein_coding			GO:0005515
+911	AAEL028215	NIGP01001921	protein_coding			GO:1904265
+912	AAEL001008	1	protein_coding		EAT47902.1	GO:0008270
+913	AAEL001008	1	protein_coding		EAT47902.1	GO:0005634
+914	AAEL001008	1	protein_coding		EAT47902.1	GO:0003700
+915	AAEL001008	1	protein_coding		EAT47902.1	GO:0003676
+916	AAEL001080	1	protein_coding	RNA 3' terminal phosphate cyclase [Source:VB Community Annotation]		GO:0006396
+917	AAEL001080	1	protein_coding	RNA 3' terminal phosphate cyclase [Source:VB Community Annotation]		GO:0003824
+918	AAEL001080	1	protein_coding	RNA 3' terminal phosphate cyclase [Source:VB Community Annotation]		GO:0042254
+919	AAEL001080	1	protein_coding	RNA 3' terminal phosphate cyclase [Source:VB Community Annotation]		GO:0005730
+920	AAEL001086	1	protein_coding			GO:0008270
+921	AAEL001086	1	protein_coding			GO:0005634
+922	AAEL001086	1	protein_coding			GO:0003676
+923	AAEL001094	1	protein_coding		EAT47814.1	GO:0046872
+924	AAEL001094	1	protein_coding			
+925	AAEL001094	1	protein_coding		EAT47813.1	GO:0046872
+926	AAEL001099	1	protein_coding	DEAD box polypeptide [Source:VB Community Annotation]	EAT47815.1	
+927	AAEL001236	1	protein_coding			GO:0016021
+928	AAEL001319	1	protein_coding			
+929	AAEL001427	1	protein_coding	short-chain dehydrogenase [Source:VB Community Annotation]		
+930	AAEL001433	1	protein_coding	fgf receptor activating protein [Source:VB Community Annotation]	EAT47821.1	GO:0016021
+931	AAEL001433	1	protein_coding	fgf receptor activating protein [Source:VB Community Annotation]	EAT47821.1	GO:0000139
+932	AAEL001433	1	protein_coding	fgf receptor activating protein [Source:VB Community Annotation]		GO:0000139
+933	AAEL001439	1	protein_coding	mitochondrial ribosomal protein, L22, putative [Source:VB Community Annotation]	EAT47492.1	GO:0003735
+934	AAEL001439	1	protein_coding	mitochondrial ribosomal protein, L22, putative [Source:VB Community Annotation]	EAT47492.1	GO:0006412
+935	AAEL001439	1	protein_coding	mitochondrial ribosomal protein, L22, putative [Source:VB Community Annotation]	EAT47492.1	GO:0005840
+936	AAEL001439	1	protein_coding	mitochondrial ribosomal protein, L22, putative [Source:VB Community Annotation]	EAT47492.1	GO:0015934
+937	AAEL002047	1	protein_coding	40S ribosomal protein S10 [Source:UniProtKB/TrEMBL;Acc:Q1HR41]	EAT46784.1	GO:0005840
+938	AAEL002048	1	protein_coding	histidyl-tRNA synthetase [Source:VB Community Annotation]		GO:0005524
+939	AAEL002048	1	protein_coding	histidyl-tRNA synthetase [Source:VB Community Annotation]		GO:0005737
+940	AAEL002048	1	protein_coding	histidyl-tRNA synthetase [Source:VB Community Annotation]		GO:0004821
+941	AAEL002048	1	protein_coding	histidyl-tRNA synthetase [Source:VB Community Annotation]		GO:0006427
+942	AAEL002048	1	protein_coding	histidyl-tRNA synthetase [Source:VB Community Annotation]	EAT46782.1	GO:0005524
+943	AAEL002048	1	protein_coding	histidyl-tRNA synthetase [Source:VB Community Annotation]	EAT46782.1	GO:0005737
+944	AAEL002048	1	protein_coding	histidyl-tRNA synthetase [Source:VB Community Annotation]	EAT46782.1	GO:0004812
+945	AAEL002048	1	protein_coding	histidyl-tRNA synthetase [Source:VB Community Annotation]	EAT46782.1	GO:0006418
+946	AAEL002048	1	protein_coding	histidyl-tRNA synthetase [Source:VB Community Annotation]	EAT46782.1	GO:0004821
+947	AAEL002048	1	protein_coding	histidyl-tRNA synthetase [Source:VB Community Annotation]	EAT46782.1	GO:0006427
+948	AAEL002077	1	protein_coding	UV excision repair protein rad23 [Source:VB Community Annotation]		GO:0005634
+949	AAEL002077	1	protein_coding	UV excision repair protein rad23 [Source:VB Community Annotation]		GO:0003684
+950	AAEL002077	1	protein_coding	UV excision repair protein rad23 [Source:VB Community Annotation]		GO:0006289
+951	AAEL002077	1	protein_coding	UV excision repair protein rad23 [Source:VB Community Annotation]		GO:0043161
+952	AAEL002077	1	protein_coding	UV excision repair protein rad23 [Source:VB Community Annotation]		GO:0005515
+953	AAEL002078	1	protein_coding		EAT46781.1	
+954	AAEL002084	1	protein_coding	suppressor of defective silencing [Source:VB Community Annotation]		
+955	AAEL002135	1	protein_coding	tubulin-specific chaperone b (tubulin folding cofactor b) [Source:VB Community Annotation]	EAT46658.1	GO:0005515
+956	AAEL002139	1	protein_coding		EAT46668.1	GO:0005634
+957	AAEL002139	1	protein_coding		EAT46668.1	GO:0031011
+958	AAEL002139	1	protein_coding		EAT46668.1	GO:0006338
+959	AAEL002148	1	protein_coding		EAT46657.1	GO:0005506
+960	AAEL002148	1	protein_coding		EAT46657.1	GO:0051536
+961	AAEL002148	1	protein_coding		EAT46657.1	GO:0016226
+962	AAEL002152	1	protein_coding	kinesin-associated proteins [Source:VB Community Annotation]	EAT46662.1	GO:0016021
+963	AAEL002152	1	protein_coding	kinesin-associated proteins [Source:VB Community Annotation]	EAT46662.1	GO:0005871
+964	AAEL002152	1	protein_coding	kinesin-associated proteins [Source:VB Community Annotation]	EAT46662.1	GO:0019894
+965	AAEL002152	1	protein_coding	kinesin-associated proteins [Source:VB Community Annotation]	EAT46662.1	GO:0005515
+966	AAEL002157	1	protein_coding		EAT46659.1	
+967	AAEL002157	1	protein_coding			
+968	AAEL002158	1	protein_coding	secreted ferritin G subunit precursor, putative [Source:VB Community Annotation]	EAT46664.1	GO:0008199
+969	AAEL002158	1	protein_coding	secreted ferritin G subunit precursor, putative [Source:VB Community Annotation]	EAT46664.1	GO:0006826
+970	AAEL002158	1	protein_coding	secreted ferritin G subunit precursor, putative [Source:VB Community Annotation]	EAT46664.1	GO:0006879
+971	AAEL002158	1	protein_coding	secreted ferritin G subunit precursor, putative [Source:VB Community Annotation]	EAT46664.1	GO:0004322
+972	AAEL002158	1	protein_coding	secreted ferritin G subunit precursor, putative [Source:VB Community Annotation]	EAT46664.1	GO:0005623
+973	AAEL002158	1	protein_coding	secreted ferritin G subunit precursor, putative [Source:VB Community Annotation]	EAT46663.1	GO:0008199
+974	AAEL002158	1	protein_coding	secreted ferritin G subunit precursor, putative [Source:VB Community Annotation]	EAT46663.1	GO:0006826
+975	AAEL002158	1	protein_coding	secreted ferritin G subunit precursor, putative [Source:VB Community Annotation]	EAT46663.1	GO:0006879
+976	AAEL002158	1	protein_coding	secreted ferritin G subunit precursor, putative [Source:VB Community Annotation]	EAT46663.1	GO:0004322
+977	AAEL002158	1	protein_coding	secreted ferritin G subunit precursor, putative [Source:VB Community Annotation]	EAT46663.1	GO:0005623
+978	AAEL002159	1	protein_coding		EAT46669.1	GO:0008270
+979	AAEL002159	1	protein_coding		EAT46669.1	GO:0005634
+980	AAEL002159	1	protein_coding		EAT46669.1	GO:0003676
+981	AAEL002161	1	protein_coding	UPF0184 protein AAEL002161 [Source:UniProtKB/Swiss-Prot;Acc:Q17J49]	EAT46660.1	
+982	AAEL002163	1	protein_coding		EAT46656.1	GO:0016020
+983	AAEL002163	1	protein_coding		EAT46656.1	GO:0016021
+984	AAEL002170	1	protein_coding	phosphatidylinositol-phosphatidylcholine transfer protein, putative [Source:VB Community Annotation]	EAT46665.1	
+985	AAEL002175	1	protein_coding			
+986	AAEL002176	1	protein_coding	inosine-uridine preferring nucleoside hydrolase [Source:VB Community Annotation]		
+987	AAEL002287	1	protein_coding	trans-prenyltransferase [Source:VB Community Annotation]		GO:0008299
+988	AAEL003581	1	protein_coding	amidophosphoribosyltransferase [Source:VB Community Annotation]		GO:0009113
+989	AAEL003581	1	protein_coding	amidophosphoribosyltransferase [Source:VB Community Annotation]		GO:0009116
+990	AAEL003581	1	protein_coding	amidophosphoribosyltransferase [Source:VB Community Annotation]		GO:0004044
+991	AAEL003582	1	protein_coding	40S ribosomal protein S13 [Source:UniProtKB/TrEMBL;Acc:Q5QC94]	EAT45115.1	GO:0003735
+992	AAEL003582	1	protein_coding	40S ribosomal protein S13 [Source:UniProtKB/TrEMBL;Acc:Q5QC94]	EAT45115.1	GO:0006412
+993	AAEL003582	1	protein_coding	40S ribosomal protein S13 [Source:UniProtKB/TrEMBL;Acc:Q5QC94]	EAT45115.1	GO:0005840
+994	AAEL003582	1	protein_coding	40S ribosomal protein S13 [Source:UniProtKB/TrEMBL;Acc:Q5QC94]	EAT45115.1	GO:0005622
+995	AAEL003597	1	protein_coding	leucine-rich transmembrane protein [Source:VB Community Annotation]		GO:0016021
+996	AAEL003597	1	protein_coding	leucine-rich transmembrane protein [Source:VB Community Annotation]		GO:0005515
+997	AAEL003599	1	protein_coding	Sulfiredoxin [Source:UniProtKB/TrEMBL;Acc:Q17F23]		GO:0055114
+998	AAEL003599	1	protein_coding	Sulfiredoxin [Source:UniProtKB/TrEMBL;Acc:Q17F23]		GO:0032542
+999	AAEL003599	1	protein_coding	Sulfiredoxin [Source:UniProtKB/TrEMBL;Acc:Q17F23]	EAT45108.1	GO:0005524
+1000	AAEL003599	1	protein_coding	Sulfiredoxin [Source:UniProtKB/TrEMBL;Acc:Q17F23]	EAT45108.1	GO:0055114
+1001	AAEL003599	1	protein_coding	Sulfiredoxin [Source:UniProtKB/TrEMBL;Acc:Q17F23]	EAT45108.1	GO:0032542
+1002	AAEL003605	1	protein_coding	U2 small nuclear ribonucleoprotein, putative [Source:VB Community Annotation]	EAT45112.1	GO:0003729
+1003	AAEL003605	1	protein_coding	U2 small nuclear ribonucleoprotein, putative [Source:VB Community Annotation]	EAT45112.1	GO:0000245
+1004	AAEL003605	1	protein_coding	U2 small nuclear ribonucleoprotein, putative [Source:VB Community Annotation]		GO:0003729
+1005	AAEL003605	1	protein_coding	U2 small nuclear ribonucleoprotein, putative [Source:VB Community Annotation]		GO:0000245
+1006	AAEL003606	1	protein_coding	purine biosynthesis protein 6, pur6 [Source:VB Community Annotation]	EAT45109.1	GO:0006189
+1007	AAEL003606	1	protein_coding	purine biosynthesis protein 6, pur6 [Source:VB Community Annotation]	EAT45109.1	GO:0004639
+1008	AAEL003606	1	protein_coding	purine biosynthesis protein 6, pur6 [Source:VB Community Annotation]	EAT45109.1	GO:0006164
+1009	AAEL003774	1	protein_coding			
+1010	AAEL003776	1	protein_coding			GO:0016021
+1011	AAEL003776	1	protein_coding			GO:0016567
+1012	AAEL003776	1	protein_coding			GO:0061630
+1013	AAEL003781	1	protein_coding	zinc carboxypeptidase [Source:VB Community Annotation]		GO:0008270
+1014	AAEL003781	1	protein_coding	zinc carboxypeptidase [Source:VB Community Annotation]		GO:0016021
+1015	AAEL003781	1	protein_coding	zinc carboxypeptidase [Source:VB Community Annotation]		GO:0006508
+1016	AAEL003781	1	protein_coding	zinc carboxypeptidase [Source:VB Community Annotation]		GO:0004181
+1017	AAEL003781	1	protein_coding	zinc carboxypeptidase [Source:VB Community Annotation]		GO:0004180
+1018	AAEL003782	1	protein_coding			
+1019	AAEL003789	1	protein_coding	exportin, putative [Source:VB Community Annotation]		GO:0006886
+1020	AAEL003789	1	protein_coding	exportin, putative [Source:VB Community Annotation]		GO:0008536
+1021	AAEL003789	1	protein_coding	exportin, putative [Source:VB Community Annotation]		GO:0008565
+1022	AAEL003789	1	protein_coding	exportin, putative [Source:VB Community Annotation]		GO:0006611
+1023	AAEL003791	1	protein_coding			GO:0003677
+1024	AAEL003791	1	protein_coding			GO:0005634
+1025	AAEL003803	1	protein_coding			
+1026	AAEL003806	1	protein_coding			
+1027	AAEL003812	1	protein_coding			
+1028	AAEL003813	1	protein_coding			GO:0005525
+1029	AAEL003883	1	protein_coding			GO:0007165
+1030	AAEL004217	1	protein_coding			GO:0005524
+1031	AAEL004217	1	protein_coding			GO:0004672
+1032	AAEL004217	1	protein_coding			GO:0006468
+1033	AAEL004392	1	protein_coding	IAP-antagonist Michelob_x-like Protein [Source:VB Community Annotation]		
+1034	AAEL004397	1	protein_coding			GO:0016020
+1035	AAEL004397	1	protein_coding			GO:0006811
+1036	AAEL004397	1	protein_coding			GO:0016021
+1037	AAEL004397	1	protein_coding			GO:0005216
+1038	AAEL004397	1	protein_coding			GO:0055085
+1039	AAEL004397	1	protein_coding			GO:0034220
+1040	AAEL004397	1	protein_coding			GO:0005515
+1041	AAEL004524	1	protein_coding	Clip-Domain Serine Protease family C. [Source:VB Community Annotation]		GO:0006508
+1042	AAEL004524	1	protein_coding	Clip-Domain Serine Protease family C. [Source:VB Community Annotation]		GO:0004252
+1043	AAEL004528	1	protein_coding			
+1044	AAEL005626	1	protein_coding	exostosin-2 [Source:VB Community Annotation]		GO:0016021
+1045	AAEL005626	1	protein_coding	exostosin-2 [Source:VB Community Annotation]		GO:0006486
+1046	AAEL005626	1	protein_coding	exostosin-2 [Source:VB Community Annotation]		GO:0016757
+1047	AAEL005626	1	protein_coding	exostosin-2 [Source:VB Community Annotation]		GO:0006024
+1048	AAEL005626	1	protein_coding	exostosin-2 [Source:VB Community Annotation]		GO:0015012
+1049	AAEL005626	1	protein_coding	exostosin-2 [Source:VB Community Annotation]		GO:0015020
+1050	AAEL005628	1	protein_coding			GO:0046872
+1051	AAEL005628	1	protein_coding			GO:0000469
+1052	AAEL005628	1	protein_coding			GO:0004521
+1053	AAEL005628	1	protein_coding			GO:0042274
+1054	AAEL005629	1	protein_coding	60S ribosomal protein L35, putative [Source:VB Community Annotation]	EAT42875.1	GO:0003735
+1055	AAEL005629	1	protein_coding	60S ribosomal protein L35, putative [Source:VB Community Annotation]	EAT42875.1	GO:0006412
+1056	AAEL005629	1	protein_coding	60S ribosomal protein L35, putative [Source:VB Community Annotation]	EAT42875.1	GO:0005840
+1057	AAEL005629	1	protein_coding	60S ribosomal protein L35, putative [Source:VB Community Annotation]	EAT42875.1	GO:0005622
+1058	AAEL005631	1	protein_coding			GO:0006351
+1059	AAEL005631	1	protein_coding			GO:0017053
+1060	AAEL005633	1	protein_coding			GO:0016021
+1061	AAEL005633	1	protein_coding			GO:0005515
+1062	AAEL005634	1	protein_coding	harmonin (Usher syndrome 1C protein homolog) (PDZ domain-containing protein) [Source:VB Community Annotation]		GO:0051015
+1063	AAEL005634	1	protein_coding	harmonin (Usher syndrome 1C protein homolog) (PDZ domain-containing protein) [Source:VB Community Annotation]		GO:0007605
+1064	AAEL005634	1	protein_coding	harmonin (Usher syndrome 1C protein homolog) (PDZ domain-containing protein) [Source:VB Community Annotation]		GO:0005515
+1065	AAEL005635	1	protein_coding	nucleoporin [Source:VB Community Annotation]	EAT42874.1	GO:0046907
+1066	AAEL005635	1	protein_coding	nucleoporin [Source:VB Community Annotation]	EAT42874.1	GO:0005643
+1067	AAEL005638	1	protein_coding			
+1068	AAEL005639	1	protein_coding	alpha-1,2-Mannosidase [Source:UniProtKB/TrEMBL;Acc:A0A1S4FB89]		GO:0016020
+1069	AAEL005639	1	protein_coding	alpha-1,2-Mannosidase [Source:UniProtKB/TrEMBL;Acc:A0A1S4FB89]		GO:0003824
+1070	AAEL005639	1	protein_coding	alpha-1,2-Mannosidase [Source:UniProtKB/TrEMBL;Acc:A0A1S4FB89]		GO:0005509
+1071	AAEL005639	1	protein_coding	alpha-1,2-Mannosidase [Source:UniProtKB/TrEMBL;Acc:A0A1S4FB89]		GO:0008152
+1072	AAEL005639	1	protein_coding	alpha-1,2-Mannosidase [Source:UniProtKB/TrEMBL;Acc:A0A1S4FB89]		GO:0004571
+1073	AAEL006818	1	protein_coding	glutathione S-transferase, putative [Source:VB Community Annotation]		
+1074	AAEL006819	1	protein_coding		EAT41543.1	
+1075	AAEL006820	1	protein_coding	lipid storage droplets surface binding protein 2 (lsd2) [Source:VB Community Annotation]	EAT41545.1	
+1076	AAEL006823	1	protein_coding	AMP dependent ligase [Source:VB Community Annotation]	EAT41541.1	GO:0003824
+1077	AAEL006825	1	protein_coding			
+1078	AAEL006829	1	protein_coding	microsomal glutathione s-transferase [Source:VB Community Annotation]	EAT41547.1	GO:0016021
+1079	AAEL006832	1	protein_coding	GPCR Frizzled/Smoothened Family [Source:VB Community Annotation]		GO:0016020
+1080	AAEL006832	1	protein_coding	GPCR Frizzled/Smoothened Family [Source:VB Community Annotation]		GO:0016021
+1081	AAEL006832	1	protein_coding	GPCR Frizzled/Smoothened Family [Source:VB Community Annotation]		GO:0007166
+1082	AAEL006832	1	protein_coding	GPCR Frizzled/Smoothened Family [Source:VB Community Annotation]		GO:0004888
+1083	AAEL006832	1	protein_coding	GPCR Frizzled/Smoothened Family [Source:VB Community Annotation]		GO:0005515
+1084	AAEL007268	1	protein_coding			GO:0005515
+1085	AAEL007455	1	protein_coding	thrombospondin [Source:VB Community Annotation]		GO:0005576
+1086	AAEL007455	1	protein_coding	thrombospondin [Source:VB Community Annotation]		GO:0005509
+1087	AAEL007455	1	protein_coding	thrombospondin [Source:VB Community Annotation]		GO:0007155
+1088	AAEL007456	1	protein_coding	zinc finger protein, putative [Source:VB Community Annotation]		GO:0008270
+1089	AAEL007456	1	protein_coding	zinc finger protein, putative [Source:VB Community Annotation]		GO:0005634
+1090	AAEL007456	1	protein_coding	zinc finger protein, putative [Source:VB Community Annotation]		GO:0003676
+1091	AAEL007458	1	protein_coding	amino acid transporter [Source:VB Community Annotation]		
+1092	AAEL007461	1	protein_coding			GO:0008270
+1093	AAEL007461	1	protein_coding			GO:0005634
+1094	AAEL007461	1	protein_coding			GO:0003676
+1095	AAEL007464	1	protein_coding			GO:0008270
+1096	AAEL007464	1	protein_coding			GO:0005634
+1097	AAEL007464	1	protein_coding			GO:0003676
+1098	AAEL007465	1	protein_coding			
+1099	AAEL007468	1	protein_coding	zinc finger protein, putative [Source:VB Community Annotation]		GO:0008270
+1100	AAEL007468	1	protein_coding	zinc finger protein, putative [Source:VB Community Annotation]		GO:0005634
+1101	AAEL007468	1	protein_coding	zinc finger protein, putative [Source:VB Community Annotation]		GO:0003676
+1102	AAEL007469	1	protein_coding	mitotic checkpoint protein bub3 [Source:VB Community Annotation]	EAT40825.1	GO:0005515
+1103	AAEL007476	1	protein_coding	makorin [Source:VB Community Annotation]		GO:0046872
+1104	AAEL007607	1	protein_coding			GO:0016021
+1105	AAEL007619	1	protein_coding	Toll-like receptor [Source:VB Community Annotation]		GO:0007165
+1106	AAEL007619	1	protein_coding	Toll-like receptor [Source:VB Community Annotation]		GO:0005515
+1107	AAEL007664	1	protein_coding	nicotinic acetylcholine receptor subunit [Source:VB Community Annotation]		GO:0006811
+1108	AAEL007664	1	protein_coding	nicotinic acetylcholine receptor subunit [Source:VB Community Annotation]		GO:0016021
+1109	AAEL007664	1	protein_coding	nicotinic acetylcholine receptor subunit [Source:VB Community Annotation]		GO:0005216
+1110	AAEL007664	1	protein_coding	nicotinic acetylcholine receptor subunit [Source:VB Community Annotation]		GO:0022848
+1111	AAEL007664	1	protein_coding	nicotinic acetylcholine receptor subunit [Source:VB Community Annotation]		GO:0045211
+1112	AAEL007664	1	protein_coding	nicotinic acetylcholine receptor subunit [Source:VB Community Annotation]		GO:0005230
+1113	AAEL007664	1	protein_coding	nicotinic acetylcholine receptor subunit [Source:VB Community Annotation]		GO:0004888
+1114	AAEL007664	1	protein_coding	nicotinic acetylcholine receptor subunit [Source:VB Community Annotation]		GO:0034220
+1115	AAEL007667	1	protein_coding		EAT40619.1	GO:0005515
+1116	AAEL007668	1	protein_coding	mitochondrial ribosomal protein, S29, putative [Source:VB Community Annotation]		GO:0006915
+1117	AAEL007668	1	protein_coding	mitochondrial ribosomal protein, S29, putative [Source:VB Community Annotation]		GO:0015935
+1118	AAEL007668	1	protein_coding	mitochondrial ribosomal protein, S29, putative [Source:VB Community Annotation]		GO:0005761
+1119	AAEL007892	1	protein_coding	xaa-pro aminopeptidase [Source:VB Community Annotation]		GO:0016787
+1120	AAEL007892	1	protein_coding	xaa-pro aminopeptidase [Source:VB Community Annotation]		GO:0046872
+1121	AAEL007892	1	protein_coding	xaa-pro aminopeptidase [Source:VB Community Annotation]		GO:0070006
+1122	AAEL007904	1	protein_coding	cleavage and polyadenylation specificity factor [Source:VB Community Annotation]	EAT40345.1	
+1123	AAEL007915	1	protein_coding	Moesin/ezrin/radixin homolog 1 [Source:UniProtKB/TrEMBL;Acc:A0A1S4FI28]		GO:0005856
+1124	AAEL007915	1	protein_coding	Moesin/ezrin/radixin homolog 1 [Source:UniProtKB/TrEMBL;Acc:A0A1S4FI28]		GO:0008092
+1125	AAEL007915	1	protein_coding	Moesin/ezrin/radixin homolog 1 [Source:UniProtKB/TrEMBL;Acc:A0A1S4FI28]		GO:0003779
+1126	AAEL008025	1	protein_coding			
+1127	AAEL008027	1	protein_coding			GO:0034773
+1128	AAEL008027	1	protein_coding			GO:0042799
+1129	AAEL008027	1	protein_coding			GO:0005515
+1130	AAEL008028	1	protein_coding	monocarboxylate transporter [Source:VB Community Annotation]	EAT40229.1	GO:0016021
+1131	AAEL008028	1	protein_coding	monocarboxylate transporter [Source:VB Community Annotation]	EAT40229.1	GO:0055085
+1132	AAEL008029	1	protein_coding	Ras-related protein, putative [Source:UniProtKB/TrEMBL;Acc:A0A1S4FIJ0]	EAT40223.1	GO:0003924
+1133	AAEL008029	1	protein_coding	Ras-related protein, putative [Source:UniProtKB/TrEMBL;Acc:A0A1S4FIJ0]	EAT40223.1	GO:0005525
+1134	AAEL008029	1	protein_coding	Ras-related protein, putative [Source:UniProtKB/TrEMBL;Acc:A0A1S4FIJ0]		GO:0003924
+1135	AAEL008029	1	protein_coding	Ras-related protein, putative [Source:UniProtKB/TrEMBL;Acc:A0A1S4FIJ0]		GO:0005525
+1136	AAEL008029	1	protein_coding	Ras-related protein, putative [Source:UniProtKB/TrEMBL;Acc:A0A1S4FIJ0]		GO:0016021
+1137	AAEL008031	1	protein_coding	carbonic anhydrase [Source:VB Community Annotation]		GO:0008270
+1138	AAEL008031	1	protein_coding	carbonic anhydrase [Source:VB Community Annotation]		GO:0004089
+1139	AAEL008032	1	protein_coding			GO:0005515
+1140	AAEL008078	1	protein_coding	clk2 [Source:VB Community Annotation]		GO:0005524
+1141	AAEL008078	1	protein_coding	clk2 [Source:VB Community Annotation]		GO:0004672
+1142	AAEL008078	1	protein_coding	clk2 [Source:VB Community Annotation]		GO:0006468
+1143	AAEL008079	1	protein_coding	trypsin-alpha, putative [Source:VB Community Annotation]		GO:0016021
+1144	AAEL008079	1	protein_coding	trypsin-alpha, putative [Source:VB Community Annotation]		GO:0006508
+1145	AAEL008079	1	protein_coding	trypsin-alpha, putative [Source:VB Community Annotation]		GO:0004252
+1146	AAEL008080	1	protein_coding	trypsin-eta, putative [Source:VB Community Annotation]		GO:0006508
+1147	AAEL008080	1	protein_coding	trypsin-eta, putative [Source:VB Community Annotation]		GO:0004252
+1148	AAEL008084	1	protein_coding	phosphatidylserine receptor [Source:VB Community Annotation]	EAT40163.1	
+1149	AAEL008084	1	protein_coding	phosphatidylserine receptor [Source:VB Community Annotation]	EAT40162.1	
+1150	AAEL008088	1	protein_coding			
+1151	AAEL008095	1	protein_coding			GO:0005525
+1152	AAEL008096	1	protein_coding	mitochondrial ornithine transporter [Source:VB Community Annotation]	EAT40165.1	GO:0016021
+1153	AAEL008096	1	protein_coding	mitochondrial ornithine transporter [Source:VB Community Annotation]	EAT40165.1	GO:0022857
+1154	AAEL008097	1	protein_coding	trypsin-eta, putative [Source:VB Community Annotation]		GO:0006508
+1155	AAEL008097	1	protein_coding	trypsin-eta, putative [Source:VB Community Annotation]		GO:0004252
+1156	AAEL008098	1	protein_coding	PIWI [Source:VB Community Annotation]	EAT40148.1	GO:0003676
+1157	AAEL008098	1	protein_coding	PIWI [Source:VB Community Annotation]	EAT40148.1	GO:0031047
+1158	AAEL008098	1	protein_coding	PIWI [Source:VB Community Annotation]	EAT40148.1	GO:0005515
+1159	AAEL008101	1	protein_coding			GO:0046872
+1160	AAEL008101	1	protein_coding			
+1161	AAEL008109	1	protein_coding	Protein mab-21-like [Source:VB Community Annotation]		
+1162	AAEL008118	1	protein_coding	Protein mab-21 [Source:VB Community Annotation]		
+1163	AAEL008232	1	protein_coding	sugar transporter [Source:VB Community Annotation]		GO:0016020
+1164	AAEL008232	1	protein_coding	sugar transporter [Source:VB Community Annotation]		GO:0016021
+1165	AAEL008232	1	protein_coding	sugar transporter [Source:VB Community Annotation]		GO:0005215
+1166	AAEL008232	1	protein_coding	sugar transporter [Source:VB Community Annotation]		GO:0055085
+1167	AAEL008232	1	protein_coding	sugar transporter [Source:VB Community Annotation]		GO:0022857
+1168	AAEL008232	1	protein_coding	sugar transporter [Source:VB Community Annotation]	EAT44903.1	GO:0016020
+1169	AAEL008232	1	protein_coding	sugar transporter [Source:VB Community Annotation]	EAT44903.1	GO:0016021
+1170	AAEL008232	1	protein_coding	sugar transporter [Source:VB Community Annotation]	EAT44903.1	GO:0005215
+1171	AAEL008232	1	protein_coding	sugar transporter [Source:VB Community Annotation]	EAT44903.1	GO:0055085
+1172	AAEL008232	1	protein_coding	sugar transporter [Source:VB Community Annotation]	EAT44903.1	GO:0022857
+1173	AAEL008458	1	protein_coding		EAT39757.1	GO:0006464
+1174	AAEL008458	1	protein_coding		EAT39757.1	GO:0005515
+1175	AAEL008459	1	protein_coding			
+1176	AAEL008461	1	protein_coding	surfeit locus protein [Source:VB Community Annotation]	EAT39756.1	GO:0016021
+1177	AAEL008462	1	protein_coding	apl5 protein (spac144.06 protein) [Source:VB Community Annotation]	EAT39753.1	GO:0006886
+1178	AAEL008462	1	protein_coding	apl5 protein (spac144.06 protein) [Source:VB Community Annotation]	EAT39753.1	GO:0016192
+1179	AAEL008462	1	protein_coding	apl5 protein (spac144.06 protein) [Source:VB Community Annotation]	EAT39753.1	GO:0030117
+1180	AAEL008462	1	protein_coding	apl5 protein (spac144.06 protein) [Source:VB Community Annotation]	EAT39753.1	GO:0015031
+1181	AAEL008462	1	protein_coding	apl5 protein (spac144.06 protein) [Source:VB Community Annotation]	EAT39753.1	GO:0030123
+1182	AAEL008462	1	protein_coding	apl5 protein (spac144.06 protein) [Source:VB Community Annotation]	EAT39753.1	GO:0005794
+1183	AAEL008463	1	protein_coding	DEAD box ATP-dependent RNA helicase [Source:VB Community Annotation]		GO:0005524
+1184	AAEL008463	1	protein_coding	DEAD box ATP-dependent RNA helicase [Source:VB Community Annotation]		GO:0003723
+1185	AAEL008463	1	protein_coding	DEAD box ATP-dependent RNA helicase [Source:VB Community Annotation]		GO:0003676
+1186	AAEL008463	1	protein_coding	DEAD box ATP-dependent RNA helicase [Source:VB Community Annotation]		GO:0004386
+1187	AAEL008465	1	protein_coding	gamma-tubulin complex component 3 (gcp-3) [Source:VB Community Annotation]	EAT39755.1	GO:0005737
+1188	AAEL008465	1	protein_coding	gamma-tubulin complex component 3 (gcp-3) [Source:VB Community Annotation]	EAT39755.1	GO:0005874
+1189	AAEL008465	1	protein_coding	gamma-tubulin complex component 3 (gcp-3) [Source:VB Community Annotation]	EAT39755.1	GO:0007020
+1190	AAEL008465	1	protein_coding	gamma-tubulin complex component 3 (gcp-3) [Source:VB Community Annotation]	EAT39755.1	GO:0043015
+1191	AAEL008465	1	protein_coding	gamma-tubulin complex component 3 (gcp-3) [Source:VB Community Annotation]	EAT39755.1	GO:0000922
+1192	AAEL008465	1	protein_coding	gamma-tubulin complex component 3 (gcp-3) [Source:VB Community Annotation]	EAT39755.1	GO:0005815
+1193	AAEL008465	1	protein_coding	gamma-tubulin complex component 3 (gcp-3) [Source:VB Community Annotation]	EAT39755.1	GO:0000226
+1194	AAEL008466	1	protein_coding	homeobox protein b [Source:VB Community Annotation]		GO:0003677
+1195	AAEL008466	1	protein_coding	homeobox protein b [Source:VB Community Annotation]		GO:0006355
+1196	AAEL008466	1	protein_coding	homeobox protein b [Source:VB Community Annotation]		GO:0043565
+1197	AAEL008468	1	protein_coding	cysteine synthase [Source:VB Community Annotation]	EAT39750.1	GO:0005737
+1198	AAEL008468	1	protein_coding	cysteine synthase [Source:VB Community Annotation]	EAT39750.1	GO:0006535
+1199	AAEL008468	1	protein_coding	cysteine synthase [Source:VB Community Annotation]	EAT39750.1	GO:0004122
+1200	AAEL008468	1	protein_coding	cysteine synthase [Source:VB Community Annotation]	EAT39750.1	GO:0019343
+1201	AAEL008521	1	protein_coding		EAT39686.1	GO:0005515
+1202	AAEL008524	1	protein_coding			GO:0008270
+1203	AAEL008524	1	protein_coding			GO:0005634
+1204	AAEL008524	1	protein_coding			GO:0003700
+1205	AAEL008524	1	protein_coding			GO:0003676
+1206	AAEL008530	1	protein_coding			GO:0035091
+1207	AAEL008533	1	protein_coding			GO:0008270
+1208	AAEL008533	1	protein_coding			GO:0005634
+1209	AAEL008533	1	protein_coding			GO:0003700
+1210	AAEL008533	1	protein_coding			GO:0003676
+1211	AAEL008535	1	protein_coding		EAT39684.1	GO:0008270
+1212	AAEL008535	1	protein_coding		EAT39684.1	GO:0005634
+1213	AAEL008535	1	protein_coding		EAT39684.1	GO:0003700
+1214	AAEL008535	1	protein_coding		EAT39684.1	GO:0003676
+1215	AAEL008536	1	protein_coding	UCR-motif DNA binding protein, putative [Source:VB Community Annotation]		GO:0008270
+1216	AAEL008536	1	protein_coding	UCR-motif DNA binding protein, putative [Source:VB Community Annotation]		GO:0005634
+1217	AAEL008536	1	protein_coding	UCR-motif DNA binding protein, putative [Source:VB Community Annotation]		GO:0003700
+1218	AAEL008536	1	protein_coding	UCR-motif DNA binding protein, putative [Source:VB Community Annotation]		GO:0003676
+1219	AAEL008538	1	protein_coding			GO:0008270
+1220	AAEL008538	1	protein_coding			GO:0005634
+1221	AAEL008538	1	protein_coding			GO:0003700
+1222	AAEL008538	1	protein_coding			GO:0003676
+1223	AAEL008539	1	protein_coding			GO:0008270
+1224	AAEL008539	1	protein_coding			GO:0005634
+1225	AAEL008539	1	protein_coding			GO:0003700
+1226	AAEL008539	1	protein_coding			GO:0003676
+1227	AAEL008540	1	protein_coding			GO:0008270
+1228	AAEL008540	1	protein_coding			GO:0005634
+1229	AAEL008540	1	protein_coding			GO:0003700
+1230	AAEL008540	1	protein_coding			GO:0003676
+1231	AAEL008542	1	protein_coding	kinesin heavy chain subunit [Source:VB Community Annotation]		GO:0005524
+1232	AAEL008542	1	protein_coding	kinesin heavy chain subunit [Source:VB Community Annotation]		GO:0008017
+1233	AAEL008542	1	protein_coding	kinesin heavy chain subunit [Source:VB Community Annotation]		GO:0003777
+1234	AAEL008542	1	protein_coding	kinesin heavy chain subunit [Source:VB Community Annotation]		GO:0007018
+1235	AAEL008545	1	protein_coding			GO:0008270
+1236	AAEL008545	1	protein_coding			GO:0005634
+1237	AAEL008545	1	protein_coding			GO:0003700
+1238	AAEL008545	1	protein_coding			GO:0003676
+1239	AAEL008547	1	protein_coding			GO:0008270
+1240	AAEL008547	1	protein_coding			GO:0005634
+1241	AAEL008547	1	protein_coding			GO:0003700
+1242	AAEL008547	1	protein_coding			GO:0003676
+1243	AAEL008551	1	protein_coding		EAT39664.1	GO:0008270
+1244	AAEL008551	1	protein_coding		EAT39664.1	GO:0005634
+1245	AAEL008551	1	protein_coding		EAT39664.1	GO:0003700
+1246	AAEL008551	1	protein_coding		EAT39664.1	GO:0003676
+1247	AAEL008921	1	protein_coding	myosin regulatory light chain 2 smooth muscle [Source:VB Community Annotation]	EAT39252.1	GO:0005509
+1248	AAEL008921	1	protein_coding	myosin regulatory light chain 2 smooth muscle [Source:VB Community Annotation]	EAT39251.1	GO:0005509
+1249	AAEL008921	1	protein_coding	myosin regulatory light chain 2 smooth muscle [Source:VB Community Annotation]		GO:0005509
+1250	AAEL009016	1	protein_coding	glutathione transferase [Source:VB Community Annotation]		GO:0005515
+1251	AAEL009017	1	protein_coding	glutathione transferase [Source:VB Community Annotation]		GO:0005515
+1252	AAEL009018	1	protein_coding	cytochrome P450 [Source:VB Community Annotation]		GO:0055114
+1253	AAEL009018	1	protein_coding	cytochrome P450 [Source:VB Community Annotation]		GO:0004497
+1254	AAEL009018	1	protein_coding	cytochrome P450 [Source:VB Community Annotation]		GO:0005506
+1255	AAEL009018	1	protein_coding	cytochrome P450 [Source:VB Community Annotation]		GO:0020037
+1256	AAEL009018	1	protein_coding	cytochrome P450 [Source:VB Community Annotation]		GO:0016705
+1257	AAEL009249	1	protein_coding	Coronin [Source:UniProtKB/TrEMBL;Acc:A0A1S4FM51]		GO:0005794
+1258	AAEL009249	1	protein_coding	Coronin [Source:UniProtKB/TrEMBL;Acc:A0A1S4FM51]		GO:0005515
+1259	AAEL009250	1	protein_coding			GO:0005515
+1260	AAEL009323	1	protein_coding	carbonic anhydrase precursor [Source:VB Community Annotation]		GO:0008270
+1261	AAEL009323	1	protein_coding	carbonic anhydrase precursor [Source:VB Community Annotation]		GO:0004089
+1262	AAEL009324	1	protein_coding	hydroxyacyl dehydrogenase [Source:VB Community Annotation]		GO:0016491
+1263	AAEL009325	1	protein_coding			
+1264	AAEL009326	1	protein_coding	fragile X mental retardation syndrome-related protein 1, putative [Source:VB Community Annotation]		GO:0003723
+1265	AAEL009326	1	protein_coding	fragile X mental retardation syndrome-related protein 1, putative [Source:VB Community Annotation]		GO:0003676
+1266	AAEL009326	1	protein_coding	fragile X mental retardation syndrome-related protein 1, putative [Source:VB Community Annotation]		GO:0003729
+1267	AAEL009326	1	protein_coding	fragile X mental retardation syndrome-related protein 1, putative [Source:VB Community Annotation]		GO:0006417
+1268	AAEL009327	1	protein_coding			GO:0005509
+1269	AAEL009328	1	protein_coding	hydroxyacyl dehydrogenase [Source:VB Community Annotation]		GO:0016491
+1270	AAEL009330	1	protein_coding	carbonic anhydrase II, putative [Source:VB Community Annotation]		GO:0008270
+1271	AAEL009330	1	protein_coding	carbonic anhydrase II, putative [Source:VB Community Annotation]		GO:0004089
+1272	AAEL009458	1	protein_coding	syntaxin 4 [Source:VB Community Annotation]	EJY57806.1	GO:0016020
+1273	AAEL009458	1	protein_coding	syntaxin 4 [Source:VB Community Annotation]	EJY57806.1	GO:0016021
+1274	AAEL009458	1	protein_coding	syntaxin 4 [Source:VB Community Annotation]	EJY57806.1	GO:0016192
+1275	AAEL009458	1	protein_coding	syntaxin 4 [Source:VB Community Annotation]	EAT38669.1	GO:0016020
+1276	AAEL009458	1	protein_coding	syntaxin 4 [Source:VB Community Annotation]	EAT38669.1	GO:0016021
+1277	AAEL009458	1	protein_coding	syntaxin 4 [Source:VB Community Annotation]	EAT38669.1	GO:0016192
+1278	AAEL009463	1	protein_coding			GO:0016020
+1279	AAEL009463	1	protein_coding			GO:0016192
+1280	AAEL009464	1	protein_coding	knolle, putative [Source:VB Community Annotation]		GO:0016020
+1281	AAEL009464	1	protein_coding	knolle, putative [Source:VB Community Annotation]		GO:0016021
+1282	AAEL009464	1	protein_coding	knolle, putative [Source:VB Community Annotation]		GO:0016192
+1283	AAEL009465	1	protein_coding	replication factor c / DNA polymerase iii gamma-tau subunit [Source:VB Community Annotation]	EAT38657.1	GO:0003677
+1284	AAEL009465	1	protein_coding	replication factor c / DNA polymerase iii gamma-tau subunit [Source:VB Community Annotation]	EAT38657.1	GO:0005524
+1285	AAEL009465	1	protein_coding	replication factor c / DNA polymerase iii gamma-tau subunit [Source:VB Community Annotation]	EAT38657.1	GO:0006260
+1286	AAEL009466	1	protein_coding	protein kinase c [Source:VB Community Annotation]		GO:0005524
+1287	AAEL009466	1	protein_coding	protein kinase c [Source:VB Community Annotation]		GO:0004674
+1288	AAEL009466	1	protein_coding	protein kinase c [Source:VB Community Annotation]		GO:0004672
+1289	AAEL009466	1	protein_coding	protein kinase c [Source:VB Community Annotation]		GO:0006468
+1290	AAEL009467	1	protein_coding		EAT38658.1	GO:0003779
+1291	AAEL009467	1	protein_coding		EAT38658.1	GO:0005622
+1292	AAEL009471	1	protein_coding			
+1293	AAEL009530	1	protein_coding	tmc6 protein (evin) [Source:VB Community Annotation]		GO:0016021
+1294	AAEL009530	1	protein_coding	tmc6 protein (evin) [Source:VB Community Annotation]		GO:0005887
+1295	AAEL009531	1	protein_coding	niemann-pick C1 [Source:VB Community Annotation]		GO:0016021
+1296	AAEL009531	1	protein_coding	niemann-pick C1 [Source:VB Community Annotation]		GO:0005319
+1297	AAEL009538	1	protein_coding		EAT38587.1	
+1298	AAEL009645	1	protein_coding			GO:0006355
+1299	AAEL009645	1	protein_coding			GO:0003700
+1300	AAEL009646	1	protein_coding			GO:0003723
+1301	AAEL009646	1	protein_coding			GO:0003676
+1302	AAEL009646	1	protein_coding			GO:0006413
+1303	AAEL009646	1	protein_coding			GO:0097010
+1304	AAEL009649	1	protein_coding	brg-1 associated factor [Source:VB Community Annotation]		GO:0016514
+1305	AAEL009649	1	protein_coding	brg-1 associated factor [Source:VB Community Annotation]		GO:0071565
+1306	AAEL009649	1	protein_coding	brg-1 associated factor [Source:VB Community Annotation]		GO:0071564
+1307	AAEL009649	1	protein_coding	brg-1 associated factor [Source:VB Community Annotation]		GO:0005515
+1308	AAEL009650	1	protein_coding			GO:0003676
+1309	AAEL009650	1	protein_coding			GO:0006139
+1310	AAEL009650	1	protein_coding			GO:0008408
+1311	AAEL009772	1	protein_coding		EJY57828.1	
+1312	AAEL009772	1	protein_coding		EAT38318.1	
+1313	AAEL009772	1	protein_coding		EAT38319.1	
+1314	AAEL009773	1	protein_coding	geminin, putative [Source:VB Community Annotation]		GO:0006275
+1315	AAEL009776	1	protein_coding			GO:0016021
+1316	AAEL009776	1	protein_coding			GO:0005515
+1317	AAEL009777	1	protein_coding	heparan sulphate sulfotransferase [Source:VB Community Annotation]	EAT38321.1	GO:0016021
+1318	AAEL009777	1	protein_coding	heparan sulphate sulfotransferase [Source:VB Community Annotation]	EAT38321.1	GO:0008146
+1319	AAEL009778	1	protein_coding		EAT38316.1	
+1320	AAEL009779	1	protein_coding	NBP2b protein, putative [Source:VB Community Annotation]	EAT38322.1	
+1321	AAEL009782	1	protein_coding	brain chitinase and chia [Source:VB Community Annotation]		GO:0005975
+1322	AAEL009782	1	protein_coding	brain chitinase and chia [Source:VB Community Annotation]		GO:0004553
+1323	AAEL009782	1	protein_coding	brain chitinase and chia [Source:VB Community Annotation]		GO:0008061
+1324	AAEL010205	1	protein_coding		EAT37850.1	
+1325	AAEL010205	1	protein_coding		EAT37849.1	
+1326	AAEL010205	1	protein_coding		EAT37852.1	
+1327	AAEL010205	1	protein_coding		EAT37851.1	
+1328	AAEL010205	1	protein_coding		EAT37848.1	
+1329	AAEL010205	1	protein_coding		EAT37853.1	
+1330	AAEL010206	1	protein_coding	xylulose kinase [Source:VB Community Annotation]	EAT33917.1	GO:0005975
+1331	AAEL010206	1	protein_coding	xylulose kinase [Source:VB Community Annotation]	EAT33917.1	GO:0016773
+1332	AAEL010558	1	protein_coding		EAT37454.1	GO:0016021
+1333	AAEL010558	1	protein_coding		EAT37454.1	GO:0019991
+1334	AAEL010559	1	protein_coding	vacuolar protein sorting vps16 [Source:VB Community Annotation]	EAT37446.1	GO:0031902
+1335	AAEL010559	1	protein_coding	vacuolar protein sorting vps16 [Source:VB Community Annotation]	EAT37446.1	GO:0005737
+1336	AAEL010559	1	protein_coding	vacuolar protein sorting vps16 [Source:VB Community Annotation]	EAT37446.1	GO:0006886
+1337	AAEL010559	1	protein_coding	vacuolar protein sorting vps16 [Source:VB Community Annotation]	EAT37446.1	GO:0007033
+1338	AAEL010559	1	protein_coding	vacuolar protein sorting vps16 [Source:VB Community Annotation]	EAT37446.1	GO:0033263
+1339	AAEL010559	1	protein_coding	vacuolar protein sorting vps16 [Source:VB Community Annotation]	EAT37446.1	GO:0030897
+1340	AAEL010559	1	protein_coding	vacuolar protein sorting vps16 [Source:VB Community Annotation]	EAT37446.1	GO:0005765
+1341	AAEL010561	1	protein_coding		EAT37444.1	
+1342	AAEL010563	1	protein_coding	tyrosyl-tRNA synthetase [Source:VB Community Annotation]		GO:0005524
+1343	AAEL010563	1	protein_coding	tyrosyl-tRNA synthetase [Source:VB Community Annotation]		GO:0003723
+1344	AAEL010563	1	protein_coding	tyrosyl-tRNA synthetase [Source:VB Community Annotation]		GO:0005737
+1345	AAEL010563	1	protein_coding	tyrosyl-tRNA synthetase [Source:VB Community Annotation]		GO:0004812
+1346	AAEL010563	1	protein_coding	tyrosyl-tRNA synthetase [Source:VB Community Annotation]		GO:0006418
+1347	AAEL010563	1	protein_coding	tyrosyl-tRNA synthetase [Source:VB Community Annotation]		GO:0000166
+1348	AAEL010563	1	protein_coding	tyrosyl-tRNA synthetase [Source:VB Community Annotation]		GO:0006437
+1349	AAEL010563	1	protein_coding	tyrosyl-tRNA synthetase [Source:VB Community Annotation]		GO:0004831
+1350	AAEL010567	1	protein_coding			GO:0003723
+1351	AAEL010567	1	protein_coding			GO:0003676
+1352	AAEL010568	1	protein_coding	chromosome-associated kinesin KIF4A (chromokinesin) [Source:VB Community Annotation]		GO:0005524
+1353	AAEL010568	1	protein_coding	chromosome-associated kinesin KIF4A (chromokinesin) [Source:VB Community Annotation]		GO:0008017
+1354	AAEL010568	1	protein_coding	chromosome-associated kinesin KIF4A (chromokinesin) [Source:VB Community Annotation]		GO:0003777
+1355	AAEL010568	1	protein_coding	chromosome-associated kinesin KIF4A (chromokinesin) [Source:VB Community Annotation]		GO:0007018
+1356	AAEL010569	1	protein_coding	chondroitin synthase [Source:VB Community Annotation]		GO:0016021
+1357	AAEL010569	1	protein_coding	chondroitin synthase [Source:VB Community Annotation]		GO:0008376
+1358	AAEL010569	1	protein_coding	chondroitin synthase [Source:VB Community Annotation]		GO:0032580
+1359	AAEL010570	1	protein_coding	acetylcholine receptor, beta-type subunit invertebrate [Source:VB Community Annotation]	EAT37452.1	GO:0006811
+1360	AAEL010570	1	protein_coding	acetylcholine receptor, beta-type subunit invertebrate [Source:VB Community Annotation]	EAT37452.1	GO:0016021
+1361	AAEL010570	1	protein_coding	acetylcholine receptor, beta-type subunit invertebrate [Source:VB Community Annotation]	EAT37452.1	GO:0005216
+1362	AAEL010570	1	protein_coding	acetylcholine receptor, beta-type subunit invertebrate [Source:VB Community Annotation]	EAT37452.1	GO:0022848
+1363	AAEL010570	1	protein_coding	acetylcholine receptor, beta-type subunit invertebrate [Source:VB Community Annotation]	EAT37452.1	GO:0045211
+1364	AAEL010570	1	protein_coding	acetylcholine receptor, beta-type subunit invertebrate [Source:VB Community Annotation]	EAT37452.1	GO:0005230
+1365	AAEL010570	1	protein_coding	acetylcholine receptor, beta-type subunit invertebrate [Source:VB Community Annotation]	EAT37452.1	GO:0004888
+1366	AAEL010570	1	protein_coding	acetylcholine receptor, beta-type subunit invertebrate [Source:VB Community Annotation]	EAT37452.1	GO:0034220
+1367	AAEL010570	1	protein_coding	acetylcholine receptor, beta-type subunit invertebrate [Source:VB Community Annotation]	EAT37452.1	GO:0030054
+1368	AAEL010620	1	protein_coding			GO:0003723
+1369	AAEL010710	1	protein_coding	gamma-aminobutyric-acid receptor a beta subunit 1, 2, 3, [Source:VB Community Annotation]		GO:0016020
+1370	AAEL010710	1	protein_coding	gamma-aminobutyric-acid receptor a beta subunit 1, 2, 3, [Source:VB Community Annotation]		GO:0006811
+1371	AAEL010710	1	protein_coding	gamma-aminobutyric-acid receptor a beta subunit 1, 2, 3, [Source:VB Community Annotation]		GO:0016021
+1372	AAEL010710	1	protein_coding	gamma-aminobutyric-acid receptor a beta subunit 1, 2, 3, [Source:VB Community Annotation]		GO:0005216
+1373	AAEL010710	1	protein_coding	gamma-aminobutyric-acid receptor a beta subunit 1, 2, 3, [Source:VB Community Annotation]		GO:0005230
+1374	AAEL010710	1	protein_coding	gamma-aminobutyric-acid receptor a beta subunit 1, 2, 3, [Source:VB Community Annotation]		GO:0004888
+1375	AAEL010710	1	protein_coding	gamma-aminobutyric-acid receptor a beta subunit 1, 2, 3, [Source:VB Community Annotation]		GO:0004890
+1376	AAEL010710	1	protein_coding	gamma-aminobutyric-acid receptor a beta subunit 1, 2, 3, [Source:VB Community Annotation]		GO:0034220
+1377	AAEL010712	1	protein_coding	low-density lipoprotein receptor (ldl) [Source:VB Community Annotation]		GO:0016021
+1378	AAEL010712	1	protein_coding	low-density lipoprotein receptor (ldl) [Source:VB Community Annotation]		GO:0005509
+1379	AAEL010712	1	protein_coding	low-density lipoprotein receptor (ldl) [Source:VB Community Annotation]		GO:0060828
+1380	AAEL010712	1	protein_coding	low-density lipoprotein receptor (ldl) [Source:VB Community Annotation]		GO:0048513
+1381	AAEL010712	1	protein_coding	low-density lipoprotein receptor (ldl) [Source:VB Community Annotation]		GO:0030509
+1382	AAEL010712	1	protein_coding	low-density lipoprotein receptor (ldl) [Source:VB Community Annotation]		GO:0005515
+1383	AAEL010850	1	protein_coding	troponin i [Source:VB Community Annotation]	EAT37112.1	GO:0005861
+1384	AAEL010850	1	protein_coding	troponin i [Source:VB Community Annotation]	EAT37120.1	GO:0005861
+1385	AAEL010850	1	protein_coding	troponin i [Source:VB Community Annotation]	EAT37113.1	GO:0005861
+1386	AAEL010850	1	protein_coding	troponin i [Source:VB Community Annotation]	EAT37119.1	GO:0005861
+1387	AAEL010850	1	protein_coding	troponin i [Source:VB Community Annotation]	EAT37118.1	GO:0005861
+1388	AAEL010850	1	protein_coding	troponin i [Source:VB Community Annotation]		GO:0005861
+1389	AAEL010853	1	protein_coding	AMP dependent ligase [Source:VB Community Annotation]		GO:0003824
+1390	AAEL010854	1	protein_coding	ubiquitin specific protease 2, [Source:VB Community Annotation]		GO:0006511
+1391	AAEL010854	1	protein_coding	ubiquitin specific protease 2, [Source:VB Community Annotation]		GO:0036459
+1392	AAEL010854	1	protein_coding	ubiquitin specific protease 2, [Source:VB Community Annotation]		GO:0016579
+1393	AAEL010855	1	protein_coding	cdc6 [Source:VB Community Annotation]		GO:0005634
+1394	AAEL010855	1	protein_coding	cdc6 [Source:VB Community Annotation]		GO:0006270
+1395	AAEL010855	1	protein_coding	cdc6 [Source:VB Community Annotation]		GO:0051301
+1396	AAEL010856	1	protein_coding	dopamine beta hydroxylase [Source:VB Community Annotation]		GO:0055114
+1397	AAEL010856	1	protein_coding	dopamine beta hydroxylase [Source:VB Community Annotation]		GO:0003824
+1398	AAEL010856	1	protein_coding	dopamine beta hydroxylase [Source:VB Community Annotation]		GO:0004497
+1399	AAEL010856	1	protein_coding	dopamine beta hydroxylase [Source:VB Community Annotation]		GO:0005507
+1400	AAEL010856	1	protein_coding	dopamine beta hydroxylase [Source:VB Community Annotation]		GO:0016715
+1401	AAEL010860	1	protein_coding			GO:0005829
+1402	AAEL010860	1	protein_coding			GO:0042147
+1403	AAEL010860	1	protein_coding			GO:0032456
+1404	AAEL010860	1	protein_coding			GO:1990745
+1405	AAEL010861	1	protein_coding	Mediator of RNA polymerase II transcription subunit 8 (Med8) [Source:VB Community Annotation]	EAT37124.1	GO:0003712
+1406	AAEL010861	1	protein_coding	Mediator of RNA polymerase II transcription subunit 8 (Med8) [Source:VB Community Annotation]	EAT37124.1	GO:0006357
+1407	AAEL010861	1	protein_coding	Mediator of RNA polymerase II transcription subunit 8 (Med8) [Source:VB Community Annotation]	EAT37124.1	GO:0016592
+1408	AAEL010864	1	protein_coding	TRP-phosphatase, putative [Source:VB Community Annotation]	EAT37111.1	GO:0005515
+1409	AAEL010960	1	protein_coding	xaa-pro dipeptidase app(e.coli) [Source:VB Community Annotation]		GO:0004177
+1410	AAEL010960	1	protein_coding	xaa-pro dipeptidase app(e.coli) [Source:VB Community Annotation]		GO:0030145
+1411	AAEL011818	1	protein_coding			
+1412	AAEL012297	1	protein_coding	sterol desaturase [Source:VB Community Annotation]		GO:0016021
+1413	AAEL012297	1	protein_coding	sterol desaturase [Source:VB Community Annotation]		GO:0016491
+1414	AAEL012297	1	protein_coding	sterol desaturase [Source:VB Community Annotation]		GO:0055114
+1415	AAEL012297	1	protein_coding	sterol desaturase [Source:VB Community Annotation]		GO:0005506
+1416	AAEL012297	1	protein_coding	sterol desaturase [Source:VB Community Annotation]		GO:0008610
+1417	AAEL012298	1	protein_coding	sterol desaturase [Source:VB Community Annotation]		GO:0016021
+1418	AAEL012298	1	protein_coding	sterol desaturase [Source:VB Community Annotation]		GO:0016491
+1419	AAEL012298	1	protein_coding	sterol desaturase [Source:VB Community Annotation]		GO:0055114
+1420	AAEL012298	1	protein_coding	sterol desaturase [Source:VB Community Annotation]		GO:0005506
+1421	AAEL012298	1	protein_coding	sterol desaturase [Source:VB Community Annotation]		GO:0008610
+1422	AAEL012430	1	protein_coding	AMP dependent ligase [Source:VB Community Annotation]		GO:0016021
+1423	AAEL012430	1	protein_coding	AMP dependent ligase [Source:VB Community Annotation]		GO:0003824
+1424	AAEL012431	1	protein_coding	AMP dependent ligase [Source:VB Community Annotation]		GO:0003824
+1425	AAEL012549	1	protein_coding	ATPase, class vi, type 11c [Source:VB Community Annotation]		GO:0005524
+1426	AAEL012549	1	protein_coding	ATPase, class vi, type 11c [Source:VB Community Annotation]		GO:0016021
+1427	AAEL012549	1	protein_coding	ATPase, class vi, type 11c [Source:VB Community Annotation]		GO:0000287
+1428	AAEL012549	1	protein_coding	ATPase, class vi, type 11c [Source:VB Community Annotation]		GO:0000166
+1429	AAEL012549	1	protein_coding	ATPase, class vi, type 11c [Source:VB Community Annotation]		GO:0004012
+1430	AAEL012549	1	protein_coding	ATPase, class vi, type 11c [Source:VB Community Annotation]		GO:0015914
+1431	AAEL012551	1	protein_coding			GO:0008270
+1432	AAEL012551	1	protein_coding			GO:0005634
+1433	AAEL012551	1	protein_coding			GO:0003676
+1434	AAEL012552	1	protein_coding	NADH-ubiquinone oxidoreductase [Source:VB Community Annotation]		GO:0009055
+1435	AAEL012552	1	protein_coding	NADH-ubiquinone oxidoreductase [Source:VB Community Annotation]		GO:0016020
+1436	AAEL012552	1	protein_coding	NADH-ubiquinone oxidoreductase [Source:VB Community Annotation]		GO:0016491
+1437	AAEL012552	1	protein_coding	NADH-ubiquinone oxidoreductase [Source:VB Community Annotation]		GO:0055114
+1438	AAEL012552	1	protein_coding	NADH-ubiquinone oxidoreductase [Source:VB Community Annotation]		GO:0008137
+1439	AAEL012552	1	protein_coding	NADH-ubiquinone oxidoreductase [Source:VB Community Annotation]		GO:0042773
+1440	AAEL012552	1	protein_coding	NADH-ubiquinone oxidoreductase [Source:VB Community Annotation]		GO:0051536
+1441	AAEL012552	1	protein_coding	NADH-ubiquinone oxidoreductase [Source:VB Community Annotation]		GO:0016651
+1442	AAEL012740	1	protein_coding	ATPase subunit, putative [Source:VB Community Annotation]	EAT35073.1	GO:0016021
+1443	AAEL012740	1	protein_coding	ATPase subunit, putative [Source:VB Community Annotation]	EAT35073.1	GO:0015986
+1444	AAEL012740	1	protein_coding	ATPase subunit, putative [Source:VB Community Annotation]	EAT35073.1	GO:0015078
+1445	AAEL012740	1	protein_coding	ATPase subunit, putative [Source:VB Community Annotation]	EAT35073.1	GO:0015991
+1446	AAEL012740	1	protein_coding	ATPase subunit, putative [Source:VB Community Annotation]	EAT35073.1	GO:0045263
+1447	AAEL012740	1	protein_coding	ATPase subunit, putative [Source:VB Community Annotation]	EAT35073.1	GO:0008289
+1448	AAEL012740	1	protein_coding	ATPase subunit, putative [Source:VB Community Annotation]	EAT35073.1	GO:0033177
+1449	AAEL012741	1	protein_coding			
+1450	AAEL012809	1	protein_coding	peptidylprolyl isomerase [Source:VB Community Annotation]		GO:0005515
+1451	AAEL012861	1	protein_coding			GO:0000166
+1452	AAEL013075	1	protein_coding			
+1453	AAEL013076	1	protein_coding	signal recognition particle 54 kda protein [Source:VB Community Annotation]		GO:0003924
+1454	AAEL013076	1	protein_coding	signal recognition particle 54 kda protein [Source:VB Community Annotation]		GO:0005525
+1455	AAEL013076	1	protein_coding	signal recognition particle 54 kda protein [Source:VB Community Annotation]		GO:0006614
+1456	AAEL013076	1	protein_coding	signal recognition particle 54 kda protein [Source:VB Community Annotation]		GO:0008312
+1457	AAEL013076	1	protein_coding	signal recognition particle 54 kda protein [Source:VB Community Annotation]		GO:0048500
+1458	AAEL013077	1	protein_coding		EAT34714.1	GO:0016021
+1459	AAEL013078	1	protein_coding	glycosyltransferase [Source:VB Community Annotation]	EAT34715.1	GO:0016021
+1460	AAEL013078	1	protein_coding	glycosyltransferase [Source:VB Community Annotation]	EAT34715.1	GO:0016757
+1461	AAEL013078	1	protein_coding	glycosyltransferase [Source:VB Community Annotation]	EAT34715.1	GO:0005789
+1462	AAEL013078	1	protein_coding	glycosyltransferase [Source:VB Community Annotation]	EAT34715.1	GO:0005788
+1463	AAEL013078	1	protein_coding	glycosyltransferase [Source:VB Community Annotation]	EAT34715.1	GO:0006488
+1464	AAEL013078	1	protein_coding	glycosyltransferase [Source:VB Community Annotation]	EAT34715.1	GO:0052824
+1465	AAEL013262	1	protein_coding			GO:0016998
+1466	AAEL013262	1	protein_coding			GO:0006032
+1467	AAEL013262	1	protein_coding			GO:0004568
+1468	AAEL013263	1	protein_coding	high affinity copper transporter, putative [Source:VB Community Annotation]	EAT34501.1	GO:0016021
+1469	AAEL013263	1	protein_coding	high affinity copper transporter, putative [Source:VB Community Annotation]	EAT34501.1	GO:0005375
+1470	AAEL013263	1	protein_coding	high affinity copper transporter, putative [Source:VB Community Annotation]	EAT34501.1	GO:0035434
+1471	AAEL013265	1	protein_coding			
+1472	AAEL013600	1	protein_coding	integrin alpha-ps [Source:VB Community Annotation]		GO:0007155
+1473	AAEL013600	1	protein_coding	integrin alpha-ps [Source:VB Community Annotation]		GO:0008305
+1474	AAEL013608	1	protein_coding	sugar transporter [Source:VB Community Annotation]	EAT34119.1	GO:0016021
+1475	AAEL013608	1	protein_coding	sugar transporter [Source:VB Community Annotation]	EAT34119.1	GO:0015165
+1476	AAEL013608	1	protein_coding	sugar transporter [Source:VB Community Annotation]	EAT34119.1	GO:0000139
+1477	AAEL013608	1	protein_coding	sugar transporter [Source:VB Community Annotation]	EAT34119.1	GO:0090481
+1478	AAEL013611	1	protein_coding	AMP dependent ligase [Source:VB Community Annotation]	EAT34122.1	GO:0003824
+1479	AAEL013623	1	protein_coding	trypsin [Source:VB Community Annotation]		GO:0006508
+1480	AAEL013623	1	protein_coding	trypsin [Source:VB Community Annotation]		GO:0004252
+1481	AAEL013627	1	protein_coding			
+1482	AAEL013628	1	protein_coding	trypsin-eta, putative [Source:VB Community Annotation]		GO:0006508
+1483	AAEL013628	1	protein_coding	trypsin-eta, putative [Source:VB Community Annotation]		GO:0004252
+1484	AAEL013633	1	protein_coding	ubiquitin-conjugating enzyme h [Source:VB Community Annotation]	EAT34103.1	GO:0005524
+1485	AAEL013633	1	protein_coding	ubiquitin-conjugating enzyme h [Source:VB Community Annotation]	EAT34103.1	GO:0016740
+1486	AAEL013652	1	protein_coding	oxidoreductase [Source:VB Community Annotation]		GO:0055114
+1487	AAEL013652	1	protein_coding	oxidoreductase [Source:VB Community Annotation]		GO:0050660
+1488	AAEL013652	1	protein_coding	oxidoreductase [Source:VB Community Annotation]		GO:0016627
+1489	AAEL013653	1	protein_coding	tata-box binding protein [Source:VB Community Annotation]		GO:0003677
+1490	AAEL013653	1	protein_coding	tata-box binding protein [Source:VB Community Annotation]		GO:0006352
+1491	AAEL013656	1	protein_coding	bm-40 precursor [Source:VB Community Annotation]	EAT34063.1	GO:0005615
+1492	AAEL013656	1	protein_coding	bm-40 precursor [Source:VB Community Annotation]	EAT34063.1	GO:0005509
+1493	AAEL013656	1	protein_coding	bm-40 precursor [Source:VB Community Annotation]	EAT34063.1	GO:0005518
+1494	AAEL013656	1	protein_coding	bm-40 precursor [Source:VB Community Annotation]	EAT34063.1	GO:0062023
+1495	AAEL013682	1	protein_coding	zinc finger protein [Source:VB Community Annotation]		GO:0008270
+1496	AAEL013682	1	protein_coding	zinc finger protein [Source:VB Community Annotation]		GO:0005634
+1497	AAEL013682	1	protein_coding	zinc finger protein [Source:VB Community Annotation]		GO:0003676
+1498	AAEL013684	1	protein_coding			
+1499	AAEL013692	1	protein_coding	PIWI [Source:VB Community Annotation]		GO:0003676
+1500	AAEL013692	1	protein_coding	PIWI [Source:VB Community Annotation]		GO:0031047
+1501	AAEL013692	1	protein_coding	PIWI [Source:VB Community Annotation]		GO:0005515
+1502	AAEL013802	1	protein_coding	Fatty acyl-CoA reductase [Source:UniProtKB/TrEMBL;Acc:A0A1S4FZZ5]		GO:0016021
+1503	AAEL013802	1	protein_coding	Fatty acyl-CoA reductase [Source:UniProtKB/TrEMBL;Acc:A0A1S4FZZ5]		GO:0006629
+1504	AAEL013802	1	protein_coding	Fatty acyl-CoA reductase [Source:UniProtKB/TrEMBL;Acc:A0A1S4FZZ5]		GO:0080019
+1505	AAEL013802	1	protein_coding	Fatty acyl-CoA reductase [Source:UniProtKB/TrEMBL;Acc:A0A1S4FZZ5]		GO:0102965
+1506	AAEL013803	1	protein_coding			GO:0032418
+1507	AAEL013813	1	protein_coding			GO:0008168
+1508	AAEL013813	1	protein_coding			GO:0006370
+1509	AAEL013813	1	protein_coding			GO:0080009
+1510	AAEL013813	1	protein_coding			GO:0004483
+1511	AAEL013813	1	protein_coding			GO:0032259
+1512	AAEL013814	1	protein_coding	phosphomevalonate kinase, putative [Source:VB Community Annotation]	EAT33914.1	GO:0005524
+1513	AAEL013814	1	protein_coding	phosphomevalonate kinase, putative [Source:VB Community Annotation]	EAT33914.1	GO:0005737
+1514	AAEL013814	1	protein_coding	phosphomevalonate kinase, putative [Source:VB Community Annotation]	EAT33914.1	GO:0004631
+1515	AAEL013814	1	protein_coding	phosphomevalonate kinase, putative [Source:VB Community Annotation]	EAT33914.1	GO:0006695
+1516	AAEL013814	1	protein_coding	phosphomevalonate kinase, putative [Source:VB Community Annotation]		GO:0005737
+1517	AAEL013814	1	protein_coding	phosphomevalonate kinase, putative [Source:VB Community Annotation]		GO:0004631
+1518	AAEL013814	1	protein_coding	phosphomevalonate kinase, putative [Source:VB Community Annotation]		GO:0006695
+1519	AAEL013816	1	protein_coding			GO:0016567
+1520	AAEL013816	1	protein_coding			GO:0061630
+1521	AAEL013818	1	protein_coding	spliceosome associated protein [Source:VB Community Annotation]		GO:0003723
+1522	AAEL013818	1	protein_coding	spliceosome associated protein [Source:VB Community Annotation]		GO:0006396
+1523	AAEL013818	1	protein_coding	spliceosome associated protein [Source:VB Community Annotation]		GO:0005515
+1524	AAEL013822	1	protein_coding			GO:0006281
+1525	AAEL013822	1	protein_coding			GO:0043140
+1526	AAEL013823	1	protein_coding	calcium/calmodulin dependent protein kinase ii [Source:VB Community Annotation]	EAT33909.1	GO:0005524
+1527	AAEL013823	1	protein_coding	calcium/calmodulin dependent protein kinase ii [Source:VB Community Annotation]	EAT33909.1	GO:0004674
+1528	AAEL013823	1	protein_coding	calcium/calmodulin dependent protein kinase ii [Source:VB Community Annotation]	EAT33909.1	GO:0004672
+1529	AAEL013823	1	protein_coding	calcium/calmodulin dependent protein kinase ii [Source:VB Community Annotation]	EAT33909.1	GO:0005516
+1530	AAEL013823	1	protein_coding	calcium/calmodulin dependent protein kinase ii [Source:VB Community Annotation]	EAT33909.1	GO:0004683
+1531	AAEL013823	1	protein_coding	calcium/calmodulin dependent protein kinase ii [Source:VB Community Annotation]	EAT33909.1	GO:0006468
+1532	AAEL013823	1	protein_coding	calcium/calmodulin dependent protein kinase ii [Source:VB Community Annotation]	EAT33908.1	GO:0005524
+1533	AAEL013823	1	protein_coding	calcium/calmodulin dependent protein kinase ii [Source:VB Community Annotation]	EAT33908.1	GO:0004674
+1534	AAEL013823	1	protein_coding	calcium/calmodulin dependent protein kinase ii [Source:VB Community Annotation]	EAT33908.1	GO:0004672
+1535	AAEL013823	1	protein_coding	calcium/calmodulin dependent protein kinase ii [Source:VB Community Annotation]	EAT33908.1	GO:0005516
+1536	AAEL013823	1	protein_coding	calcium/calmodulin dependent protein kinase ii [Source:VB Community Annotation]	EAT33908.1	GO:0004683
+1537	AAEL013823	1	protein_coding	calcium/calmodulin dependent protein kinase ii [Source:VB Community Annotation]	EAT33908.1	GO:0006468
+1538	AAEL013959	1	protein_coding			GO:0003676
+1539	AAEL013959	1	protein_coding			GO:0015074
+1540	AAEL013959	1	protein_coding			
+1541	AAEL014000	1	protein_coding		EAT33725.1	
+1542	AAEL014196	1	protein_coding			
+1543	AAEL014295	1	protein_coding			GO:0000398
+1544	AAEL014295	1	protein_coding			GO:0005681
+1545	AAEL014331	1	protein_coding	protein phosphatase 2c [Source:VB Community Annotation]		GO:0003824
+1546	AAEL014331	1	protein_coding	protein phosphatase 2c [Source:VB Community Annotation]		GO:0043169
+1547	AAEL014331	1	protein_coding	protein phosphatase 2c [Source:VB Community Annotation]		GO:0046872
+1548	AAEL014331	1	protein_coding	protein phosphatase 2c [Source:VB Community Annotation]		GO:0004722
+1549	AAEL014331	1	protein_coding	protein phosphatase 2c [Source:VB Community Annotation]		GO:0006470
+1550	AAEL014333	1	protein_coding			
+1551	AAEL014357	1	protein_coding			
+1552	AAEL014389	1	protein_coding			GO:0008270
+1553	AAEL014389	1	protein_coding			GO:0006355
+1554	AAEL014389	1	protein_coding			GO:0005634
+1555	AAEL014406	1	protein_coding			GO:0008270
+1556	AAEL014406	1	protein_coding			GO:0005634
+1557	AAEL014406	1	protein_coding			GO:0003700
+1558	AAEL014406	1	protein_coding			GO:0003676
+1559	AAEL014501	1	protein_coding	Mediator of RNA polymerase II transcription subunit 10 (Med10) [Source:VB Community Annotation]	EAT33233.1	GO:0003712
+1560	AAEL014501	1	protein_coding	Mediator of RNA polymerase II transcription subunit 10 (Med10) [Source:VB Community Annotation]	EAT33233.1	GO:0006357
+1561	AAEL014501	1	protein_coding	Mediator of RNA polymerase II transcription subunit 10 (Med10) [Source:VB Community Annotation]	EAT33233.1	GO:0016592
+1562	AAEL014505	1	protein_coding	succinate dehydrogenase, putative [Source:VB Community Annotation]	EAT33234.1	GO:0016020
+1563	AAEL014505	1	protein_coding	succinate dehydrogenase, putative [Source:VB Community Annotation]	EAT33234.1	GO:0016021
+1564	AAEL014505	1	protein_coding	succinate dehydrogenase, putative [Source:VB Community Annotation]	EAT33234.1	GO:0046872
+1565	AAEL014505	1	protein_coding	succinate dehydrogenase, putative [Source:VB Community Annotation]	EAT33234.1	GO:0005743
+1566	AAEL014505	1	protein_coding	succinate dehydrogenase, putative [Source:VB Community Annotation]	EAT33234.1	GO:0005740
+1567	AAEL014505	1	protein_coding	succinate dehydrogenase, putative [Source:VB Community Annotation]	EAT33234.1	GO:0006099
+1568	AAEL014518	1	protein_coding			
+1569	AAEL014551	1	protein_coding	triacylglycerol lipase, pancreatic [Source:VB Community Annotation]		GO:0052689
+1570	AAEL014551	1	protein_coding	triacylglycerol lipase, pancreatic [Source:VB Community Annotation]		GO:0006629
+1571	AAEL014583	1	protein_coding	60S acidic ribosomal protein P2 [Source:UniProtKB/TrEMBL;Acc:Q1HRM9]	EAT33156.1	GO:0003735
+1572	AAEL014583	1	protein_coding	60S acidic ribosomal protein P2 [Source:UniProtKB/TrEMBL;Acc:Q1HRM9]	EAT33156.1	GO:0005840
+1573	AAEL014583	1	protein_coding	60S acidic ribosomal protein P2 [Source:UniProtKB/TrEMBL;Acc:Q1HRM9]	EAT33156.1	GO:0006414
+1574	AAEL014583	1	protein_coding	60S acidic ribosomal protein P2 [Source:UniProtKB/TrEMBL;Acc:Q1HRM9]	EAT33156.1	GO:0005622
+1575	AAEL014583	1	protein_coding	60S acidic ribosomal protein P2 [Source:UniProtKB/TrEMBL;Acc:Q1HRM9]	EAT33155.1	GO:0003735
+1576	AAEL014583	1	protein_coding	60S acidic ribosomal protein P2 [Source:UniProtKB/TrEMBL;Acc:Q1HRM9]	EAT33155.1	GO:0005840
+1577	AAEL014583	1	protein_coding	60S acidic ribosomal protein P2 [Source:UniProtKB/TrEMBL;Acc:Q1HRM9]	EAT33155.1	GO:0006414
+1578	AAEL014583	1	protein_coding	60S acidic ribosomal protein P2 [Source:UniProtKB/TrEMBL;Acc:Q1HRM9]	EAT33155.1	GO:0005622
+1579	AAEL014655	1	protein_coding			
+1580	AAEL014657	1	protein_coding		EAT33085.1	GO:0016021
+1581	AAEL014702	1	protein_coding	lysyl-tRNA synthetase [Source:VB Community Annotation]		GO:0005524
+1582	AAEL014702	1	protein_coding	lysyl-tRNA synthetase [Source:VB Community Annotation]		GO:0005737
+1583	AAEL014702	1	protein_coding	lysyl-tRNA synthetase [Source:VB Community Annotation]		GO:0003676
+1584	AAEL014702	1	protein_coding	lysyl-tRNA synthetase [Source:VB Community Annotation]		GO:0004812
+1585	AAEL014702	1	protein_coding	lysyl-tRNA synthetase [Source:VB Community Annotation]		GO:0006418
+1586	AAEL014702	1	protein_coding	lysyl-tRNA synthetase [Source:VB Community Annotation]		GO:0000166
+1587	AAEL014702	1	protein_coding	lysyl-tRNA synthetase [Source:VB Community Annotation]		GO:0006430
+1588	AAEL014702	1	protein_coding	lysyl-tRNA synthetase [Source:VB Community Annotation]		GO:0004824
+1589	AAEL014704	1	protein_coding	U3 small nucleolar RNA (U3 snoRNA) associated protein [Source:VB Community Annotation]		GO:0005515
+1590	AAEL014705	1	protein_coding			GO:0005515
+1591	AAEL014749	1	protein_coding	ral [Source:VB Community Annotation]	EAT32994.1	GO:0016020
+1592	AAEL014749	1	protein_coding	ral [Source:VB Community Annotation]	EAT32994.1	GO:0007165
+1593	AAEL014749	1	protein_coding	ral [Source:VB Community Annotation]	EAT32994.1	GO:0003924
+1594	AAEL014749	1	protein_coding	ral [Source:VB Community Annotation]	EAT32994.1	GO:0005525
+1595	AAEL014749	1	protein_coding	ral [Source:VB Community Annotation]	EAT32995.1	GO:0016020
+1596	AAEL014749	1	protein_coding	ral [Source:VB Community Annotation]	EAT32995.1	GO:0007165
+1597	AAEL014749	1	protein_coding	ral [Source:VB Community Annotation]	EAT32995.1	GO:0003924
+1598	AAEL014749	1	protein_coding	ral [Source:VB Community Annotation]	EAT32995.1	GO:0005525
+1599	AAEL014853	1	protein_coding	otoferlin [Source:VB Community Annotation]		GO:0016021
+1600	AAEL015095	1	protein_coding			GO:0005515
+1601	AAEL015127	1	protein_coding			GO:0005634
+1602	AAEL015216	1	protein_coding	serine/threonine-protein kinase vrk [Source:VB Community Annotation]	EAT32615.1	GO:0005524
+1603	AAEL015216	1	protein_coding	serine/threonine-protein kinase vrk [Source:VB Community Annotation]	EAT32615.1	GO:0004672
+1604	AAEL015216	1	protein_coding	serine/threonine-protein kinase vrk [Source:VB Community Annotation]	EAT32615.1	GO:0006468
+1605	AAEL015238	1	protein_coding	UPF0729 protein AAEL015238 [Source:UniProtKB/Swiss-Prot;Acc:Q16EE5]	EAT32602.1	
+1606	AAEL015356	1	protein_coding			GO:0016021
+1607	AAEL015393	1	protein_coding			
+1608	AAEL015559	1	protein_coding	zinc carboxypeptidase [Source:VB Community Annotation]		GO:0008270
+1609	AAEL015559	1	protein_coding	zinc carboxypeptidase [Source:VB Community Annotation]		GO:0006508
+1610	AAEL015559	1	protein_coding	zinc carboxypeptidase [Source:VB Community Annotation]		GO:0004181
+1611	AAEL015559	1	protein_coding	zinc carboxypeptidase [Source:VB Community Annotation]		GO:0004180
+1612	AAEL015640	1	protein_coding	transcription factor IIIA, putative [Source:VB Community Annotation]	EAT32245.1	GO:0003676
+1613	AAEL017081	1	protein_coding		EJY57519.1	GO:0005507
+1614	AAEL017081	1	protein_coding		EJY57519.1	GO:0016531
+1615	AAEL017081	1	protein_coding		EJY57519.1	GO:0006825
+1616	AAEL017081	1	protein_coding		EJY57519.1	GO:0005758
+1617	AAEL017081	1	protein_coding		EJY57518.1	GO:0005507
+1618	AAEL017081	1	protein_coding		EJY57518.1	GO:0016531
+1619	AAEL017081	1	protein_coding		EJY57518.1	GO:0006825
+1620	AAEL017081	1	protein_coding		EJY57518.1	GO:0005758
+1621	AAEL017391	1	protein_coding			GO:0008270
+1622	AAEL017391	1	protein_coding			GO:0006355
+1623	AAEL017391	1	protein_coding			GO:0005634
+1624	AAEL017391	1	protein_coding			GO:0003712
+1625	AAEL017391	1	protein_coding			GO:0004402
+1626	AAEL017391	1	protein_coding			GO:0016573
+1627	AAEL017391	1	protein_coding			GO:0003713
+1628	AAEL017391	1	protein_coding			GO:0000123
+1629	AAEL017391	1	protein_coding			GO:0005515
+1630	AAEL017994	1	protein_coding			
+1631	AAEL018189	1	protein_coding	PCR Gastrin/Cholecystokinin Family [Source:VB Community Annotation]		GO:0016021
+1632	AAEL018189	1	protein_coding	PCR Gastrin/Cholecystokinin Family [Source:VB Community Annotation]		GO:0007186
+1633	AAEL018189	1	protein_coding	PCR Gastrin/Cholecystokinin Family [Source:VB Community Annotation]		GO:0004930
+1634	AAEL018212	1	protein_coding	Ubiquitinyl hydrolase 1 [Source:UniProtKB/TrEMBL;Acc:A0A1S4G7V5]		GO:0008270
+1635	AAEL018212	1	protein_coding	Ubiquitinyl hydrolase 1 [Source:UniProtKB/TrEMBL;Acc:A0A1S4G7V5]		GO:0006511
+1636	AAEL018212	1	protein_coding	Ubiquitinyl hydrolase 1 [Source:UniProtKB/TrEMBL;Acc:A0A1S4G7V5]		GO:0036459
+1637	AAEL018212	1	protein_coding	Ubiquitinyl hydrolase 1 [Source:UniProtKB/TrEMBL;Acc:A0A1S4G7V5]		GO:0016579
+1638	AAEL019425	1	protein_coding			GO:0003713
+1639	AAEL019481	1	protein_coding			GO:0003676
+1640	AAEL019481	1	protein_coding			GO:0005515
+1641	AAEL019521	1	protein_coding			GO:0007041
+1642	AAEL019521	1	protein_coding			GO:0051219
+1643	AAEL019521	1	protein_coding			GO:0038023
+1644	AAEL019539	1	protein_coding			
+1645	AAEL019626	1	protein_coding			GO:0005524
+1646	AAEL019626	1	protein_coding			GO:0004672
+1647	AAEL019626	1	protein_coding			GO:0006468
+1648	AAEL019656	1	protein_coding			GO:0019239
+1649	AAEL019656	1	protein_coding			GO:0009168
+1650	AAEL019656	1	protein_coding			GO:0032264
+1651	AAEL019656	1	protein_coding			GO:0003876
+1652	AAEL019733	1	protein_coding			GO:0007165
+1653	AAEL019733	1	protein_coding			GO:0005515
+1654	AAEL019735	1	protein_coding			GO:0016740
+1655	AAEL019735	1	protein_coding			GO:0005515
+1656	AAEL019839	1	protein_coding			GO:0008270
+1657	AAEL019839	1	protein_coding			GO:0005634
+1658	AAEL019839	1	protein_coding			GO:0003700
+1659	AAEL019839	1	protein_coding			GO:0003676
+1660	AAEL019840	1	protein_coding			GO:0008270
+1661	AAEL019840	1	protein_coding			GO:0005634
+1662	AAEL019840	1	protein_coding			GO:0003700
+1663	AAEL019840	1	protein_coding			GO:0003676
+1664	AAEL019853	1	protein_coding			GO:0006508
+1665	AAEL019853	1	protein_coding			GO:0004252
+1666	AAEL019876	1	protein_coding			
+1667	AAEL019877	1	protein_coding			GO:0005515
+1668	AAEL019900	1	protein_coding			
+1669	AAEL019943	1	protein_coding			
+1670	AAEL019953	1	protein_coding			GO:0006508
+1671	AAEL019953	1	protein_coding			GO:0004252
+1672	AAEL019997	1	protein_coding			
+1673	AAEL020033	1	protein_coding			GO:0003676
+1674	AAEL020075	1	protein_coding			GO:0005515
+1675	AAEL020095	1	protein_coding			GO:0046983
+1676	AAEL020151	1	protein_coding			
+1677	AAEL020162	1	protein_coding			GO:0016020
+1678	AAEL020162	1	protein_coding			GO:0016021
+1679	AAEL020162	1	protein_coding			GO:0055085
+1680	AAEL020162	1	protein_coding			GO:0008271
+1681	AAEL020162	1	protein_coding			GO:0015116
+1682	AAEL020162	1	protein_coding			GO:0008272
+1683	AAEL020203	1	protein_coding			GO:0030178
+1684	AAEL020203	1	protein_coding			GO:0008013
+1685	AAEL020203	1	protein_coding			GO:0016055
+1686	AAEL020203	1	protein_coding			GO:0005515
+1687	AAEL020230	1	protein_coding			
+1688	AAEL020238	1	protein_coding			GO:0003735
+1689	AAEL020238	1	protein_coding			GO:0006412
+1690	AAEL020238	1	protein_coding			GO:0005840
+1691	AAEL020238	1	protein_coding			GO:0015935
+1692	AAEL020238	1	protein_coding			GO:0005622
+1693	AAEL020359	1	protein_coding			GO:0003676
+1694	AAEL020508	1	protein_coding			
+1695	AAEL020542	1	protein_coding			GO:0008270
+1696	AAEL020542	1	protein_coding			GO:0016558
+1697	AAEL020542	1	protein_coding			GO:0007031
+1698	AAEL020542	1	protein_coding			GO:0005779
+1699	AAEL020542	1	protein_coding			GO:0005515
+1700	AAEL020543	1	protein_coding			GO:0005634
+1701	AAEL020543	1	protein_coding			GO:0006260
+1702	AAEL020543	1	protein_coding			GO:0000808
+1703	AAEL020559	1	protein_coding			GO:0003677
+1704	AAEL020559	1	protein_coding			GO:0006355
+1705	AAEL020559	1	protein_coding			GO:0005634
+1706	AAEL020559	1	protein_coding			GO:0007165
+1707	AAEL020559	1	protein_coding			GO:0003700
+1708	AAEL020559	1	protein_coding		EAT38424.1	GO:0003677
+1709	AAEL020559	1	protein_coding		EAT38424.1	GO:0006355
+1710	AAEL020559	1	protein_coding		EAT38424.1	GO:0005634
+1711	AAEL020559	1	protein_coding		EAT38424.1	GO:0005737
+1712	AAEL020559	1	protein_coding		EAT38424.1	GO:0007165
+1713	AAEL020559	1	protein_coding		EAT38424.1	GO:0003700
+1714	AAEL020599	1	protein_coding			GO:0052689
+1715	AAEL020599	1	protein_coding			GO:0006629
+1716	AAEL020614	1	protein_coding			GO:0006508
+1717	AAEL020614	1	protein_coding			GO:0004222
+1718	AAEL020614	1	protein_coding			GO:0008237
+1719	AAEL020709	1	protein_coding			GO:0005887
+1720	AAEL020709	1	protein_coding			GO:0016010
+1721	AAEL020789	1	protein_coding			
+1722	AAEL020950	1	protein_coding			GO:0035556
+1723	AAEL020960	1	protein_coding	Carboxypeptidase A [Source:UniProtKB/TrEMBL;Acc:Q6J6D9]		GO:0008270
+1724	AAEL020960	1	protein_coding	Carboxypeptidase A [Source:UniProtKB/TrEMBL;Acc:Q6J6D9]		GO:0006508
+1725	AAEL020960	1	protein_coding	Carboxypeptidase A [Source:UniProtKB/TrEMBL;Acc:Q6J6D9]		GO:0004181
+1726	AAEL020960	1	protein_coding	Carboxypeptidase A [Source:UniProtKB/TrEMBL;Acc:Q6J6D9]		GO:0004180
+1727	AAEL021061	1	protein_coding			
+1728	AAEL021100	1	protein_coding			GO:0016021
+1729	AAEL021100	1	protein_coding			GO:0007186
+1730	AAEL021100	1	protein_coding			GO:0004930
+1731	AAEL021100	1	protein_coding			GO:0005887
+1732	AAEL021100	1	protein_coding			GO:0016907
+1733	AAEL021103	1	protein_coding			
+1734	AAEL021175	1	protein_coding			GO:0006383
+1735	AAEL021175	1	protein_coding			GO:0005666
+1736	AAEL021179	1	protein_coding			GO:0006144
+1737	AAEL021179	1	protein_coding			GO:0033971
+1738	AAEL021200	1	protein_coding			
+1739	AAEL021231	1	protein_coding			GO:0003924
+1740	AAEL021231	1	protein_coding			GO:0005525
+1741	AAEL021254	1	protein_coding			
+1742	AAEL021303	1	protein_coding			GO:0008270
+1743	AAEL021303	1	protein_coding			GO:0005634
+1744	AAEL021303	1	protein_coding			GO:0003700
+1745	AAEL021303	1	protein_coding			GO:0003676
+1746	AAEL021387	1	protein_coding			
+1747	AAEL021471	1	protein_coding			GO:0016316
+1748	AAEL021491	1	protein_coding			GO:0008270
+1749	AAEL021548	1	protein_coding			GO:0005643
+1750	AAEL021676	1	protein_coding			
+1751	AAEL021728	1	protein_coding			GO:0006508
+1752	AAEL021728	1	protein_coding			GO:0008236
+1753	AAEL021868	1	protein_coding			GO:0008270
+1754	AAEL021868	1	protein_coding			GO:0005634
+1755	AAEL021868	1	protein_coding			GO:0003676
+1756	AAEL021952	1	protein_coding			GO:0005634
+1757	AAEL021952	1	protein_coding			GO:0045892
+1758	AAEL021952	1	protein_coding			GO:0005719
+1759	AAEL021953	1	protein_coding			GO:0003677
+1760	AAEL021953	1	protein_coding			GO:0005524
+1761	AAEL021953	1	protein_coding			GO:0016787
+1762	AAEL021953	1	protein_coding			GO:0006281
+1763	AAEL021953	1	protein_coding			GO:0043140
+1764	AAEL022025	1	protein_coding			
+1765	AAEL022184	1	protein_coding			GO:0005515
+1766	AAEL022443	1	protein_coding			GO:0005524
+1767	AAEL022443	1	protein_coding			GO:0004672
+1768	AAEL022443	1	protein_coding			GO:0006468
+1769	AAEL022505	1	protein_coding			GO:0005515
+1770	AAEL022595	1	protein_coding			GO:0005634
+1771	AAEL022595	1	protein_coding			GO:0003684
+1772	AAEL022595	1	protein_coding			GO:0006281
+1773	AAEL022595	1	protein_coding			GO:0004519
+1774	AAEL022680	1	protein_coding			
+1775	AAEL022743	1	protein_coding			GO:0005634
+1776	AAEL022774	1	protein_coding			GO:0005634
+1777	AAEL022774	1	protein_coding			GO:0045892
+1778	AAEL022774	1	protein_coding			GO:0005719
+1779	AAEL022855	1	protein_coding			GO:0035267
+1780	AAEL022855	1	protein_coding			GO:0000812
+1781	AAEL022914	1	protein_coding			GO:0009055
+1782	AAEL022914	1	protein_coding			GO:0015035
+1783	AAEL022914	1	protein_coding			GO:0045454
+1784	AAEL023095	1	protein_coding			GO:0008270
+1785	AAEL023095	1	protein_coding			GO:0005634
+1786	AAEL023095	1	protein_coding			GO:0003700
+1787	AAEL023095	1	protein_coding			GO:0003676
+1788	AAEL023125	1	protein_coding			GO:0006508
+1789	AAEL023125	1	protein_coding			GO:0004252
+1790	AAEL023159	1	protein_coding			GO:0005515
+1791	AAEL023159	1	protein_coding			GO:0005246
+1792	AAEL023261	1	protein_coding			GO:0008270
+1793	AAEL023261	1	protein_coding			GO:0005634
+1794	AAEL023261	1	protein_coding			GO:0003700
+1795	AAEL023261	1	protein_coding			GO:0003676
+1796	AAEL023367	1	protein_coding			
+1797	AAEL023552	1	protein_coding			GO:0005525
+1798	AAEL023603	1	protein_coding			GO:0003677
+1799	AAEL023603	1	protein_coding			GO:0005634
+1800	AAEL023603	1	protein_coding			GO:0000786
+1801	AAEL023603	1	protein_coding			GO:0046982
+1802	AAEL023617	1	protein_coding			GO:0000398
+1803	AAEL023617	1	protein_coding			GO:0030628
+1804	AAEL023617	1	protein_coding			GO:0000386
+1805	AAEL023625	1	protein_coding			GO:0003676
+1806	AAEL023635	1	protein_coding			
+1807	AAEL023745	1	protein_coding			GO:0016021
+1808	AAEL023745	1	protein_coding			GO:0005509
+1809	AAEL023745	1	protein_coding			GO:0007275
+1810	AAEL023745	1	protein_coding			GO:0007219
+1811	AAEL023745	1	protein_coding			GO:0030154
+1812	AAEL023745	1	protein_coding			GO:0050793
+1813	AAEL023745	1	protein_coding			GO:0005515
+1814	AAEL023750	1	protein_coding			
+1815	AAEL023829	1	protein_coding			GO:0046872
+1816	AAEL023829	1	protein_coding			GO:0005548
+1817	AAEL023829	1	protein_coding			GO:0015914
+1818	AAEL023829	1	protein_coding			GO:0005622
+1819	AAEL023991	1	protein_coding			
+1820	AAEL024005	1	protein_coding			GO:0005515
+1821	AAEL024053	1	protein_coding			GO:0005524
+1822	AAEL024053	1	protein_coding			GO:0016020
+1823	AAEL024053	1	protein_coding			GO:0004675
+1824	AAEL024053	1	protein_coding			GO:0004672
+1825	AAEL024053	1	protein_coding			GO:0007178
+1826	AAEL024053	1	protein_coding			GO:0006468
+1827	AAEL024164	1	protein_coding			GO:0016021
+1828	AAEL024164	1	protein_coding			GO:0090482
+1829	AAEL024164	1	protein_coding			GO:0051180
+1830	AAEL024179	1	protein_coding			GO:0005743
+1831	AAEL024179	1	protein_coding			GO:0055085
+1832	AAEL024179	1	protein_coding			GO:0022857
+1833	AAEL024184	1	protein_coding			GO:0006355
+1834	AAEL024184	1	protein_coding			GO:0046983
+1835	AAEL024210	1	protein_coding			GO:0007275
+1836	AAEL024210	1	protein_coding			GO:0005515
+1837	AAEL024258	1	protein_coding			
+1838	AAEL024343	1	protein_coding			GO:0003676
+1839	AAEL024396	1	protein_coding			GO:0006355
+1840	AAEL024396	1	protein_coding			GO:0003700
+1841	AAEL024396	1	protein_coding			GO:0035329
+1842	AAEL024438	1	protein_coding			GO:0008376
+1843	AAEL024438	1	protein_coding			GO:0032580
+1844	AAEL024441	1	protein_coding			
+1845	AAEL024519	1	protein_coding			
+1846	AAEL024777	1	protein_coding			GO:0005515
+1847	AAEL024784	1	protein_coding			GO:0006508
+1848	AAEL024784	1	protein_coding			GO:0004252
+1849	AAEL024849	1	protein_coding			GO:0005524
+1850	AAEL024849	1	protein_coding			GO:0004672
+1851	AAEL024849	1	protein_coding			GO:0006468
+1852	AAEL024913	1	protein_coding			
+1853	AAEL024977	1	protein_coding			
+1854	AAEL024982	1	protein_coding			
+1855	AAEL025045	1	protein_coding			
+1856	AAEL025438	1	protein_coding			GO:0005515
+1857	AAEL025503	1	protein_coding			GO:0046983
+1858	AAEL025553	1	protein_coding			GO:0003735
+1859	AAEL025553	1	protein_coding			GO:0006412
+1860	AAEL025553	1	protein_coding			GO:0005840
+1861	AAEL025553	1	protein_coding			GO:0005622
+1862	AAEL025647	1	protein_coding			
+1863	AAEL025656	1	protein_coding		EAT37499.1	GO:0016791
+1864	AAEL025656	1	protein_coding		EAT37499.1	GO:0004725
+1865	AAEL025656	1	protein_coding		EAT37499.1	GO:0008138
+1866	AAEL025656	1	protein_coding		EAT37499.1	GO:0016311
+1867	AAEL025656	1	protein_coding		EAT37499.1	GO:0006470
+1868	AAEL025656	1	protein_coding			GO:0016791
+1869	AAEL025656	1	protein_coding			GO:0004725
+1870	AAEL025656	1	protein_coding			GO:0008138
+1871	AAEL025656	1	protein_coding			GO:0016311
+1872	AAEL025656	1	protein_coding			GO:0006470
+1873	AAEL025658	1	protein_coding			GO:0005737
+1874	AAEL025658	1	protein_coding			GO:0033925
+1875	AAEL025815	1	protein_coding			
+1876	AAEL025906	1	protein_coding			GO:0019243
+1877	AAEL025906	1	protein_coding			GO:0004416
+1878	AAEL025929	1	protein_coding			GO:0005515
+1879	AAEL025993	1	protein_coding			GO:0005737
+1880	AAEL025993	1	protein_coding			GO:0016491
+1881	AAEL025993	1	protein_coding			GO:0055114
+1882	AAEL025993	1	protein_coding			GO:0003824
+1883	AAEL025993	1	protein_coding			GO:0016627
+1884	AAEL025993	1	protein_coding			GO:0051536
+1885	AAEL026010	1	protein_coding			GO:0031932
+1886	AAEL026010	1	protein_coding			GO:0031929
+1887	AAEL026089	1	protein_coding			
+1888	AAEL026142	1	protein_coding			GO:0005737
+1889	AAEL026142	1	protein_coding			GO:0016491
+1890	AAEL026142	1	protein_coding			GO:0055114
+1891	AAEL026142	1	protein_coding			GO:0047522
+1892	AAEL026142	1	protein_coding			GO:0032440
+1893	AAEL026227	1	protein_coding			GO:0035307
+1894	AAEL026227	1	protein_coding			GO:0005515
+1895	AAEL026227	1	protein_coding			GO:0007084
+1896	AAEL026227	1	protein_coding			GO:0051721
+1897	AAEL026253	1	protein_coding			GO:0006914
+1898	AAEL026297	1	protein_coding			GO:0007165
+1899	AAEL026297	1	protein_coding			GO:0005515
+1900	AAEL026323	1	protein_coding			GO:0016020
+1901	AAEL026323	1	protein_coding			GO:0007165
+1902	AAEL026323	1	protein_coding			GO:0003924
+1903	AAEL026323	1	protein_coding			GO:0005525
+1904	AAEL026440	1	protein_coding			GO:0003824
+1905	AAEL026440	1	protein_coding			GO:0009081
+1906	AAEL026440	1	protein_coding			GO:0004084
+1907	AAEL026468	1	protein_coding			GO:0003677
+1908	AAEL026468	1	protein_coding			GO:0005634
+1909	AAEL026468	1	protein_coding			GO:0003899
+1910	AAEL026468	1	protein_coding			GO:0006351
+1911	AAEL026478	1	protein_coding			GO:0007165
+1912	AAEL026478	1	protein_coding			GO:0005515
+1913	AAEL026486	1	protein_coding			GO:0035556
+1914	AAEL026486	1	protein_coding			GO:0005886
+1915	AAEL026486	1	protein_coding			GO:0006171
+1916	AAEL026486	1	protein_coding			GO:0004016
+1917	AAEL026486	1	protein_coding			GO:0009190
+1918	AAEL026486	1	protein_coding			GO:0016849
+1919	AAEL026571	1	protein_coding			
+1920	AAEL026574	1	protein_coding			GO:0008270
+1921	AAEL026574	1	protein_coding			GO:0005634
+1922	AAEL026574	1	protein_coding			GO:0003700
+1923	AAEL026574	1	protein_coding			GO:0003676
+1924	AAEL026603	1	protein_coding			GO:0016021
+1925	AAEL026603	1	protein_coding			GO:0005216
+1926	AAEL026603	1	protein_coding			GO:0034220
+1927	AAEL026603	1	protein_coding			GO:0005515
+1928	AAEL026630	1	protein_coding			GO:0005515
+1929	AAEL026744	1	protein_coding			GO:0006508
+1930	AAEL026744	1	protein_coding			GO:0008234
+1931	AAEL026744	1	protein_coding			GO:0004197
+1932	AAEL026744	1	protein_coding			GO:0006915
+1933	AAEL026744	1	protein_coding			GO:0097200
+1934	AAEL026819	1	protein_coding			
+1935	AAEL026894	1	protein_coding			GO:0005515
+1936	AAEL026915	1	protein_coding			GO:0005975
+1937	AAEL026915	1	protein_coding			GO:0004553
+1938	AAEL026960	1	protein_coding			
+1939	AAEL027002	1	protein_coding			GO:0007264
+1940	AAEL027002	1	protein_coding			GO:0005085
+1941	AAEL027002	1	protein_coding			GO:0005622
+1942	AAEL027069	1	protein_coding		EAT33392.1	GO:0016021
+1943	AAEL027069	1	protein_coding			
+1944	AAEL027083	1	protein_coding			
+1945	AAEL027088	1	protein_coding			GO:0005515
+1946	AAEL027239	1	protein_coding			GO:0008270
+1947	AAEL027239	1	protein_coding			GO:0005634
+1948	AAEL027239	1	protein_coding			GO:0003700
+1949	AAEL027239	1	protein_coding			GO:0003676
+1950	AAEL027311	1	protein_coding			
+1951	AAEL027512	1	protein_coding			GO:0031932
+1952	AAEL027512	1	protein_coding			GO:0031929
+1953	AAEL027512	1	protein_coding			GO:0031931
+1954	AAEL027512	1	protein_coding			GO:0032008
+1955	AAEL027512	1	protein_coding			GO:0005515
+1956	AAEL027520	1	protein_coding			GO:0016020
+1957	AAEL027520	1	protein_coding			GO:0006811
+1958	AAEL027520	1	protein_coding			GO:0016021
+1959	AAEL027520	1	protein_coding			GO:0005216
+1960	AAEL027520	1	protein_coding			GO:0005230
+1961	AAEL027520	1	protein_coding			GO:0004888
+1962	AAEL027520	1	protein_coding			GO:0004890
+1963	AAEL027520	1	protein_coding			GO:0034220
+1964	AAEL027533	1	protein_coding			GO:0005515
+1965	AAEL027672	1	protein_coding			GO:0008270
+1966	AAEL027672	1	protein_coding			GO:0005634
+1967	AAEL027672	1	protein_coding			GO:0003700
+1968	AAEL027672	1	protein_coding			GO:0003676
+1969	AAEL027809	1	protein_coding			GO:0016491
+1970	AAEL027821	1	protein_coding			
+1971	AAEL027829	1	protein_coding			GO:0052689
+1972	AAEL027829	1	protein_coding			GO:0006629
+1973	AAEL027829	1	protein_coding			GO:0004806
+1974	AAEL027829	1	protein_coding			GO:0005515
+1975	AAEL027897	1	protein_coding			GO:0008270
+1976	AAEL027897	1	protein_coding			GO:0005634
+1977	AAEL027897	1	protein_coding			GO:0003700
+1978	AAEL027897	1	protein_coding			GO:0003676
+1979	AAEL027903	1	protein_coding		EAT38311.1	GO:0005524
+1980	AAEL027903	1	protein_coding		EAT38311.1	GO:0019789
+1981	AAEL027903	1	protein_coding		EAT38312.1	GO:0005524
+1982	AAEL027903	1	protein_coding		EAT38312.1	GO:0019789
+1983	AAEL027914	1	protein_coding			GO:0016020
+1984	AAEL027914	1	protein_coding			GO:0006897
+1985	AAEL028056	1	protein_coding			GO:0035556
+1986	AAEL028056	1	protein_coding			GO:0009190
+1987	AAEL028056	1	protein_coding			GO:0016849
+1988	AAEL028129	1	protein_coding	Nuclear transcription factor Y subunit gamma [Source:UniProtKB/TrEMBL;Acc:A0A0P6K0W4]		GO:0003677
+1989	AAEL028129	1	protein_coding	Nuclear transcription factor Y subunit gamma [Source:UniProtKB/TrEMBL;Acc:A0A0P6K0W4]		GO:0006355
+1990	AAEL028129	1	protein_coding	Nuclear transcription factor Y subunit gamma [Source:UniProtKB/TrEMBL;Acc:A0A0P6K0W4]		GO:0003700
+1991	AAEL028129	1	protein_coding	Nuclear transcription factor Y subunit gamma [Source:UniProtKB/TrEMBL;Acc:A0A0P6K0W4]		GO:0046982
+1992	AAEL028129	1	protein_coding	Nuclear transcription factor Y subunit gamma [Source:UniProtKB/TrEMBL;Acc:A0A0P6K0W4]		GO:0016602
+1993	AAEL028236	1	protein_coding			GO:0005515

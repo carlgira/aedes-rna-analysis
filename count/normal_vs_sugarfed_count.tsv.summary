@@ -1,0 +1,13 @@
+Status	bam/Normal1_mappable.bam	bam/Normal2_mappable.bam	bam/SugarFed1_mappable.bam	bam/SugarFed2_mappable.bam
+Assigned	6118079	6522029	5258686	7121759
+Unassigned_Unmapped	0	0	0	0
+Unassigned_MappingQuality	0	0	0	0
+Unassigned_Chimera	0	0	0	0
+Unassigned_FragmentLength	0	0	0	0
+Unassigned_Duplicate	0	0	0	0
+Unassigned_MultiMapping	9255694	6341300	3742179	4615747
+Unassigned_Secondary	0	0	0	0
+Unassigned_NonSplit	0	0	0	0
+Unassigned_NoFeatures	211201	222561	173477	280222
+Unassigned_Overlapping_Length	0	0	0	0
+Unassigned_Ambiguity	55863	58102	48788	59639

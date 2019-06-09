@@ -1,0 +1,13 @@
+Status	bam/C5a1_mappable.bam	bam/C5a2_mappable.bam	bam/C5a3_mappable.bam	bam/Control1_mappable.bam	bam/Control2_mappable.bam	bam/Control3_mappable.bam
+Assigned	5545770	6520544	6612627	6075337	2925307	7537836
+Unassigned_Unmapped	0	0	0	0	0	0
+Unassigned_MappingQuality	0	0	0	0	0	0
+Unassigned_Chimera	0	0	0	0	0	0
+Unassigned_FragmentLength	0	0	0	0	0	0
+Unassigned_Duplicate	0	0	0	0	0	0
+Unassigned_MultiMapping	5175574	6359227	6634528	6736480	3405005	8475538
+Unassigned_Secondary	0	0	0	0	0	0
+Unassigned_NonSplit	0	0	0	0	0	0
+Unassigned_NoFeatures	264822	335825	342005	335593	157821	407056
+Unassigned_Overlapping_Length	0	0	0	0	0	0
+Unassigned_Ambiguity	44168	54526	54704	50665	25844	67054

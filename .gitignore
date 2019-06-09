@@ -1,6 +1,5 @@
 reads/*
 refs/*
 bam/*
-count/*
 stats/*
 .DS_Store

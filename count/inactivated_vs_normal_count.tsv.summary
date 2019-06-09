@@ -1,0 +1,13 @@
+Status	bam/Inactivated1_mappable.bam	bam/Inactivated2_mappable.bam	bam/Normal1_mappable.bam	bam/Normal2_mappable.bam
+Assigned	6605460	7376933	6118079	6522029
+Unassigned_Unmapped	0	0	0	0
+Unassigned_MappingQuality	0	0	0	0
+Unassigned_Chimera	0	0	0	0
+Unassigned_FragmentLength	0	0	0	0
+Unassigned_Duplicate	0	0	0	0
+Unassigned_MultiMapping	5381997	5691548	9255694	6341300
+Unassigned_Secondary	0	0	0	0
+Unassigned_NonSplit	0	0	0	0
+Unassigned_NoFeatures	174245	245676	211201	222561
+Unassigned_Overlapping_Length	0	0	0	0
+Unassigned_Ambiguity	60748	63078	55863	58102
